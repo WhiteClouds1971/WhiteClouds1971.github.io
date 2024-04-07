@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://WhiteClouds.github.io/</link><image><url>https://WhiteClouds.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://WhiteClouds.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Apr 2024 13:40:01 GMT</lastBuildDate><atom:link href="https://WhiteClouds.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Apr 2024 13:40:01 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[4. 什么是字节码?采用字节码的好处是什么?]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://WhiteClouds.github.io/</link><image><url>https://WhiteClouds.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://WhiteClouds.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Apr 2024 13:44:47 GMT</lastBuildDate><atom:link href="https://WhiteClouds.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Apr 2024 13:44:46 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[4. 什么是字节码?采用字节码的好处是什么?]]></title><description><![CDATA[ 
  <br>在 Java 中，JVM 可以理解的代码就叫做字节码（即扩展名为 .class 的文件），它不面向任何特定的处理器，只面向虚拟机。Java 语言通过字节码的方式，在一定程度上解决了传统解释型语言执行效率低的问题，同时又保留了解释型语言可移植的特点。所以， Java 程序运行时相对来说还是高效的（不过，和 C、 C++，Rust，Go 等语言还是有一定差距的），而且，由于字节码并不针对一种特定的机器，因此，Java 程序无须重新编译便可在多种不同操作系统的计算机上运行。<br>Java 程序从源代码到运行的过程如下图所示：<br>
 <img alt="Pasted image 20240308091209.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"><br>Java程序转变为机器代码的过程
 我们需要格外注意的是 .class-&gt;机器码 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 **JIT（Just in Time Compilation）** 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言**。
@@ -19,7 +19,25 @@ END<br>START<br>
 问答题<br>
 正面: 什么是HotSpot？是如何运行的？<br>
 背面: 是热点代码的意思，在程序中经常被执行的代码叫热点代码。为加快程序执行速度，会将热点代码编译成机器码，而不是通过解释字节码的方式执行。<br>
-[[4. 什么是字节码?采用字节码的好处是什么?<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/4.-什么是字节码/4.-什么是字节码.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/4. 什么是字节码?采用字节码的好处是什么?.md</guid><pubDate>Thu, 28 Mar 2024 03:40:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[ 
+[[4. 什么是字节码?采用字节码的好处是什么?<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/4.-什么是字节码/4.-什么是字节码.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/4. 什么是字节码?采用字节码的好处是什么?.md</guid><pubDate>Thu, 28 Mar 2024 03:40:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. Java 语言有哪些特点?]]></title><description><![CDATA[ 
+ <br>
+<br>简单易学；
+<br>面向对象（封装，继承，多态）；
+<br>平台无关性（ Java 虚拟机实现平台无关性）；
+<br>支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）；
+<br>可靠性（具备异常处理和自动内存管理机制）；
+<br>安全性（Java 语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；
+<br>高效性（通过 Just In Time 编译器等技术的优化，Java 语言的运行效率还是非常不错的）；
+<br>易用性：支持网络、IO编程并且很方便，；
+<br>编译与解释并存
+<br>
+🐛 修正（参见：issue#544open in new window）：C++11 开始（2011 年的时候）,C++就引入了多线程库，在 windows、linux、macos 都可以使用std::thread和std::async来创建线程。参考链接：<a rel="noopener" class="external-link" href="http://www.cplusplus.com/reference/thread/thread/?kw=thread" target="_blank">http://www.cplusplus.com/reference/thread/thread/?kw=thread</a>
+<br><br>START<br>
+问答题<br>
+正面: Java 语言有哪些特点?<br>
+背面:<br>
+原文:<a data-href="1. Java 语言有哪些特点?" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点?.md" class="internal-link" target="_self" rel="noopener">1. Java 语言有哪些特点?</a><br>
+简单易学、面向对象、跨平台、多线程、可靠性、安全性、易用性<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点/1.-java-语言有哪些特点.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/1. Java 语言有哪些特点?.md</guid><pubDate>Sun, 07 Apr 2024 13:41:53 GMT</pubDate></item><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[ 
  <br><img alt="Pasted image 20240407103709.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png"><br>
 <br>语法形式：从语法形式上看，成员变量是属于类的，而局部变量是在代码块或方法中定义的变量或是方法的参数；成员变量可以被&nbsp;public,private,static&nbsp;等修饰符所修饰，而局部变量不能被访问控制修饰符及&nbsp;static&nbsp;所修饰；但是，成员变量和局部变量都能被&nbsp;final&nbsp;所修饰。
 <br>存储方式：从变量在内存中的存储方式来看，如果成员变量是使用&nbsp;static&nbsp;修饰的，那么这个成员变量是属于类的，如果没有使用&nbsp;static&nbsp;修饰，这个成员变量是属于实例的。而对象存在于堆内存，局部变量则存在于栈内存。
@@ -103,25 +121,7 @@ END<br>START<br>
 <br>用CA机构的公钥对S解密得到明文数据T的散列值S‘。
 <br>用证书里指明的hash算法对明文T进行hash得到T’。
 <br>T’应当等于S‘，除非明文或签名被篡改。此时比较S’是否等于T’，等于则表明证书的值是否被篡改。
-<br>显而易见在中间人没有CA机构的私钥并且浏览器使用的CA机构公钥是可信的情况下，中间人不可能在修改证书的内容后，还能通过验证。<br><br>我初识HTTPS的时候就有这个疑问，因为似乎那里的hash有点多余，把hash过程去掉也能保证证书没有被篡改。<br>最显然的是性能问题，前面我们已经说了非对称加密效率较差，证书信息一般较长，比较耗时。而hash后得到的是固定长度的信息（比如用md5算法hash后可以得到固定的128位的值），这样加解密就快很多。<br>当然也有安全上的原因，这部分内容相对深一些，感兴趣的可以看这篇解答：crypto.stackexchange.com/a/12780<br>在浏览器验证证书的流程中使用了CA机构的公钥对签名进行了解密，那又是如何保证CA公钥是可信的呢？<br><br>可以使用CA机构A对CA机构B的公钥制作证书。但终归是要有个顶的吧，不然这就不成无限套娃了。没错，操作系统、浏览器本身会预装一些它们信任的根证书，如果其中会有CA机构的根证书，这样就可以拿到它对应的可信公钥了。<br>实际上证书之间的认证也可以不止一层，可以A信任B，B信任C，以此类推，我们把它叫做信任链或数字证书链。也就是一连串的数字证书，由根证书为起点，透过层层信任，使终端实体证书的持有者可以获得转授的信任，以证明身份。<br><img alt="Pasted image 20231117141430.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117141430.png"><br><br>另外，不知你们是否遇到过网站访问不了、提示需安装证书的情况？这里安装的就是根证书。说明浏览器不认给这个网站颁发证书的机构（这个证书的CA结构是我们自己当然没有啦），那么你就得手动下载安装该机构的根证书（风险自己承担）。安装后，你就有了它的公钥，就可以用它验证服务器发来的证书是否可信了。当然也可以选择信任然后使用证书中的网站公钥进行加密通信🤣]]></description><link>https://WhiteClouds.github.io/4-精选随笔/https的加密原理.html</link><guid isPermaLink="false">4-精选随笔/Https的加密原理.md</guid><pubDate>Sun, 07 Apr 2024 13:23:42 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. Java 语言有哪些特点?]]></title><description><![CDATA[ 
- <br>
-<br>简单易学；
-<br>面向对象（封装，继承，多态）；
-<br>平台无关性（ Java 虚拟机实现平台无关性）；
-<br>支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）；
-<br>可靠性（具备异常处理和自动内存管理机制）；
-<br>安全性（Java 语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；
-<br>高效性（通过 Just In Time 编译器等技术的优化，Java 语言的运行效率还是非常不错的）；
-<br>易用性：支持网络、IO编程并且很方便，；
-<br>编译与解释并存
-<br>
-🐛 修正（参见：issue#544open in new window）：C++11 开始（2011 年的时候）,C++就引入了多线程库，在 windows、linux、macos 都可以使用std::thread和std::async来创建线程。参考链接：<a rel="noopener" class="external-link" href="http://www.cplusplus.com/reference/thread/thread/?kw=thread" target="_blank">http://www.cplusplus.com/reference/thread/thread/?kw=thread</a>
-<br><br>START<br>
-问答题<br>
-正面: Java 语言有哪些特点?<br>
-背面:<br>
-原文:<a data-href="1. Java 语言有哪些特点?" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点?.md" class="internal-link" target="_self" rel="noopener">1. Java 语言有哪些特点?</a><br>
-简单易学、面向对象、跨平台、多线程、可靠性、安全性、易用性<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点/1.-java-语言有哪些特点.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/1. Java 语言有哪些特点?.md</guid><pubDate>Thu, 28 Mar 2024 03:39:38 GMT</pubDate></item><item><title><![CDATA[2. Java SE vs Java EE]]></title><description><![CDATA[ 
+<br>显而易见在中间人没有CA机构的私钥并且浏览器使用的CA机构公钥是可信的情况下，中间人不可能在修改证书的内容后，还能通过验证。<br><br>我初识HTTPS的时候就有这个疑问，因为似乎那里的hash有点多余，把hash过程去掉也能保证证书没有被篡改。<br>最显然的是性能问题，前面我们已经说了非对称加密效率较差，证书信息一般较长，比较耗时。而hash后得到的是固定长度的信息（比如用md5算法hash后可以得到固定的128位的值），这样加解密就快很多。<br>当然也有安全上的原因，这部分内容相对深一些，感兴趣的可以看这篇解答：crypto.stackexchange.com/a/12780<br>在浏览器验证证书的流程中使用了CA机构的公钥对签名进行了解密，那又是如何保证CA公钥是可信的呢？<br><br>可以使用CA机构A对CA机构B的公钥制作证书。但终归是要有个顶的吧，不然这就不成无限套娃了。没错，操作系统、浏览器本身会预装一些它们信任的根证书，如果其中会有CA机构的根证书，这样就可以拿到它对应的可信公钥了。<br>实际上证书之间的认证也可以不止一层，可以A信任B，B信任C，以此类推，我们把它叫做信任链或数字证书链。也就是一连串的数字证书，由根证书为起点，透过层层信任，使终端实体证书的持有者可以获得转授的信任，以证明身份。<br><img alt="Pasted image 20231117141430.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117141430.png"><br><br>另外，不知你们是否遇到过网站访问不了、提示需安装证书的情况？这里安装的就是根证书。说明浏览器不认给这个网站颁发证书的机构（这个证书的CA结构是我们自己当然没有啦），那么你就得手动下载安装该机构的根证书（风险自己承担）。安装后，你就有了它的公钥，就可以用它验证服务器发来的证书是否可信了。当然也可以选择信任然后使用证书中的网站公钥进行加密通信🤣]]></description><link>https://WhiteClouds.github.io/4-精选随笔/https的加密原理.html</link><guid isPermaLink="false">4-精选随笔/Https的加密原理.md</guid><pubDate>Sun, 07 Apr 2024 13:23:42 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. Java SE vs Java EE]]></title><description><![CDATA[ 
  <br>
 <br>Java SE（Java Platform，Standard Edition）: Java 平台标准版，Java 编程语言的基础，它包含了支持 Java 应用程序开发和运行的核心类库以及虚拟机等核心组件。Java SE 可以用于构建桌面应用程序或简单的服务器应用程序。
 <br>Java EE（Java Platform, Enterprise Edition ）：Java 平台企业版，建立在 Java SE 的基础上，包含了支持企业级应用程序开发和部署的标准和规范（比如 Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE 可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java 应用程序，例如 Web 应用程序。

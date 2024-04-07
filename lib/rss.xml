@@ -1,0 +1,2341 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://WhiteClouds.github.io/</link><image><url>https://WhiteClouds.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://WhiteClouds.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Apr 2024 13:09:59 GMT</lastBuildDate><atom:link href="https://WhiteClouds.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Apr 2024 13:09:52 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br><a data-href="Puppeteer在Linux系统中的安装" href="https://WhiteClouds.github.io/5-开发纪录/puppeteer/puppeteer在linux系统中的安装.html" class="internal-link" target="_self" rel="noopener">Puppeteer在Linux系统中的安装</a>]]></description><link>https://WhiteClouds.github.io/1-我的博客/纪录/index.html</link><guid isPermaLink="false">1-我的博客/纪录/Index.md</guid><pubDate>Thu, 28 Mar 2024 03:18:01 GMT</pubDate></item><item><title><![CDATA[REDME]]></title><description><![CDATA[ 
+ <br>随笔是记录了在开发工程中遇到的一些关键知识点，为读者提供实际问题的解决方案和经验分享。]]></description><link>https://WhiteClouds.github.io/1-我的博客/纪录/redme.html</link><guid isPermaLink="false">1-我的博客/纪录/REDME.md</guid><pubDate>Tue, 26 Mar 2024 06:17:00 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br><a data-href="跨域（CSRF）" href="https://WhiteClouds.github.io/4-精选随笔/跨域（csrf）.html" class="internal-link" target="_self" rel="noopener">跨域（CSRF）</a><br>
+<a data-href="Https的加密原理" href="https://WhiteClouds.github.io/4-精选随笔/https的加密原理.html" class="internal-link" target="_self" rel="noopener">Https的加密原理</a>]]></description><link>https://WhiteClouds.github.io/1-我的博客/随笔/index.html</link><guid isPermaLink="false">1-我的博客/随笔/Index.md</guid><pubDate>Thu, 28 Mar 2024 03:22:18 GMT</pubDate></item><item><title><![CDATA[REDME]]></title><description><![CDATA[ 
+ <br>一些不成体系，但是写的比较好的文章。]]></description><link>https://WhiteClouds.github.io/1-我的博客/随笔/redme.html</link><guid isPermaLink="false">1-我的博客/随笔/REDME.md</guid><pubDate>Tue, 26 Mar 2024 06:16:52 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br><a data-href="1. 7*24运行的家用微型服务器选购指南" href="https://WhiteClouds.github.io/2-我的活动/all-in-one/1.-7*24运行的家用微型服务器选购指南.html" class="internal-link" target="_self" rel="noopener">1. 7*24运行的家用微型服务器选购指南</a><br>
+<a data-href="2. CentOS的安装与SSH、FTP的配置" href="https://WhiteClouds.github.io/2-我的活动/all-in-one/2.-centos的安装与ssh、ftp的配置.html" class="internal-link" target="_self" rel="noopener">2. CentOS的安装与SSH、FTP的配置</a>]]></description><link>https://WhiteClouds.github.io/1-我的博客/专栏/all-in-one-服务器/index.html</link><guid isPermaLink="false">1-我的博客/专栏/All in one 服务器/Index.md</guid><pubDate>Thu, 28 Mar 2024 03:16:19 GMT</pubDate></item><item><title><![CDATA[Index]]></title><description><![CDATA[ 
+ <br><a data-href="1. 两数之和" href="https://WhiteClouds.github.io/2-我的活动/leetcode/1.-两数之和.html" class="internal-link" target="_self" rel="noopener">1. 两数之和</a><br>
+<a data-href="2. 两数相加" href="https://WhiteClouds.github.io/2-我的活动/leetcode/2.-两数相加.html" class="internal-link" target="_self" rel="noopener">2. 两数相加</a><br>
+<a data-href="3. 无重复字符的最长子串" href="https://WhiteClouds.github.io/2-我的活动/leetcode/3.-无重复字符的最长子串.html" class="internal-link" target="_self" rel="noopener">3. 无重复字符的最长子串</a>]]></description><link>https://WhiteClouds.github.io/1-我的博客/专栏/leetcode历险记/index.html</link><guid isPermaLink="false">1-我的博客/专栏/leetCode历险记/Index.md</guid><pubDate>Sun, 07 Apr 2024 08:42:20 GMT</pubDate></item><item><title><![CDATA[REDME]]></title><description><![CDATA[ 
+ <br>专栏是自发组织的一项长期活动的知识整理与记录。或者是一些成体系的理论知识长期收集与整理。]]></description><link>https://WhiteClouds.github.io/1-我的博客/专栏/redme.html</link><guid isPermaLink="false">1-我的博客/专栏/REDME.md</guid><pubDate>Tue, 26 Mar 2024 06:16:13 GMT</pubDate></item><item><title><![CDATA[REDME]]></title><description><![CDATA[ 
+ <br>在搭建我的个人博客系统时，我将其定位为一个专注于计算机技术领域的平台，其内容主要聚焦于开发、学习过程中的技术笔记，不涉及生活分享和文学思考等非技术领域。<br>博客的首要目标是对平时记录的笔记进行精选、整理和提炼，形成有条理的知识结构。同时，它也充当了我向外展示个人技术能力的平台。在此背景下，博客的目录结构和名称都经过精心斟酌，确保呈现出专业而有序的形象。文章的语言力求通顺，逻辑结构合理，以确保读者能够清晰理解所分享的技术内容。<br>同时该模块的笔记无论内容还是目录又要和博客系统保持一致，要进行维护，维护很重要，尽管很耗时费力。]]></description><link>https://WhiteClouds.github.io/1-我的博客/redme.html</link><guid isPermaLink="false">1-我的博客/REDME.md</guid><pubDate>Thu, 28 Mar 2024 03:09:38 GMT</pubDate></item><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240407103709.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png"><br>
+<br>语法形式：从语法形式上看，成员变量是属于类的，而局部变量是在代码块或方法中定义的变量或是方法的参数；成员变量可以被&nbsp;public,private,static&nbsp;等修饰符所修饰，而局部变量不能被访问控制修饰符及&nbsp;static&nbsp;所修饰；但是，成员变量和局部变量都能被&nbsp;final&nbsp;所修饰。
+<br>存储方式：从变量在内存中的存储方式来看，如果成员变量是使用&nbsp;static&nbsp;修饰的，那么这个成员变量是属于类的，如果没有使用&nbsp;static&nbsp;修饰，这个成员变量是属于实例的。而对象存在于堆内存，局部变量则存在于栈内存。
+<br>生存时间：从变量在内存中的生存时间上看，成员变量是对象的一部分，它随着对象的创建而存在，而局部变量随着方法的调用而自动生成，随着方法的调用结束而消亡。
+<br>默认值：从变量是否有默认值来看，成员变量如果没有被赋初始值，则会自动以类型的默认值而赋值（一种情况例外:被&nbsp;final&nbsp;修饰的成员变量也必须显式地赋值），而局部变量则不会自动赋值。
+<br>为什么成员变量有默认值？<br>
+<br>
+先不考虑变量类型，如果没有默认值会怎样？变量存储的是内存地址对应的任意随机值，程序读取该值运行会出现意外。
+
+<br>
+默认值有两种设置方式：手动和自动，根据第一点，没有手动赋值一定要自动赋值。成员变量在运行时可借助反射等方法手动赋值，而局部变量不行。
+
+<br>
+对于编译器（javac）来说，局部变量没赋值很好判断，可以直接报错。而成员变量可能是运行时赋值，无法判断，误报“没默认值”又会影响用户体验，所以采用自动赋默认值。
+
+<br>public class VariableExample {
+
+    // 成员变量
+    private String name;
+    private int age;
+
+    // 方法中的局部变量
+    public void method() {
+        int num1 = 10; // 栈中分配的局部变量
+        String str = "Hello, world!"; // 栈中分配的局部变量
+        System.out.println(num1);
+        System.out.println(str);
+    }
+
+    // 带参数的方法中的局部变量
+    public void method2(int num2) {
+        int sum = num2 + 10; // 栈中分配的局部变量
+        System.out.println(sum);
+    }
+
+    // 构造方法中的局部变量
+    public VariableExample(String name, int age) {
+        this.name = name; // 对成员变量进行赋值
+        this.age = age; // 对成员变量进行赋值
+        int num3 = 20; // 栈中分配的局部变量
+        String str2 = "Hello, " + this.name + "!"; // 栈中分配的局部变量
+        System.out.println(num3);
+        System.out.println(str2);
+    }
+}
+复制<br><br>START<br>
+问答题<br>
+正面: 成员变量与局部变量的区别？<br>
+背面: <a data-href="1. 成员变量与局部变量的区别？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html" class="internal-link" target="_self" rel="noopener">1. 成员变量与局部变量的区别？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/变量/1. 成员变量与局部变量的区别？.md</guid><pubDate>Sun, 07 Apr 2024 11:58:13 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. Java 语言有哪些特点?]]></title><description><![CDATA[ 
+ <br>
+<br>简单易学；
+<br>面向对象（封装，继承，多态）；
+<br>平台无关性（ Java 虚拟机实现平台无关性）；
+<br>支持多线程（ C++ 语言没有内置的多线程机制，因此必须调用操作系统的多线程功能来进行多线程程序设计，而 Java 语言却提供了多线程支持）；
+<br>可靠性（具备异常处理和自动内存管理机制）；
+<br>安全性（Java 语言本身的设计就提供了多重安全防护机制如访问权限修饰符、限制程序直接访问操作系统资源）；
+<br>高效性（通过 Just In Time 编译器等技术的优化，Java 语言的运行效率还是非常不错的）；
+<br>易用性：支持网络、IO编程并且很方便，；
+<br>编译与解释并存
+<br>
+🐛 修正（参见：issue#544open in new window）：C++11 开始（2011 年的时候）,C++就引入了多线程库，在 windows、linux、macos 都可以使用std::thread和std::async来创建线程。参考链接：<a rel="noopener" class="external-link" href="http://www.cplusplus.com/reference/thread/thread/?kw=thread" target="_blank">http://www.cplusplus.com/reference/thread/thread/?kw=thread</a>
+<br><br>START<br>
+问答题<br>
+正面: Java 语言有哪些特点?<br>
+背面:<br>
+原文:<a data-href="1. Java 语言有哪些特点?" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点?.md" class="internal-link" target="_self" rel="noopener">1. Java 语言有哪些特点?</a><br>
+简单易学、面向对象、跨平台、多线程、可靠性、安全性、易用性<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/1.-java-语言有哪些特点/1.-java-语言有哪些特点.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/1. Java 语言有哪些特点?.md</guid><pubDate>Thu, 28 Mar 2024 03:39:38 GMT</pubDate></item><item><title><![CDATA[2. Java SE vs Java EE]]></title><description><![CDATA[ 
+ <br>
+<br>Java SE（Java Platform，Standard Edition）: Java 平台标准版，Java 编程语言的基础，它包含了支持 Java 应用程序开发和运行的核心类库以及虚拟机等核心组件。Java SE 可以用于构建桌面应用程序或简单的服务器应用程序。
+<br>Java EE（Java Platform, Enterprise Edition ）：Java 平台企业版，建立在 Java SE 的基础上，包含了支持企业级应用程序开发和部署的标准和规范（比如 Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE 可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java 应用程序，例如 Web 应用程序。
+<br>简单来说，Java SE 是 Java 的基础版本，Java EE 是 Java 的高级版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，Java EE 更适合开发复杂的企业级应用程序或 Web 应用程序。<br>除了 Java SE 和 Java EE，还有一个 Java ME（Java Platform，Micro Edition）。Java ME 是 Java 的微型版本，主要用于开发嵌入式消费电子设备的应用程序，例如手机、PDA、机顶盒、冰箱、空调等。Java ME 无需重点关注，知道有这个东西就好了，现在已经用不上了。<br><br>START<br>
+问答题<br>
+正面: Java SE vs Java EE<br>
+背面: <a data-href="2. Java SE vs Java EE" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/2.-java-se-vs-java-ee.html" class="internal-link" target="_self" rel="noopener">2. Java SE vs Java EE</a><br>
+简单来说，Java SE 是 Java 的基础版本，Java EE 是 Java 的高级版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，Java EE 更适合开发复杂的企业级应用程序或 Web 应用程序。<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/2.-java-se-vs-java-ee.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/2. Java SE vs Java EE.md</guid><pubDate>Thu, 28 Mar 2024 03:40:21 GMT</pubDate></item><item><title><![CDATA[JVM]]></title><description><![CDATA[ 
+ <br><br>Java 虚拟机（JVM）是运行 Java 字节码的虚拟机。JVM 有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。字节码和不同系统的 JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。<br><img alt="Pasted image 20240307141133.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240307141133.png"><br>运行在 Java 虚拟机之上的编程语言
+<br>JVM 并不是只有一种！只要满足 JVM 规范，每个公司、组织或者个人都可以开发自己的专属 JVM。 也就是说我们平时接触到的 HotSpot VM 仅仅是是 JVM 规范的一种实现而已。除了我们平时最常用的 HotSpot VM 外，还有 J9 VM、Zing VM、JRockit VM 等 JVM。<br><br>JDK（Java Development Kit），它是功能齐全的 Java SDK，是提供给开发者使用，能够创建和编译 Java 程序的开发套件。它包含了 JRE，同时还包含了编译 java 源码的编译器 javac 以及一些其他工具比如 javadoc（文档注释工具）、jdb（调试器）、jconsole（基于 JMX 的可视化监控⼯具）、javap（反编译工具）等等。<br>JRE（Java Runtime Environment） 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有内容的集合，主要包括 Java 虚拟机（JVM）、Java 基础类库（Class Library）。<br>也就是说，JRE 是 Java 运行时环境，仅包含 Java 应用程序的运行时环境和必要的类库。而 JDK 则包含了 JRE，同时还包括了 javac、javadoc、jdb、jconsole、javap 等工具，可以用于 Java 应用程序的开发和调试。如果需要进行 Java 编程工作，比如编写和编译 Java 程序、使用 Java API 文档等，就需要安装 JDK。而对于某些需要使用 Java 特性的应用程序，如 JSP 转换为 Java Servlet、使用反射等，也需要 JDK 来编译和运行 Java 代码。因此，即使不打算进行 Java 应用程序的开发工作，也有可能需要安装 JDK。<br>
+<img alt="Pasted image 20240307141703.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240307141703.png"><br>JDK包含JRE
+不过，从 JDK 9 开始，就不需要区分 JDK 和 JRE 的关系了，取而代之的是模块系统（JDK 被重新组织成 94 个模块）+ [jlink](https://openjdk.org/jeps/282)工具 (随 Java 9 一起发布的新命令行工具，用于生成自定义 Java 运行时映像，该映像仅包含给定应用程序所需的模块) 。并且，从 JDK 11 开始，Oracle 不再提供单独的 JRE 下载。<br>在<a data-tooltip-position="top" aria-label="https://javaguide.cn/java/new-features/java9.html" rel="noopener" class="external-link" href="https://javaguide.cn/java/new-features/java9.html" target="_blank"> Java 9 新特性概览</a>这篇文章中，我在介绍模块化系统的时候提到：<br>
+在引入了模块系统之后，JDK 被重新组织成 94 个模块。Java 应用可以通过新增的 jlink 工具，创建出只包含所依赖的 JDK 模块的自定义运行时镜像。这样可以极大的减少 Java 运行时环境的大小。
+<br>也就是说，可以用 jlink 根据自己的需求，创建一个更小的 runtime（运行时），而不是不管什么应用，都是同样的 JRE。<br>定制的、模块化的 Java 运行时映像有助于简化 Java 应用的部署和节省内存并增强安全性和可维护性。这对于满足现代应用程序架构的需求，如虚拟化、容器化、微服务和云原生开发，是非常重要的。<br><br>START<br>
+问答题<br>
+正面: 什么叫做JVM？<br>
+背面: 运行JAVA字节吗的虚拟机，不同的平台有不同的虚拟机实现。字节码和不同系统的 JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。<br>
+<a data-href="3. JVM vs JDK vs JRE#JVM" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/3.-jvm-vs-jdk-vs-jre.html#JVM" class="internal-link" target="_self" rel="noopener">3. JVM vs JDK vs JRE &gt; JVM</a><br><br>END<br>START<br>
+问答题<br>
+正面: JDK和JRE以及JAVA 9之后的新特性？<br>
+背面: JDK是开发、编译、运行、调试的整合工具包。JRE只是包含了JVM和java类库的运行时环境，所以JDK是包含JRE的。在JAVA 9之后不再区分JDK和JRE而是使用Jlink根据依赖自定义一个运行时镜像，这在虚拟化、容器化、微服务和云原生开发，是非常重要的。<br>
+<a data-href="3. JVM vs JDK vs JRE#JDK 和 JRE" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/3.-jvm-vs-jdk-vs-jre.html#JDK_和_JRE" class="internal-link" target="_self" rel="noopener">3. JVM vs JDK vs JRE &gt; JDK 和 JRE</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/3.-jvm-vs-jdk-vs-jre.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/3. JVM vs JDK vs JRE.md</guid><pubDate>Thu, 28 Mar 2024 03:40:25 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240307141133.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240307141133.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[4. 什么是字节码?采用字节码的好处是什么?]]></title><description><![CDATA[ 
+ <br>在 Java 中，JVM 可以理解的代码就叫做字节码（即扩展名为 .class 的文件），它不面向任何特定的处理器，只面向虚拟机。Java 语言通过字节码的方式，在一定程度上解决了传统解释型语言执行效率低的问题，同时又保留了解释型语言可移植的特点。所以， Java 程序运行时相对来说还是高效的（不过，和 C、 C++，Rust，Go 等语言还是有一定差距的），而且，由于字节码并不针对一种特定的机器，因此，Java 程序无须重新编译便可在多种不同操作系统的计算机上运行。<br>Java 程序从源代码到运行的过程如下图所示：<br>
+<img alt="Pasted image 20240308091209.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"><br>Java程序转变为机器代码的过程
+我们需要格外注意的是 .class-&gt;机器码 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 **JIT（Just in Time Compilation）** 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言**。
+![[Pasted image 20240308091522.png]]
+Java程序转变为机器代码的过程<br>
+HotSpot 采用了惰性评估(Lazy Evaluation)的做法，根据二八定律，消耗大部分系统资源的只有那一小部分的代码（热点代码），而这也就是 JIT 所需要编译的部分。JVM 会根据代码每次被执行的情况收集信息并相应地做出一些优化，因此执行的次数越多，它的速度就越快。
+<br>JDK、JRE、JVM、JIT 这四者的关系如下图所示。<br>
+<img alt="Pasted image 20240308091638.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091638.png"><br>JDK、JRE、JVM、JIT 这四者的关系<br>下面这张图是 JVM 的大致结构模型。<br>
+<img alt="Pasted image 20240308091750.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091750.png"><br>JVM 的大致结构模型
+# anki
+START
+问答题
+正面: 什么是字节码？
+背面: 由编译器编译的.class文件，是JVM可以理解的代码。
+[[4. 什么是字节码?采用字节码的好处是什么?]]
+
+END<br>START<br>
+问答题<br>
+正面: 什么是HotSpot？是如何运行的？<br>
+背面: 是热点代码的意思，在程序中经常被执行的代码叫热点代码。为加快程序执行速度，会将热点代码编译成机器码，而不是通过解释字节码的方式执行。<br>
+[[4. 什么是字节码?采用字节码的好处是什么?<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/4.-什么是字节码/4.-什么是字节码.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/4. 什么是字节码?采用字节码的好处是什么?.md</guid><pubDate>Thu, 28 Mar 2024 03:40:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5. 为什么说Java语言“编译与解释并存”？]]></title><description><![CDATA[ 
+ <br>其实这个问题我们讲字节码的时候已经提到过，因为比较重要，所以我们这里再提一下。<br>我们可以将高级编程语言按照程序的执行方式分为两种：<br>
+<br>编译型：编译型语言会通过编译器将源代码一次性翻译成可被该平台执行的机器码。一般情况下，编译语言的执行速度比较快，开发效率比较低。常见的编译性语言有 C、C++、Go、Rust 等等。
+<br>解释型：解释型语言会通过解释器一句一句的将代码解释（interpret）为机器代码后再执行。解释型语言开发效率比较快，执行速度比较慢。常见的解释性语言有 Python、JavaScript、PHP 等等。
+<br><img alt="Pasted image 20240326100820.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240326100820.png"><br> 编译型语言和解释型语言
+根据维基百科介绍：<br>
+为了改善编译语言的效率而发展出的即时编译技术，已经缩小了这两种语言间的差距。这种技术混合了编译语言与解释型语言的优点，它像编译语言一样，先把程序源代码编译成字节码。到执行期时，再将字节码直译，之后执行。Java与LLVM是这种技术的代表产物。
+<br>为什么说 Java 语言“编译与解释并存”？<br>这是因为 Java 语言既具有编译型语言的特征，也具有解释型语言的特征。因为 Java 程序要经过先编译，后解释两个步骤，由 Java 编写的程序需要先经过编译步骤，生成字节码（.class 文件），这种字节码必须由 Java 解释器来解释执行。<br><br>START<br>
+问答题<br>
+正面: 为什么说Java语言“编译与解释并存”？<br>
+背面: <a data-href="5. 为什么说Java语言“编译与解释并存”？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/5.-为什么说java语言“编译与解释并存”？.html" class="internal-link" target="_self" rel="noopener">5. 为什么说Java语言“编译与解释并存”？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/5.-为什么说java语言“编译与解释并存”？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/5. 为什么说Java语言“编译与解释并存”？.md</guid><pubDate>Thu, 28 Mar 2024 03:40:31 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240326100820.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240326100820.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[6. AOT有什么优点？为什么不全部使用AOT呢？]]></title><description><![CDATA[ 
+ <br>JDK 9 引入了一种新的编译模式 AOT(Ahead of Time Compilation) 。和 JIT 不同的是，这种编译模式会在程序被执行前就将其编译成机器码，属于静态编译（C、 C++，Rust，Go 等语言就是静态编译）。AOT 避免了 JIT 预热等各方面的开销，可以提高 Java 程序的启动速度，避免预热时间长。并且，AOT 还能减少内存占用和增强 Java 程序的安全性（AOT 编译后的代码不容易被反编译和修改），特别适合云原生场景。<br>JIT 与 AOT 两者的关键指标对比:<br><img alt="Pasted image 20240326102845.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240326102845.png"><br>JIT vs AOT
+可以看出，AOT 的主要优势在于启动时间、内存占用和打包体积。JIT 的主要优势在于具备更高的极限处理能力，可以降低请求的最大延迟。<br>既然 AOT 这么多优点，那为什么不全部使用这种编译方式呢？<br>我们前面也对比过 JIT 与 AOT，两者各有优点，只能说 AOT 更适合当下的云原生场景，对微服务架构的支持也比较友好。除此之外，AOT 编译无法支持 Java 的一些动态特性，如反射、动态代理、动态加载、JNI（Java Native Interface）等。然而，很多框架和库（如 Spring、CGLIB）都用到了这些特性。如果只使用 AOT 编译，那就没办法使用这些框架和库了，或者说需要针对性地去做适配和优化。举个例子，CGLIB 动态代理使用的是 ASM 技术，而这种技术大致原理是运行时直接在内存中生成并加载修改后的字节码文件也就是 .class 文件，如果全部使用 AOT 提前编译，也就不能使用 ASM 技术了。为了支持类似的动态特性，所以选择使用 JIT 即时编译器。<br><br>START<br>
+问答题<br>
+正面: AOT有什么优点？为什么不全部使用AOT呢？<br>
+背面: <a data-href="6. AOT有什么优点？为什么不全部使用AOT呢？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/6.-aot有什么优点？为什么不全部使用aot呢？.html" class="internal-link" target="_self" rel="noopener">6. AOT有什么优点？为什么不全部使用AOT呢？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/6.-aot有什么优点？为什么不全部使用aot呢？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/6. AOT有什么优点？为什么不全部使用AOT呢？.md</guid><pubDate>Thu, 28 Mar 2024 03:40:34 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240326102845.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240326102845.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7. Oracle JDK vs OpenJDK]]></title><description><![CDATA[ 
+ <br>可能在看这个问题之前很多人和我一样并没有接触和使用过 OpenJDK 。那么 Oracle JDK 和 OpenJDK 之间是否存在重大差异？下面我通过收集到的一些资料，为你解答这个被很多人忽视的问题。<br>首先，2006 年 SUN 公司将 Java 开源，也就有了 OpenJDK。2009 年 Oracle 收购了 Sun 公司，于是自己在 OpenJDK 的基础上搞了一个 Oracle JDK。Oracle JDK 是不开源的，并且刚开始的几个版本（Java8 ~ Java11）还会相比于 OpenJDK 添加一些特有的功能和工具。<br>其次，对于 Java 7 而言，OpenJDK 和 Oracle JDK 是十分接近的。 Oracle JDK 是基于 OpenJDK 7 构建的，只添加了一些小功能，由 Oracle 工程师参与维护。<br>下面这段话摘自 Oracle 官方在 2012 年发表的一个博客：<br>
+问：OpenJDK 存储库中的源代码与用于构建 Oracle JDK 的代码之间有什么区别？<br>
+答：非常接近 - 我们的 Oracle JDK 版本构建过程基于 OpenJDK 7 构建，只添加了几个部分，例如部署代码，其中包括 Oracle 的 Java 插件和 Java WebStart 的实现，以及一些闭源的第三方组件，如图形光栅化器，一些开源的第三方组件，如 Rhino，以及一些零碎的东西，如附加文档或第三方字体。展望未来，我们的目的是开源 Oracle JDK 的所有部分，除了我们考虑商业功能的部分。
+<br><br>
+<br>是否开源：OpenJDK 是一个参考模型并且是完全开源的，而 Oracle JDK 是基于 OpenJDK 实现的，并不是完全开源的（个人观点：众所周知，JDK 原来是 SUN 公司开发的，后来 SUN 公司又卖给了 Oracle 公司，Oracle 公司以 Oracle 数据库而著名，而 Oracle 数据库又是闭源的，这个时候 Oracle 公司就不想完全开源了，但是原来的 SUN 公司又把 JDK 给开源了，如果这个时候 Oracle 收购回来之后就把他给闭源，必然会引起很多 Java 开发者的不满，导致大家对 Java 失去信心，那 Oracle 公司收购回来不就把 Java 烂在手里了吗！然后，Oracle 公司就想了个骚操作，这样吧，我把一部分核心代码开源出来给你们玩，并且我要和你们自己搞的 JDK 区分下，你们叫 OpenJDK，我叫 Oracle JDK，我发布我的，你们继续玩你们的，要是你们搞出来什么好玩的东西，我后续发布 Oracle JDK 也会拿来用一下，一举两得！）OpenJDK 开源项目：<a data-tooltip-position="top" aria-label="https://github.com/openjdk/jdk%E3%80%82" rel="noopener" class="external-link" href="https://github.com/openjdk/jdk%E3%80%82" target="_blank">https://github.com/openjdk/jdk。</a>
+<br>是否免费：Oracle JDK 会提供免费版本，但一般有时间限制。JDK17 之后的版本可以免费分发和商用，但是仅有 3 年时间，3 年后无法免费商用。不过，JDK8u221 之前只要不升级可以无限期免费。OpenJDK 是完全免费的。
+<br>功能性：Oracle JDK 在 OpenJDK 的基础上添加了一些特有的功能和工具，比如 Java Flight Recorder（JFR，一种监控工具）、Java Mission Control（JMC，一种监控工具）等工具。不过，在 Java 11 之后，OracleJDK 和 OpenJDK 的功能基本一致，之前 OracleJDK 中的私有组件大多数也已经被捐赠给开源组织。
+<br>稳定性：OpenJDK 不提供 LTS 服务，而 OracleJDK 大概每三年都会推出一个 LTS 版进行长期支持。不过，很多公司都基于 OpenJDK 提供了对应的和 OracleJDK 周期相同的 LTS 版。因此，两者稳定性其实也是差不多的。
+<br>协议：Oracle JDK 使用 BCL/OTN 协议获得许可，而 OpenJDK 根据 GPL v2 许可获得许可。
+<br><br>
+答：
+
+<br>OpenJDK 是开源的，开源意味着你可以对它根据你自己的需要进行修改、优化，比如 Alibaba 基于 OpenJDK 开发了 Dragonwell8：<a rel="noopener" class="external-link" href="https://github.com/alibaba/dragonwell8" target="_blank">https://github.com/alibaba/dragonwell8</a> 
+<br>OpenJDK 是商业免费的（这也是为什么通过 yum 包管理器上默认安装的 JDK 是 OpenJDK 而不是 Oracle JDK）。虽然 Oracle JDK 也是商业免费（比如 JDK 8），但并不是所有版本都是免费的。
+<br>OpenJDK 更新频率更快。Oracle JDK 一般是每 6 个月发布一个新版本，而 OpenJDK 一般是每 3 个月发布一个新版本。（现在你知道为啥 Oracle JDK 更稳定了吧，先在 OpenJDK 试试水，把大部分问题都解决掉了才在 Oracle JDK 上发布）<br>
+基于以上这些原因，OpenJDK 还是有存在的必要的！
+
+<br><img alt="Pasted image 20240328101246.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328101246.png"><br>oracle jdk release cadence
+## Oracle JDK 和 OpenJDK 如何选择？
+建议选择 OpenJDK 或者基于 OpenJDK 的发行版，比如 AWS 的 Amazon Corretto，阿里巴巴的 Alibaba Dragonwell。<br>🌈 拓展一下：<br>
+<br>BCL 协议（Oracle Binary Code License Agreement）：可以使用 JDK（支持商用），但是不能进行修改。
+<br>OTN 协议（Oracle Technology Network License Agreement）：11 及之后新发布的 JDK 用的都是这个协议，可以自己私下用，但是商用需要付费。
+<br><br>START<br>
+问答题<br>
+正面: Oracle JDK 和 OpenJDK 的区别？<br>
+背面: <a data-href="7. Oracle JDK vs OpenJDK#^1e2ed7" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/7.-oracle-jdk-vs-openjdk.html#^1e2ed7" class="internal-link" target="_self" rel="noopener">7. Oracle JDK vs OpenJDK &gt; ^1e2ed7</a><br><br>END<br>START<br>
+问答题<br>
+正面: 既然 Oracle JDK 这么好，那为什么还要有 OpenJDK？<br>
+背面: <a data-href="7. Oracle JDK vs OpenJDK#^dba312" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/7.-oracle-jdk-vs-openjdk.html#^dba312" class="internal-link" target="_self" rel="noopener">7. Oracle JDK vs OpenJDK &gt; ^dba312</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/7.-oracle-jdk-vs-openjdk.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/7. Oracle JDK vs OpenJDK.md</guid><pubDate>Thu, 28 Mar 2024 03:40:38 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240328101246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240328101246.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[anki]]></title><description><![CDATA[ 
+ <br>我知道很多人没学过 C++，但是面试官就是没事喜欢拿咱们 Java 和 C++ 比呀！没办法！！！就算没学过 C++，也要记下来。<br>
+虽然，Java 和 C++ 都是面向对象的语言，都支持封装、继承和多态，但是，它们还是有挺多不相同的地方：<br>
+<br>Java 不提供指针来直接访问内存，程序内存更加安全Java 的类是单继承的，
+<br>C++ 支持多重继承；虽然 Java 的类不可以多继承，但是接口可以多继承。
+<br>Java 有自动内存管理垃圾回收机制(GC)，不需要程序员手动释放无用内存。
+<br>C ++同时支持方法重载和操作符重载，但是 Java 只支持方法重载（操作符重载增加了复杂性，这与 Java 最初的设计思想不符）
+<br>……
+<br><br>START<br>
+问答题<br>
+正面: java与c++的区别<br>
+背面: <a data-href="8. Java与C++的区别" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/8.-java与c++的区别.html" class="internal-link" target="_self" rel="noopener">8. Java与C++的区别</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/8.-java与c++的区别.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/8. Java与C++的区别.md</guid><pubDate>Thu, 28 Mar 2024 03:40:41 GMT</pubDate></item><item><title><![CDATA[Java 中有 8 种基本数据类型，分别为：]]></title><description><![CDATA[ 
+ <br><br>
+<br>6 种数字类型：
+
+<br>4 种整数型：byte、short、int、long
+<br>2中浮点型：float、double
+
+
+<br>1中字符类型：char
+<br>1中布尔类型：boolean
+<br><br><br><br>可以看到，像 byte、short、int、long能表示的最大正数都减 1 了。这是为什么呢？这是因为在二进制补码表示法中，最高位是用来表示符号的（0 表示正数，1 表示负数），其余位表示数值部分。所以，如果我们要表示最大的正数，我们需要把除了最高位之外的所有位都设为 1。如果我们再加 1，就会导致溢出，变成一个负数。而最大负数就是全部为0所以不用减1<br>对于 boolean，官方文档未明确定义，它依赖于 JVM 厂商的具体实现。逻辑上理解是占用 1 位，但是实际中会考虑计算机高效存储因素。<br>另外，Java 的每种基本类型所占存储空间的大小不会像其他大多数语言那样随机器硬件架构的变化而变化。这种所占存储空间大小的不变性是 Java 程序比用其他大多数语言编写的程序更具可移植性的原因之一（《Java 编程思想》2.2 节有提到）。<br>注意：<br>
+<br>Java 里使用 long 类型的数据一定要在数值后面加上 L，否则将作为整型解析。
+<br>char a = 'h'char :单引号，String a = "hello" :双引号。
+<br><br>这八种基本类型都有对应的包装类分别为：Byte、Short、Integer、Long、Float、Double、Character、Boolean 。<br><br>START<br>
+问答题<br>
+正面: Java中有哪些基础类型，并分别占用多少b？<br>
+背面: <a data-href="1. Java中的基本数据类型#Java 中有 8 种基本数据类型，分别为：" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/1.-java中的基本数据类型.html#Java_中有_8_种基本数据类型，分别为：" class="internal-link" target="_self" rel="noopener">1. Java中的基本数据类型 &gt; Java 中有 8 种基本数据类型，分别为：</a><br><br>END<br>START<br>
+问答题<br>
+正面: java的整数最大范围为什么要减1？<br>
+背面: <a data-href="1. Java中的基本数据类型#为什么最大整数需要减1" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/1.-java中的基本数据类型.html#为什么最大整数需要减1" class="internal-link" target="_self" rel="noopener">1. Java中的基本数据类型 &gt; 为什么最大整数需要减1</a><br><br>END<br>START<br>
+问答题<br>
+正面: char a = 'h'char :单引号，String a = "hello" :双引号<br>
+背面: <br><br>END<br>START<br>
+问答题<br>
+正面: 基础数据类型对应的包装类型？<br>
+背面: <a data-href="1. Java中的基本数据类型#对应的包装类型" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/1.-java中的基本数据类型.html#对应的包装类型" class="internal-link" target="_self" rel="noopener">1. Java中的基本数据类型 &gt; 对应的包装类型</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/1.-java中的基本数据类型.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/1. Java中的基本数据类型.md</guid><pubDate>Sun, 07 Apr 2024 06:41:24 GMT</pubDate></item><item><title><![CDATA[2. 基本类型和包装类型的区别]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240407094416.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407094416.png"><br>基本类型 vs 包装类型<br>
+<br>用途：除了定义一些常量和局部变量之外，我们在其他地方比如方法参数、对象属性中很少会使用基本类型来定义变量。并且，包装类型可用于泛型，而基本类型不可以。
+<br>存储方式：基本数据类型的局部变量存放在 Java 虚拟机栈中的局部变量表中，基本数据类型的成员变量（未被&nbsp;static&nbsp;修饰 ）存放在 Java 虚拟机的堆中。包装类型属于对象类型，我们知道几乎所有对象实例都存在于堆中。
+<br>占用空间：相比于包装类型（对象类型）， 基本数据类型占用的空间往往非常小。
+<br>默认值：成员变量包装类型不赋值就是&nbsp;null&nbsp;，而基本类型有默认值且不是&nbsp;null。
+<br>比较方式：对于基本数据类型来说，==&nbsp;比较的是值。对于包装数据类型来说，==&nbsp;比较的是对象的内存地址。所有整型包装类对象之间值的比较，全部使用&nbsp;equals()&nbsp;方法。
+<br>为什么说是几乎所有对象实例都存在于堆中呢？&nbsp;这是因为 HotSpot 虚拟机引入了 JIT 优化之后，会对对象进行逃逸分析，如果发现某一个对象并没有逃逸到方法外部，那么就可能通过标量替换来实现栈上分配，而避免堆上分配内存<br>⚠️ 注意：基本数据类型存放在栈中是一个常见的误区！&nbsp;基本数据类型的存储位置取决于它们的作用域和声明方式。如果它们是局部变量，那么它们会存放在栈中；如果它们是成员变量，那么它们会存放在堆中。 <br>public class Test {
+    // 成员变量，存放在堆中
+    int a = 10;
+    // 被 static 修饰，也存放在堆中，但属于类，不属于对象
+    // JDK1.7 静态变量从永久代移动了 Java 堆中
+    static int b = 20;
+
+    public void method() {
+        // 局部变量，存放在栈中
+        int c = 30;
+        static int d = 40; // 编译错误，不能在方法中使用 static 修饰局部变量
+    }
+}
+复制<br><br>START<br>
+问答题<br>
+正面: 基本类型 vs 包装类型<br>
+背面: <a data-href="2. 基本类型和包装类型的区别" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/2.-基本类型和包装类型的区别.html" class="internal-link" target="_self" rel="noopener">2. 基本类型和包装类型的区别</a><br><br>END<br>START<br>
+问答题<br>
+正面: 基本类型都是存放在栈中的吗？<br>
+背面: 局部变量是放在栈中，成员变量是放在堆中。<br>
+<a data-href="2. 基本类型和包装类型的区别#^185dcd" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/2.-基本类型和包装类型的区别.html#^185dcd" class="internal-link" target="_self" rel="noopener">2. 基本类型和包装类型的区别 &gt; ^185dcd</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/2.-基本类型和包装类型的区别.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/2. 基本类型和包装类型的区别.md</guid><pubDate>Sun, 07 Apr 2024 01:50:37 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240407094416.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240407094416.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3. 包装类型的换成机制了解吗？]]></title><description><![CDATA[ 
+ <br>Java 基本数据类型的包装类型的大部分都用到了缓存机制来提升性能。<br>Byte,Short,Integer,Long&nbsp;这 4 种包装类默认创建了数值&nbsp;[-128，127]&nbsp;的相应类型的缓存数据，Character&nbsp;创建了数值在&nbsp;[0,127]&nbsp;范围的缓存数据，Boolean&nbsp;直接返回&nbsp;True&nbsp;or&nbsp;False。<br>Integer 缓存源码：<br>public static Integer valueOf(int i) {
+    if (i &gt;= IntegerCache.low &amp;&amp; i &lt;= IntegerCache.high)
+        return IntegerCache.cache[i + (-IntegerCache.low)];
+    return new Integer(i);
+}
+
+private static class IntegerCache {
+    static final int low = -128;
+    static final int high;
+    static {
+        // high value may be configured by property
+        int h = 127;
+    }
+}
+复制<br>Character&nbsp;缓存源码:<br>public static Character valueOf(char c) {
+    if (c &lt;= 127) { // must cache
+      return CharacterCache.cache[(int)c];
+    }
+    return new Character(c);
+}
+
+private static class CharacterCache {
+    private CharacterCache(){}
+    static final Character cache[] = new Character[127 + 1];
+    static {
+        for (int i = 0; i &lt; cache.length; i++)
+            cache[i] = new Character((char)i);
+    }
+
+}
+复制<br>Boolean&nbsp;缓存源码：<br>public static Boolean valueOf(boolean b) {
+    return (b ? TRUE : FALSE);
+}
+复制<br>如果超出对应范围仍然会去创建新的对象，缓存的范围区间的大小只是在性能和资源之间的权衡。<br>两种浮点数类型的包装类&nbsp;Float, Double&nbsp;并没有实现缓存机制。<br>Integer i1 = 33;
+Integer i2 = 33;
+System.out.println(i1 == i2);// 输出 true
+
+Float i11 = 333f;
+Float i22 = 333f;
+System.out.println(i11 == i22);// 输出 false
+
+Double i3 = 1.2;
+Double i4 = 1.2;
+System.out.println(i3 == i4);// 输出 false
+复制<br>下面我们来看一个问题：下面的代码的输出结果是&nbsp;true&nbsp;还是&nbsp;false&nbsp;呢？ <br>Integer i1 = 40;
+Integer i2 = new Integer(40);
+System.out.println(i1==i2);
+复制<br>Integer i1=40&nbsp;这一行代码会发生装箱，也就是说这行代码等价于&nbsp;Integer i1=Integer.valueOf(40)&nbsp;。因此，i1直接使用的是缓存中的对象。而Integer i2 = new Integer(40)&nbsp;会直接创建新的对象。<br>因此，答案是&nbsp;false&nbsp;。你答对了吗？<br>记住：所有整型包装类对象之间值的比较，全部使用 equals 方法比较。<br><img alt="Pasted image 20240407095857.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407095857.png"><br><br>START<br>
+问答题<br>
+正面: 什么是包装类型的缓存机制？有什么用处？<br>
+背面: <a data-href="3. 包装类型的换成机制了解吗？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/3.-包装类型的换成机制了解吗？.html" class="internal-link" target="_self" rel="noopener">3. 包装类型的换成机制了解吗？</a><br><br>END<br>START<br>
+问答题<br>
+正面: 那些包装类型有缓存机制？那些没有？有的话默认值是什么？超出默认值回怎么样呢？<br>
+背面: Byte、Short、Int、Long 的默认值都是是[-128,127] ；Boolean 的默认只是 true 或 false；Float 和 Double 没有缓存机制；超出默认值的时候会创建一个对应值的包装类型。比如 Long var = 1000 就是一个新的对象<br>
+<a data-href="3. 包装类型的换成机制了解吗？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/3.-包装类型的换成机制了解吗？.html" class="internal-link" target="_self" rel="noopener">3. 包装类型的换成机制了解吗？</a><br><br>END<br>START<br>
+问答题<br>
+正面: 包装类型之间的相等性比较为什么要用 equals？<br>
+背面: <a data-href="3. 包装类型的换成机制了解吗？#^c54342" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/3.-包装类型的换成机制了解吗？.html#^c54342" class="internal-link" target="_self" rel="noopener">3. 包装类型的换成机制了解吗？ &gt; ^c54342</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/3.-包装类型的换成机制了解吗？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/3. 包装类型的换成机制了解吗？.md</guid><pubDate>Sun, 07 Apr 2024 06:41:18 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240407095857.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240407095857.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[4. 自动装箱与自动拆箱了解吗？原理是什么？]]></title><description><![CDATA[ 
+ <br>什么是自动拆装箱？<br>
+<br>装箱：将基本类型用它们对应的引用类型包装起来；
+<br>拆箱：将包装类型转换为基本数据类型；
+<br>举例：<br>Integer i = 10;  //装箱
+int n = i;   //拆箱
+复制<br>上面这两行代码对应的字节码为：<br>   L1
+
+    LINENUMBER 8 L1
+
+    ALOAD 0
+
+    BIPUSH 10
+
+    INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer;
+
+    PUTFIELD AutoBoxTest.i : Ljava/lang/Integer;
+
+   L2
+
+    LINENUMBER 9 L2
+
+    ALOAD 0
+
+    ALOAD 0
+
+    GETFIELD AutoBoxTest.i : Ljava/lang/Integer;
+
+    INVOKEVIRTUAL java/lang/Integer.intValue ()I
+
+    PUTFIELD AutoBoxTest.n : I
+
+    RETURN
+复制<br>从字节码中，我们发现装箱其实就是调用了包装类的 valueOf() 方法，拆箱其实就是调用了&nbsp;xxxValue() 方法。<br>因此，<br>
+<br>Integer i = 10&nbsp;等价于&nbsp;Integer i = Integer.valueOf(10)
+<br>int n = i&nbsp;等价于&nbsp;int n = i.intValue();
+<br>注意：如果频繁拆装箱的话，也会严重影响系统的性能。我们应该尽量避免不必要的拆装箱操作。<br>private static long sum() {
+    // 应该使用 long 而不是 Long
+    Long sum = 0L;
+    for (long i = 0; i &lt;= Integer.MAX_VALUE; i++)
+        sum += i;
+    return sum;
+}
+复制<br><br>START<br>
+问答题<br>
+正面: 什么是自动拆装箱？频繁的拆装箱会影响进度吗？<br>
+背面: <a data-href="4. 自动装箱与自动拆箱了解吗？原理是什么？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/4.-自动装箱与自动拆箱了解吗？原理是什么？.html" class="internal-link" target="_self" rel="noopener">4. 自动装箱与自动拆箱了解吗？原理是什么？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/4.-自动装箱与自动拆箱了解吗？原理是什么？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/4. 自动装箱与自动拆箱了解吗？原理是什么？.md</guid><pubDate>Sun, 07 Apr 2024 06:41:15 GMT</pubDate></item><item><title><![CDATA[5. 为什么浮点数运算的时候会有精度丢失的风险？]]></title><description><![CDATA[ 
+ <br>浮点数运算精度丢失代码演示：<br>float a = 2.0f - 1.9f;
+float b = 1.8f - 1.7f;
+System.out.println(a);// 0.100000024
+System.out.println(b);// 0.099999905
+System.out.println(a == b);// false
+复制<br>为什么会出现这个问题呢？<br>这个和计算机保存浮点数的机制有很大关系。我们知道计算机是二进制的，而且计算机在表示一个数字时，宽度是有限的，无限循环的小数存储在计算机时，只能被截断，所以就会导致小数精度发生损失的情况。这也就是解释了为什么浮点数没有办法用二进制精确表示。<br>就比如说十进制下的 0.2 就没办法精确转换成二进制小数：<br>// 0.2 转换为二进制数的过程为，不断乘以 2，直到不存在小数为止，
+// 在这个计算过程中，得到的整数部分从上到下排列就是二进制的结果。
+0.2 * 2 = 0.4 -&gt; 0
+0.4 * 2 = 0.8 -&gt; 0
+0.8 * 2 = 1.6 -&gt; 1
+0.6 * 2 = 1.2 -&gt; 1
+0.2 * 2 = 0.4 -&gt; 0（发生循环）
+...
+复制<br>关于浮点数的更多内容，建议看一下<a data-tooltip-position="top" aria-label="http://kaito-kidd.com/2018/08/08/computer-system-float-point/" rel="noopener" class="external-link" href="http://kaito-kidd.com/2018/08/08/computer-system-float-point/" target="_blank">计算机系统基础（四）浮点数</a>这篇文章。<br><br>START<br>
+问答题<br>
+正面: 为什么浮点数运算的时候会有精度丢失的风险？<br>
+背面: <a data-href="5. 为什么浮点数运算的时候会有精度丢失的风险？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/5.-为什么浮点数运算的时候会有精度丢失的风险？.html" class="internal-link" target="_self" rel="noopener">5. 为什么浮点数运算的时候会有精度丢失的风险？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/5.-为什么浮点数运算的时候会有精度丢失的风险？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/5. 为什么浮点数运算的时候会有精度丢失的风险？.md</guid><pubDate>Sun, 07 Apr 2024 06:41:13 GMT</pubDate></item><item><title><![CDATA[6. 如何解决浮点数运算的精度丢失问题？]]></title><description><![CDATA[ 
+ <br>BigDecimal&nbsp;可以实现对浮点数的运算，不会造成精度丢失。通常情况下，大部分需要浮点数精确运算结果的业务场景（比如涉及到钱的场景）都是通过&nbsp;BigDecimal&nbsp;来做的。<br>BigDecimal a = new BigDecimal("1.0");
+BigDecimal b = new BigDecimal("0.9");
+BigDecimal c = new BigDecimal("0.8");
+
+BigDecimal x = a.subtract(b);
+BigDecimal y = b.subtract(c);
+
+System.out.println(x); /* 0.1 */
+System.out.println(y); /* 0.1 */
+System.out.println(Objects.equals(x, y)); /* true */
+复制<br>关于&nbsp;BigDecimal&nbsp;的详细介绍，可以看看我写的这篇文章：<a data-tooltip-position="top" aria-label="https://javaguide.cn/java/basis/bigdecimal.html" rel="noopener" class="external-link" href="https://javaguide.cn/java/basis/bigdecimal.html" target="_blank">BigDecimal 详解open in new window</a>。<br><br>START<br>
+问答题<br>
+正面: 如何解决浮点数运算的精度丢失问题？<br>
+背面: 使用 BigDecimal 来做<br>
+<a data-href="6. 如何解决浮点数运算的精度丢失问题？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/6.-如何解决浮点数运算的精度丢失问题？.html" class="internal-link" target="_self" rel="noopener">6. 如何解决浮点数运算的精度丢失问题？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/6.-如何解决浮点数运算的精度丢失问题？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/6. 如何解决浮点数运算的精度丢失问题？.md</guid><pubDate>Sun, 07 Apr 2024 06:41:10 GMT</pubDate></item><item><title><![CDATA[7. 超过long整数的数据应该如何表示？]]></title><description><![CDATA[ 
+ <br>基本数值类型都有一个表达范围，如果超过这个范围就会有数值溢出的风险。<br>在 Java 中，64 位 long 整型是最大的整数类型。<br>long l = Long.MAX_VALUE;
+System.out.println(l + 1); // -9223372036854775808
+System.out.println(l + 1 == Long.MIN_VALUE); // true
+复制<br>BigInteger&nbsp;内部使用&nbsp;int[]&nbsp;数组来存储任意大小的整形数据。<br>相对于常规整数类型的运算来说，BigInteger&nbsp;运算的效率会相对较低。<br><br>START<br>
+问答题<br>
+正面: 超过long整数的数据应该如何表示？<br>
+背面: <a data-href="7. 超过long整数的数据应该如何表示？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/7.-超过long整数的数据应该如何表示？.html" class="internal-link" target="_self" rel="noopener">7. 超过long整数的数据应该如何表示？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/7.-超过long整数的数据应该如何表示？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本数据类型/7. 超过long整数的数据应该如何表示？.md</guid><pubDate>Sun, 07 Apr 2024 06:41:07 GMT</pubDate></item><item><title><![CDATA[1. 注释有哪几种形式]]></title><description><![CDATA[ 
+ <br>Java 中的注释有三种：<br><img alt="Pasted image 20240328103341.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328103341.png"><br>Java 注释类型总结
+1. **单行注释**：通常用于解释方法内某单行代码的作用。//
+2. **多行注释**：通常用于解释一段代码的作用。/*  \*/
+3. **文档注释**：通常用于生成 Java 开发文档。/** \*/<br>用的比较多的还是单行注释和文档注释，多行注释在实际开发中使用的相对较少。<br><img alt="Pasted image 20240328103521.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328103521.png"><br>在我们编写代码的时候，如果代码量比较少，我们自己或者团队其他成员还可以很轻易地看懂代码，但是当项目结构一旦复杂起来，我们就需要用到注释了。注释并不会执行(编译器在编译代码之前会把代码中的所有注释抹掉,字节码中不保留注释)，是我们程序员写给自己看的，注释是你的代码说明书，能够帮助看代码的人快速地理清代码之间的逻辑关系。因此，在写程序的时候随手加上注释是一个非常好的习惯。<br>《Clean Code》这本书明确指出：<br>
+代码的注释不是越详细越好。实际上好的代码本身就是注释，我们要尽量规范和美化自己的代码来减少不必要的注释。<br>
+若编程语言足够有表达力，就不需要注释，尽量通过代码来阐述。
+<br>举个例子：<br>
+去掉下面复杂的注释，只需要创建一个与注释所言同一事物的函数即可<br>// check to see if the employee is eligible for full benefits
+if ((employee.flags &amp; HOURLY_FLAG) &amp;&amp; (employee.age &gt; 65))
+复制<br>应替换为<br>if (employee.isEligibleForFullBenefits())
+复制<br><br>START<br>
+问答题<br>
+正面: 注释有哪几种形式<br>
+背面: 单行、多行、文档;<a data-href="1. 注释有哪几种形式" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/1.-注释有哪几种形式.html" class="internal-link" target="_self" rel="noopener">1. 注释有哪几种形式</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/1.-注释有哪几种形式.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/1. 注释有哪几种形式.md</guid><pubDate>Wed, 03 Apr 2024 03:02:33 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240328103341.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240328103341.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[anki]]></title><description><![CDATA[ 
+ <br>在我们编写程序的时候，需要大量地为程序、类、变量、方法等取名字，于是就有了 标识符 。简单来说， 标识符就是一个名字 。<br>有一些标识符，Java 语言已经赋予了其特殊的含义，只能用于特定的地方，这些特殊的标识符就是 关键字 。简单来说，关键字是被赋予特殊含义的标识符 。比如，在我们的日常生活中，如果我们想要开一家店，则要给这个店起一个名字，起的这个“名字”就叫标识符。但是我们店的名字不能叫“警察局”，因为“警察局”这个名字已经被赋予了特殊的含义，而“警察局”就是我们日常生活中的关键字。<br><br>START<br>
+问答题<br>
+正面: 标识符和关键字的区别？<br>
+背面: [[10. 标识符和关键字的区别是什么？]<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/2.-标识符和关键字的区别是什么？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/2. 标识符和关键字的区别是什么？.md</guid><pubDate>Wed, 03 Apr 2024 03:01:32 GMT</pubDate></item><item><title><![CDATA[3. Java语言关键字有哪些？]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20240401100238.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401100238.png"><br>
+Tips：所有的关键字都是小写的，在 IDE 中会以特殊颜色显示。default 这个关键字很特殊，既属于程序控制，也属于类，方法和变量修饰符，还属于访问控制。在程序控制中，当在 switch 中匹配不到任何情况时，可以使用 default 来编写默认匹配的情况。在类，方法和变量修饰符中，从 JDK8 开始引入了默认方法，可以使用 default 关键字来定义一个方法的默认实现。在访问控制中，如果一个方法前没有任何修饰符，则默认会有一个修饰符 default，但是这个修饰符加上了就会报错。
+<br>⚠️ 注意：虽然 true, false, 和 null 看起来像关键字但实际上他们是字面值，同时你也不可以作为标识符来使用。(官方文档)[https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.htmlopen ]<br><br>START<br>
+问答题<br>
+正面: java语言有哪些你不熟悉的关键字？<br>
+背面: <a data-href="3. Java语言关键字有哪些？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/3.-java语言关键字有哪些？.html" class="internal-link" target="_self" rel="noopener">3. Java语言关键字有哪些？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/3.-java语言关键字有哪些？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/3. Java语言关键字有哪些？.md</guid><pubDate>Wed, 03 Apr 2024 03:02:42 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240401100238.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240401100238.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[anki]]></title><description><![CDATA[ 
+ <br>在写代码的过程中，常见的一种情况是需要某个整数类型变量增加 1 或减少 1，Java 提供了一种特殊的运算符，用于这种表达式，叫做自增运算符（++)和自减运算符（--）。<br>++ 和 -- 运算符可以放在变量之前，也可以放在变量之后，当运算符放在变量之前时(前缀)，先自增/减，再赋值；当运算符放在变量之后时(后缀)，先赋值，再自增/减。例如，当 b = ++a 时，先自增（自己增加 1），再赋值（赋值给 b）；当 b = a++ 时，先赋值(赋值给 b)，再自增（自己增加 1）。也就是，++a 输出的是 a+1 的值，a++输出的是 a 值。用一句口诀就是：“符号在前就先加/减，符号在后就后加/减”。<br><br>START<br>
+问答题<br>
+正面: ++i,--i,i++,i--的区别？<br>
+背面: <a data-href="4. 自增自减运算符" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/4.-自增自减运算符.html" class="internal-link" target="_self" rel="noopener">4. 自增自减运算符</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/4.-自增自减运算符.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/4. 自增自减运算符.md</guid><pubDate>Wed, 03 Apr 2024 03:02:46 GMT</pubDate></item><item><title><![CDATA[5. 位移运算符]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:位移" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#位移</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:位移" class="tag" target="_blank" rel="noopener">#位移</a><br>
+Tips：位移都是在补码的基础上进行计算的
+<img alt="Pasted image 20240401101121.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401101121.png">
+<br>移位运算符是最基本的运算符之一，几乎每种编程语言都包含这一运算符。移位操作中，被操作的数据被视为二进制数，移位就是将其向左或向右移动若干位的运算。<br>移位运算符在各种框架以及 JDK 自身的源码中使用还是挺广泛的，HashMap（JDK1.8） 中的 hash 方法的源码就用到了移位运算符：<br>static final int hash(Object key) {
+    int h;
+    // key.hashCode()：返回散列值也就是hashcode
+    // ^：按位异或
+    // &gt;&gt;&gt;:无符号右移，忽略符号位，空位都以0补齐
+    return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16);
+  }
+复制<br>在 Java 代码里使用 &lt;&lt;、 &gt;&gt; 和&gt;&gt;&gt;转换成的指令码运行起来会更高效些。<br>
+掌握最基本的移位运算符知识还是很有必要的，这不光可以帮助我们在代码中使用，还可以帮助我们理解源码中涉及到移位运算符的代码。<br><br>
+<br>&lt;&lt; :左移运算符，向左移若干位，高位丢弃，低位补零。x &lt;&lt; 1,相当于 x 乘以 2(不溢出的情况下)。
+<br>&gt;&gt;:带符号右移，向右移若干位，高位补符号位，低位丢弃。正数高位补 0,负数高位补 1。x &gt;&gt; 1,相当于 x 除以 2。
+<br>&gt;&gt;&gt;:无符号右移，忽略符号位，空位都以 0 补齐。
+<br>由于 double，float 在二进制中的表现比较特殊，因此不能来进行移位操作。<br>移位操作符实际上支持的类型只有int和long，编译器在对short、byte、char类型进行移位前，都会将其转换为int类型再操作。 <br><br>当 int 类型左移/右移位数大于等于 32 位操作时，会先求余（%）后再进行左移/右移操作。也就是说左移/右移 32 位相当于不进行移位操作（32%32=0），左移/右移 42 位相当于左移/右移 10 位（42%32=10）。当 long 类型进行左移/右移操作时，由于 long 对应的二进制是 64 位，因此求余操作的基数也变成了 64。<br>也就是说：x&lt;&lt;42等同于x&lt;&lt;10，x&gt;&gt;42等同于x&gt;&gt;10，x &gt;&gt;&gt;42等同于x &gt;&gt;&gt; 10。<br><br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i)); // 这个是补码
+i &lt;&lt;= 10;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>输出：<br>初始数据：-1
+初始数据对应的二进制字符串：11111111111111111111111111111111
+左移 10 位后的数据 -1024
+左移 10 位后的数据对应的二进制字符 11111111111111111111110000000000
+复制<br>由于左移位数大于等于 32 位操作时，会先求余（%）后再进行左移操作，所以下面的代码左移 42 位相当于左移 10 位（42%32=10），输出结果和前面的代码一样。<br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i));
+i &lt;&lt;= 42;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>右移运算符使用类似，篇幅问题，这里就不做演示了。<br><br>START<br>
+填空题<br>
+文字: 位移操作的二进制运算是在什么{{c1::补}}码上进行运算的<br>
+背面额外: <a data-href="5. 位移运算符" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html" class="internal-link" target="_self" rel="noopener">5. 位移运算符</a><br><br>END<br>START<br>
+问答题<br>
+正面: Java中有哪几种位运算符？<br>
+背面: <a data-href="5. 位移运算符#Java 中有三种移位运算符：" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html#Java_中有三种移位运算符：" class="internal-link" target="_self" rel="noopener">5. 位移运算符 &gt; Java 中有三种移位运算符：</a><br><br>END<br>START<br>
+问答题<br>
+正面: 实际上java中只有哪几种类型的变量可以进行位运算？<br>
+背面: <a data-href="5. 位移运算符#^b6ad16" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html#^b6ad16" class="internal-link" target="_self" rel="noopener">5. 位移运算符 &gt; ^b6ad16</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如果位移的位数超出了变量的存储位数了怎么办？<br>
+背面: <a data-href="5. 位移运算符#如果移位的位数超过数值所占有的位数会怎样？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html#如果移位的位数超过数值所占有的位数会怎样？" class="internal-link" target="_self" rel="noopener">5. 位移运算符 &gt; 如果移位的位数超过数值所占有的位数会怎样？</a><br><br>END<br>START<br>
+问答题<br>
+正面: 在i=-1时,请输出i&lt;&lt;10和i&lt;&lt;42的值？<br>
+背面: <a data-href="5. 位移运算符#左移运算符代码示例" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html#左移运算符代码示例" class="internal-link" target="_self" rel="noopener">5. 位移运算符 &gt; 左移运算符代码示例</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/5.-位移运算符.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/5. 位移运算符.md</guid><pubDate>Wed, 03 Apr 2024 03:02:50 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240401101121.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240401101121.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[6. continue、break和return的区别是什么？]]></title><description><![CDATA[ 
+ <br>在循环结构中，当循环条件不满足或者循环次数达到要求时，循环会正常结束。但是，有时候可能需要在循环的过程中，当发生了某种条件之后 ，提前终止循环，这就需要用到下面几个关键词：<br>
+<br>
+continue：指跳出当前的这一次循环，继续下一次循环。
+
+<br>
+break：指跳出整个循环体，继续执行循环下面的语句。
+return 用于跳出所在方法，结束该方法的运行。
+
+<br>
+return 一般有两种用法：return;：直接使用 return 结束方法执行，用于没有返回值函数的方法
+
+<br>
+return value：return 一个特定值，用于有返回值函数的方法
+
+<br>思考一下：下列语句的运行结果是什么？<br>    public static void main(String[] args) {
+        boolean flag = false;
+        for (int i = 0; i &lt;= 3; i++) {
+            if (i == 0) {
+                System.out.println("0");
+            } else if (i == 1) {
+                System.out.println("1");
+                continue;
+            } else if (i == 2) {
+                System.out.println("2");
+                flag = true;
+            } else if (i == 3) {
+                System.out.println("3");
+                break;
+            } else if (i == 4) {
+                System.out.println("4");
+            }
+            System.out.println("xixi");
+        }
+        if (flag) {
+            System.out.println("haha");
+            return;
+        }
+        System.out.println("heihei");
+    }
+复制<br>运行结果：<br>0
+xixi
+1
+2
+xixi
+3
+haha
+复制<br><br>START<br>
+问答题<br>
+正面: continue、break和return的区别？<br>
+背面: <a data-href="6. continue、break和return的区别是什么？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/6.-continue、break和return的区别是什么？.html" class="internal-link" target="_self" rel="noopener">6. continue、break和return的区别是什么？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/6.-continue、break和return的区别是什么？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本语法/6. continue、break和return的区别是什么？.md</guid><pubDate>Wed, 03 Apr 2024 03:12:06 GMT</pubDate></item><item><title><![CDATA[REDME]]></title><description><![CDATA[ 
+ <br>本专栏内容转载自：<br>
+<br><a data-tooltip-position="top" aria-label="https://javaguide.cn/" rel="noopener" class="external-link" href="https://javaguide.cn/" target="_blank">JavaGuide</a>。
+]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/redme.html</link><guid isPermaLink="false">2-我的活动/每日面试题/REDME.md</guid><pubDate>Tue, 26 Mar 2024 06:49:14 GMT</pubDate></item><item><title><![CDATA[1. 7*24运行的家用微型服务器选购指南]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:硬件" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#硬件</a> 
+ <br> <a href="https://WhiteClouds.github.io?query=tag:硬件" class="tag" target="_blank" rel="noopener">#硬件</a> <br>楔机是最近在阿里云上看到了一个优惠活动，2核2G 3Mbps固定的公网IP的机子99/年，优惠时间是3年，便萌发了想要自己搭建一个私人服务器的想法。虽然趟了一路的坑，过程曲折了一点，但最终的结果还是搭成了。<br><br>先总体介绍一下项目，总体结构如图：<br><img alt="Pasted image 20231128113943.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231128113943.png"><br>
+<br>首先我们需要选购一台能够7*24h运转的家用服务器
+<br>之后在阿里云上购买一台带固定公网IP的ESC
+<br>为了能够在外网通过ssh连接放置在内网的服务器需要搭建openVpn
+<br>最后如果你想让同事能在公网中访问到我们自建的博客服务，在同事面前秀一手。还有要做内网穿透FRP
+<br><br>废话不多说，开始本文的主题。首先分析一下本文的服务器需要满足的需求。<br>既然是7*24小时运转，那自然需要考虑到功耗啦。我们先来算一笔账如果直接选购市面上常见的个人电脑按照待机80W来算，见下图：<br><img alt="Pasted image 20231128160417.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231128160417.png"><br>一个月就需要46元的电费。但我是一个穷逼，30W是我的极限了。然后就是出于安全考虑，自然也是要选着小功耗。作为一台服务器，尽管是一台微型私人服务器，但毕竟是一台服务器性能肯定是有要求的。首先排除树莓派这种单片机。<br>在操作系统方面我们基本没得选，就是Linux系统。其次就是X86还是ARM，ARM虽然功耗更低，但X86发展了这么多年，兼容性、可玩性肯定是要比ARM强，所以选X86（主要是X86的网络教程多😊）。<br>确定OS和架构之后，那就开始分析硬件了：<br>
+<br>CPU自然是往多核多线程靠，主频要求不高，这玩意就那两家，随便挑一家，散热器用CPU自带的。
+<br>显卡是什么，不知道啊，用核显。
+<br>内存我们后期需要使用Docker起服务所以起步16G DDR4，DDR5没降价前不考虑。内存我倒是觉得可以二手，之前二手内存的笔记本用了好几年了，没出过啥问题。
+<br>因为需要全天运行机械硬盘的话，就只能选企业级硬盘了。这个玩意又大又贵，不考虑。那就是剩下固态硬盘了，SSD几乎也没得选 M.2接口、NV协议、PCI E 3.0走起。根据我这些年来被电脑折腾的经验来看，512G的硬盘够用了。
+<br>主板在兼容我们选择的硬件的基础上。最重要的就是扩展性，尽量选购有两个内存插槽、两个M2接口的主板，至于后期升级CPU的说法，我只能说我没钱。其他的只要它不自燃都是阿巴阿巴阿巴
+<br>电源如果你不想死的快的话，买新的买靠谱的。至于功率你只要买正常的基本都错错有余。
+<br>机箱就看个人情况啦，实在穷的话鞋盒又不是不能用
+<br><br>总结一下我们的需求：<br>
+<br>整机功耗尽可能的低
+<br>多核多线程的CPU
+<br>16G起步的DDR4内存
+<br>512G的M2固态
+<br>带两个内存插槽、两个M2插槽的主板
+<br>靠谱的电源
+<br>这么一通限制下来，如果你像我一样还不太想折腾的话。那留下来的选项就只剩机顶盒了，俗称迷你主机。<br>
+这里先叠个甲，厂商没给我钱。但是我非常愿意带货。
+<br>”狗猫黄红“四大软件逛了一圈。有一个啥啥啥牌子的迷你主机挺便宜的，但是它的CPU市Intel的N100太弱鸡了不选。然后就是小米的那个迷你主机了，这个太贵了也不选。<br>最终我选的是um480xt这个产品。R7 4800H 8核16线程、双内存固态接口、待机功耗25W。准系统(不带内存，固态)叠叠劵之后售价1069。PDD淘一个镁光的16G 3200 DDR4 售价164。某东上的长城固态208，再加上阿里云ESC年费99。预计总费用：<br><img alt="Pasted image 20231128152131.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231128152131.png"><br>
+除了有点小贵，其他基本符合要求。<br><br>最后付上所有硬件的产品截图：<br><img alt="Pasted image 20231128163809.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231128163809.png">]]></description><link>https://WhiteClouds.github.io/2-我的活动/all-in-one/1.-7*24运行的家用微型服务器选购指南.html</link><guid isPermaLink="false">2-我的活动/All in one/1. 7*24运行的家用微型服务器选购指南.md</guid><pubDate>Thu, 28 Mar 2024 05:25:33 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20231128113943.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20231128113943.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. CentOS的安装与SSH、FTP的配置]]></title><description><![CDATA[ 
+ <br><br>Linux发行版本的选择一版是CentOS和Ubuntu，这两个系统应该没有什么好坏的区别。选择CentOS 7.9是因为公司一直在用这个版本，随大流。<br>CentOS的安装与Win基本一致，制作安装U盘，开机按F7进入启动项选择U盘启动。之后进入图形界面一路下一步。在系统组件菜单项里我选的是最小化安装，需要GUI图形界面的话，把相关组件勾选上就可以了。如果你对系统按照流程不熟悉，可以参考这个教程: <a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1Ft4y187Ta" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1Ft4y187Ta" target="_blank">简单粗暴安装centos全过程 实机演示_哔哩哔哩_bilibili</a>,视频中的刻录软件点击这里可以直接下载。系统镜像可以通过国内的清华源进行下载，官网下载镜像的速度太慢。<br><br>在安装完Linux之后，我们<br>]]></description><link>https://WhiteClouds.github.io/2-我的活动/all-in-one/2.-centos的安装与ssh、ftp的配置.html</link><guid isPermaLink="false">2-我的活动/All in one/2. CentOS的安装与SSH、FTP的配置.md</guid><pubDate>Thu, 28 Mar 2024 03:40:55 GMT</pubDate></item><item><title><![CDATA[1. 两数之和]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:hash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#hash</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:hash" class="tag" target="_blank" rel="noopener">#hash</a><br>
+查找用 hash
+<br>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。<br>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。<br>你可以按任意顺序返回答案。<br>示例 1：<br>
+输入：nums = [2,7,11,15], target = 9<br>
+输出：[0,1]<br>
+解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。<br>示例 2：<br>
+输入：nums = [3,2,4], target = 6<br>
+输出：[1,2]<br>示例 3：<br>
+输入：nums = [3,3], target = 6<br>
+输出：[0,1]<br>Solution :<br>package easy.twosum;
+
+public class Solution {
+    /**
+     * 55ms;43.78MB
+     */
+    int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i &lt; nums.length; i++) {
+            for (int j = i + 1; j &lt; nums.length; j++) {
+                if (nums[i] + nums[j] == target)
+                    return new int[]{i, j};
+            }
+        }
+        return null;
+    }
+}
+复制<br>Solution2：<br>package easy.twosum;
+
+import java.util.HashMap;
+
+public class Solution2 {
+    /**
+     * 2ms;44MB
+     */
+    int[] twoSum(int[] nums, int target) {
+        HashMap&lt;Integer, Integer&gt; hashTable = new HashMap&lt;&gt;();
+        for (int i = 0; i &lt; nums.length; i++) {
+            if (hashTable.containsKey(target - nums[i])) {
+                return new int[]{hashTable.get(target - nums[i]), i};
+            }
+            hashTable.put(nums[i], i);
+        }
+        return new int[0];
+    }
+}
+复制]]></description><link>https://WhiteClouds.github.io/2-我的活动/leetcode/1.-两数之和.html</link><guid isPermaLink="false">2-我的活动/leetCode/1. 两数之和.md</guid><pubDate>Sun, 07 Apr 2024 07:23:35 GMT</pubDate></item><item><title><![CDATA[2. 两数相加]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:链表" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#链表</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:链表" class="tag" target="_blank" rel="noopener">#链表</a><br>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。<br>请你将两个数相加，并以相同形式返回一个表示和的链表。<br>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。<br>示例 1：<br>
+输入：l1 = [2,4,3], l2 = [5,6,4]<br>
+输出：[7,0,8]<br>
+解释：342 + 465 = 807.<br>示例 2：<br>
+输入：l1 = [0], l2 = [0]<br>
+输出：[0]<br>示例 3：<br>
+输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]<br>
+输出：[8,9,9,9,0,0,0,1]<br>提示：<br>
+每个链表中的节点数在范围 [1, 100] 内<br>
+0 &lt;= Node.val &lt;= 9<br>
+题目数据保证列表表示的数字不含前导零<br>ListNode:<br>package hard.addtwonumbers;
+
+public class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
+    }
+
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+}
+复制<br>Solution:<br>package hard.addtwonumbers;
+
+public class Solution {
+    /**
+     * 1ms;43.52MB
+     */
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int c = 0, number1 = 0, number2 = 0;
+        ListNode head = null;
+        ListNode end = null;
+
+        while (l1 != null || l2 != null || c != 0) {
+            ListNode temp = end;
+            end = new ListNode(0, null);
+            if (temp != null)
+                temp.next = end;
+            if (head == null)
+                head = end;
+
+            if (l1 == null) number1 = 0;
+            else number1 = l1.val;
+
+            if (l2 == null) number2 = 0;
+            else number2 = l2.val;
+
+            int result = number1 + number2 + c;
+            end.val = result % 10;
+            c = result / 10;
+
+            l1 = l1 != null ? l1.next : null;
+            l2 = l2 != null ? l2.next : null;
+        }
+        return head;
+    }
+}
+复制<br>Solution2:<br>
+小技巧：对于链表问题，返回结果为头结点时，通常需要先初始化一个预先指针 pre，该指针的下一个节点指向真正的头结点 head。使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。
+<br>class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode pre = new ListNode(0);
+        ListNode cur = pre;
+        int carry = 0;
+        while(l1 != null || l2 != null) {
+            int x = l1 == null ? 0 : l1.val;
+            int y = l2 == null ? 0 : l2.val;
+            int sum = x + y + carry;
+            
+            carry = sum / 10;
+            sum = sum % 10;
+            cur.next = new ListNode(sum);
+
+            cur = cur.next;
+            if(l1 != null)
+                l1 = l1.next;
+            if(l2 != null)
+                l2 = l2.next;
+        }
+        if(carry == 1) {
+            cur.next = new ListNode(carry);
+        }
+        return pre.next;
+    }
+}
+复制]]></description><link>https://WhiteClouds.github.io/2-我的活动/leetcode/2.-两数相加.html</link><guid isPermaLink="false">2-我的活动/leetCode/2. 两数相加.md</guid><pubDate>Sun, 07 Apr 2024 07:23:05 GMT</pubDate></item><item><title><![CDATA[题目]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:滑动窗口" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#滑动窗口</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:滑动窗口" class="tag" target="_blank" rel="noopener">#滑动窗口</a><br><br>示例&nbsp;1:<br>输入: s = "abcabcbb"<br>
+输出: 3<br>
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。<br>示例 2:<br>输入: s = "bbbbb"<br>
+输出: 1<br>
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。<br>示例 3:<br>输入: s = "pwwkew"<br>
+输出: 3<br>
+解释: 因为无重复字符的最长子串是&nbsp;"wke"，所以其长度为 3。请注意，你的答案必须是 子串 的长度，"pwke"&nbsp;是一个子序列，_不是子串。<br>提示：<br>
+<br>0 &lt;= s.length &lt;= 5 * 104
+<br>s&nbsp;由英文字母、数字、符号和空格组成
+<br><br>枚举所有子串，然后在每个子串中判断是否有重复的字符。最后取最长无重复字符的子串。<br><br>public class Solution {  
+    /**  
+     * 424ms;41.59MB
+     */  
+    public int lengthOfLongestSubstring(String s) {  
+        int i, j, k, m, l = 0;  
+        for (i = 0; i &lt; s.length(); i++) {  
+            for (j = i + 1; j &lt; s.length(); j++) {  
+                for (k = i; k &lt; j; k++) {  
+                    if (s.charAt(k) == s.charAt(j)) {  
+                        break;  
+                    }  
+                }  
+                if (k &lt; j) break;  
+            }  
+            m = j - i;  
+            if (m &gt; l) l = m;  
+        }  
+        return l;  
+    }  
+}
+复制<br><br>查看 Solution 1 可以发现两个优化方向：<br>
+<br>可以使用滑动窗口来构造子串
+<br>使用 HashSet 在子串中查找重复字符
+<br>public class Solution2 {  
+    /**  
+     * 6ms;43.6MB     
+     */    
+	public int lengthOfLongestSubstring(String s) {  
+        HashSet&lt;Character&gt; occ = new HashSet&lt;&gt;();  
+        int l = 0;  
+        int rk = -1;  
+        int n = s.length();  
+        for (int i = 0; i &lt; n; i++) {  
+            if (l &gt;= n - i)  
+                return l;  
+            if (i != 0)  
+                occ.remove(s.charAt(i - 1));  
+            while (rk + 1 &lt; n &amp;&amp; !occ.contains(s.charAt(rk + 1))) {  
+                occ.add(s.charAt(rk + 1));  
+                rk++;  
+            }  
+            l = Math.max(l, rk - i + 1);  
+        }  
+        return l;  
+    }  
+}
+复制<br><br>以 "pwawb"为例，当以 p 开头的子串“(pwa)w”重复时，那以 w 开头的子串“(wa)w”也必然重复，且长度必然小于 p 开头的子串。<br>public class Solution3 {  
+    /**  
+     * 5ms;43.42MB     
+     * */    
+     public int lengthOfLongestSubstring(String s) {  
+        HashMap&lt;Character, Integer&gt; occ = new HashMap&lt;Character, Integer&gt;();  
+        int l = 0;  
+        int left = 0;  
+        int n = s.length();  
+        for (int i = 0; i &lt; n; i++) {  
+            if (l &gt;= n - left) return l;  
+            if (occ.containsKey(s.charAt(i))) {  
+                left = Math.max(left, occ.get(s.charAt(i)) + 1);  
+            }  
+            occ.put(s.charAt(i), i);  
+            l = Math.max(l, i - left + 1);  
+        }  
+        return l;  
+    }  
+}
+复制]]></description><link>https://WhiteClouds.github.io/2-我的活动/leetcode/3.-无重复字符的最长子串.html</link><guid isPermaLink="false">2-我的活动/leetCode/3. 无重复字符的最长子串.md</guid><pubDate>Sun, 07 Apr 2024 08:27:03 GMT</pubDate></item><item><title><![CDATA[Frank老师学习和复习方法]]></title><description><![CDATA[ 
+ <br>
+<br>要记笔记，多记多写加深印象
+<br>学完一单元，做练习册
+<br>尽可能把课文背下来，多读文章
+<br>用阅读养单词，不要拿一个单词本在那里死背
+]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/frank老师学习和复习方法.html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Frank老师学习和复习方法.md</guid><pubDate>Thu, 29 Feb 2024 11:29:08 GMT</pubDate></item><item><title><![CDATA[Lesson 1 Excuse me！]]></title><description><![CDATA[ 
+ <br><br>例如：excuse /Ik'skju:z/ -&gt; /Ik'sgju:z/<br><br><br>
+<br>this这个单词读的时候嘴不要张太大，最后那个/s/声带不震动。
+<br>is这个单词最后的/s/声带振动。
+<br><br>
+<br>hand+bag=handbag 女士手提包
+<br>school+bag=schoolbag 书包
+<br><br><br><img alt="Pasted image 20240225195546.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240225195546.png"><br>
+后鼻音舌头下压，前鼻音舌头上台
+<br><br>
+<br>Thank you very much
+<br>Thanks
+<br>Many Thanks
+<br>Thanks a lot
+<br>Thanks very much
+<br><br>
+<br>You are welcome
+<br>Welcome
+<br>That's okay
+<br>Not at all
+<br>It's My/a plaseture
+<br>That's all right
+<br><br><br>
+主格一般做主语，放在句首；宾格做宾语，放在动词或介词之后
+<br><br>
+<br>be动词有am、is、are
+<br>am只能跟在第一人称单数I后面
+<br>is跟在第三人称单数he、she后面，is也可以放在动物、事物、地名后面
+<br>are搭配我们we、你们you、他们they；you不管单数复数都用are
+<br><br>
+<br>肯定句：This is my handbag.这是我的手提包
+<br>否定句：This is not my handbag.这不是我的手提包
+
+<br>含有be动词的句子变否定句，就是在be动词后面加not
+
+
+<br>疑问句：Is this my handbag?这是我的手提包吗？
+
+<br>含有be动词的句子变疑问句，就把be动词提到句子前面，并大写。
+
+
+<br>肯定回答：Yes, it is.是的
+<br>否定回答：No, it isn't.不是
+]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-1-excuse-me！.html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 1 Excuse me！.md</guid><pubDate>Tue, 26 Mar 2024 01:25:31 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240225195546.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240225195546.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Lesson 2 Is this your...?]]></title><description><![CDATA[ 
+ <br>
+<a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1UH4y1j7wJ?p=2&amp;vd_source=1bfe469a264a2b5f885f412c3b094c96" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1UH4y1j7wJ?p=2&amp;vd_source=1bfe469a264a2b5f885f412c3b094c96" target="_blank">视屏</a>
+<br><br>
+<br>pen pal 笔友
+<br>pen name 笔名
+<br><br>
+<br>pencil box 铅笔盒
+<br><br>Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz<br><br>One Two Three Four Five Six Seven Eight Nine Ten]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-2-is-this-your...html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 2 Is this your...?.md</guid><pubDate>Mon, 26 Feb 2024 11:41:59 GMT</pubDate></item><item><title><![CDATA[Lesson 3 Sorry,sir]]></title><description><![CDATA[ 
+ <br><br>雨伞，嘴张大。<br><br>请；可以放在句首，也可以放在句尾。同时也可以单独当一个句子。<br><br>cloak+room = 披风+room = 衣帽寄存处<br>
+bath+room = 洗澡+room = 浴室<br>
+class+room = 班级+room = 教室<br><br>票，凭证；不要只记成是票，更多把他记成是凭证<br><br>男 sir  女 madam<br>
+gentleman 绅士<br>
+guy 家伙<br>
+boy 男孩<br>
+Mister Black 布莱克先生<br><br>先生，您要买什么？<br><br>
+<br>编号：Number+数字
+<br>手机号码
+<br><br>Here‘s your umbrella and your coat. 这是您的雨伞和大衣。<br>
+还原成常规句式：<br>
+Your umbrella and your coat are here. <br>因为第一个倒装句中离be动词最近的主语是your umbrella是单数，所以根据就近原则用is；这个语法只在倒装be动词的时候生效。<br><br>Sorry表示有错误的时候道歉；Excuse me更多的是客套。<br><br>it is = it's ; is not = isn't<br><br>在句子中代指双方都清楚的物品。<br><br>什么时候用a和an。取决于后面的单词第一次读音口型有没有发生变化。变化用a，没变用an；a和an的主要作用是用来后单词第一个读音区分，让别人能听的清。]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-3-sorry,sir.html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 3 Sorry,sir.md</guid><pubDate>Wed, 28 Feb 2024 11:57:52 GMT</pubDate></item><item><title><![CDATA[Lesson 4 Is this your...?]]></title><description><![CDATA[ 
+ <br><br>男士或女士比较正式的衣服，不单单指西服<br><br>在美服可以把陌生人叫son，有调侃的意思。不一定就是骂人<br><br>音标/gh/在很多单词中不发音比如:daughter 女儿]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-4-is-this-your...html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 4 Is this your...?.md</guid><pubDate>Thu, 29 Feb 2024 12:23:09 GMT</pubDate></item><item><title><![CDATA[Lesson 5 Nice to meet you]]></title><description><![CDATA[ 
+ <br><br>
+<br>Good Morning: 早上好，在英语中5:00-12:00都可以叫早上好
+<br>Good afternoon：下午好，noon是中午的意思。after是“在...之后”。在中午之后就是下午啦
+<br>Good evening：傍晚好
+<br>Good night：晚上好；eight-8
+<br><br>
+<br>Mister是对男士的尊称，敬称
+<br>Mrs：已婚女士尊称
+<br>miss：未婚女士
+<br>Ms：不知道婚姻状况
+<br><br>
+<br>哪国人和哪国的的单词都是一样的。既可以是名词，也可以是形容词
+<br>但是French不是法国，就像Chinese是中国人；中国的。China才是中国名称
+<br><br>遇见<br><br>也<br><br>11-eleven 12-twelve 13-thirteen 14-fourteen 15-fifteen 16-sixteen 17-seventeen<br>
+18-eighteen 19-nineteen 20-twenty<br><br>21 : twenty-one 22 : twenty-two 30 : thirty]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-5-nice-to-meet-you.html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 5 Nice to meet you.md</guid><pubDate>Wed, 03 Apr 2024 01:10:04 GMT</pubDate></item><item><title><![CDATA[What make is it ？]]></title><description><![CDATA[ 
+ <br><br>
+这是什么牌子？
+<br>
+<br>这里的make是做名词使用。
+<br>上文中的make也可以用brand替换：what brand is it?也是“这是什么牌子？”的意思
+<br><br>
+区别于一般疑问句，特殊疑问句不能够使用yes或no来回答。<br>
+一般疑问句用升调，特殊疑问句用降调。
+<br>特殊疑问句通常用Who，What，When，Which，Why，Where，Whose，How。其中 what 的意思是“什么”。<br><br>
+英文的思路和中文是反着来的。英文的思路是：什么颜色是这个房子。
+<br>造句：<br>
+What color is the table？桌子<br>
+What color is the horse？马<br>
+What color is the car？车<br><br><br><img alt="Pasted image 20240403204615.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403204615.png"><br><br><img alt="Pasted image 20240403204842.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403204842.png">]]></description><link>https://WhiteClouds.github.io/3-学习笔记/新概念英语1/lesson-6-what-make-is-it？.html</link><guid isPermaLink="false">3-学习笔记/新概念英语1/Lesson 6 What make is it？.md</guid><pubDate>Wed, 03 Apr 2024 12:49:14 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240403204615.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240403204615.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[认识微服务]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:微服务" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#微服务</a> <a class="tag" href="https://WhiteClouds.github.io/?query=tag:注册中心" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注册中心</a> <a class="tag" href="https://WhiteClouds.github.io/?query=tag:负载均衡" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#负载均衡</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:微服务" class="tag" target="_blank" rel="noopener">#微服务</a> <a href="https://WhiteClouds.github.io?query=tag:注册中心" class="tag" target="_blank" rel="noopener">#注册中心</a> <a href="https://WhiteClouds.github.io?query=tag:负载均衡" class="tag" target="_blank" rel="noopener">#负载均衡</a><br><br><img alt="Pasted image 20240328161731.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328161731.png"><br><br><br><img alt="Pasted image 20240328153424.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328153424.png"><br><br><img alt="Pasted image 20240328153727.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328153727.png"><br><br><img alt="Pasted image 20240328154035.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328154035.png"><br><br>
+微服务是一种经过良好架构设计的分布式架构方案。微服务本质上也是一种分布式方案
+<br><img alt="Pasted image 20240328154756.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328154756.png"><br><br>单体架构特点？<br>
+<br>简单方便，高度耦合，扩展性差，适合小型项目。例如：学生管理系统<br>
+分布式架构特点？
+<br>松耦合，扩展性好，但架构复杂，难度大。适合大型互联网项目，例如：京东、淘宝<br>
+微服务：一种良好的分布式架构方案
+<br>优点：拆分粒度更小、服务更独立、耦合度更低
+<br>缺点：架构非常复杂，运维、监控、部署难度提高
+<br><br><img alt="Pasted image 20240328162348.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328162348.png"><br><br><br><img alt="Pasted image 20240328162829.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328162829.png"><br><br><img alt="Pasted image 20240328163053.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328163053.png"><br><br><br><img alt="Pasted image 20240328163910.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328163910.png"><br><br>OrderService:<br>@Service
+public class OrderService {
+
+    @Autowired
+    private OrderMapper orderMapper;
+
+    public Order queryOrderById(Long orderId) {
+        // 1.查询订单
+        Order order = orderMapper.findById(orderId);
+        // 4.返回
+        return order;
+    }
+}
+复制<br>UserService:<br>@Service
+public class UserService {
+
+    @Autowired
+    private UserMapper userMapper;
+
+    public User queryById(Long id) {
+        return userMapper.findById(id);
+    }
+}
+复制<br><br><br><img alt="Pasted image 20240328164940.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328164940.png"><br><br>
+实现使用Java代码发送http请求
+<br>
+<br>在order-service的OrderApplication中注册RestTemplate
+<br>@MapperScan("cn.itcast.order.mapper")
+@SpringBootApplication
+public class OrderApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(OrderApplication.class, args);
+    }
+
+    @Bean
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
+}
+复制<br>
+<br>修改order-service中的OrderService的queryOrderById方法：
+<br>@Service
+public class OrderService {
+
+    @Autowired
+    private OrderMapper orderMapper;
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    public Order queryOrderById(Long orderId) {
+        // 1.查询订单
+        Order order = orderMapper.findById(orderId);
+        String url = "http://localhost:8081/user/" + order.getUserId();
+        User user = restTemplate.getForObject(url, User.class);
+        order.setUser(user);
+        // 4.返回
+        return order;
+    }
+}
+复制<br>
+<br>验证<br>
+<img alt="Pasted image 20240328170745.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240328170745.png">
+<br>总结：<br>
+<br>基于RestTemplate发起的http请求实现远程调用
+<br>http请求做远程调用是与语言无关的调用，只要知道对方的ip、端口、接口路径、请求参数即可。
+<br><br>
+服务提供者：一次业务中，被其它微服务调用的服务。（提供接口给其它微服务）<br>
+服务消费者：一次业务中，调用其它微服务的服务。（调用其它微服务提供的接口）
+<br>服务A调用服务B，服务B调用服务C，那么服务B是什么角色？<br>
+<br>服务提供者：暴露接口给其它微服务调用
+<br>服务消费者：调用其它微服务提供的接口
+<br>提供者与消费者角色其实是相对的
+<br>一个服务可以同时是服务提供者和服务消费者
+<br><br><br><img alt="Pasted image 20240401112122.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401112122.png"><br><br><img alt="Pasted image 20240401112418.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401112418.png"><br>
+<br>消费者该如何获取服务提供者具体信息？
+
+<br>服务提供者启动时向eureka注册自己的信息
+<br>eureka保存这些信息
+<br>消费者根据服务名称向eureka拉取提供者信息
+
+
+<br>如果有多个服务提供者，消费者该如何选择？
+
+<br>服务消费者利用负载均衡算法，从服务列表中挑选一个
+
+
+<br>消费者如何感知服务提供者健康状态？
+
+<br>服务提供者会每隔30秒向EurekaServer发送心跳请求，报告健康状态
+<br>eureka会更新记录服务列表信息，心跳不正常会被剔除
+<br>消费者就可以拉取到最新的信息
+
+
+<br><br>
+<br>在Eureka架构中，微服务角色有两类：
+<br>
+<br>EurekaServer：服务端，注册中心
+
+<br>记录服务信息
+<br>心跳监控
+
+
+<br>EurekaClient：客户端
+
+<br>Provider：服务提供者，例如案例中的 user-service
+
+<br>注册自己的信息到EurekaServer
+<br>每隔30秒向EurekaServer发送心跳
+
+
+<br>consumer：服务消费者，例如案例中的 order-service
+
+<br>根据服务名称从EurekaServer拉取服务列表
+<br>基于服务列表做负载均衡，选中一个微服务后发起远程调用
+
+
+
+
+<br><br><br>
+<br>创建项目，引入spring-cloud-starter-netflix-eureka-server的依赖
+<br>&lt;dependency&gt;    
+	&lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;    
+	&lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt;
+&lt;/dependency&gt;
+复制<br>
+上文中的spring-cloud-starter-netflix-eureka-server的starter表示Eureka服务端的所有服务spring boot都已经帮我们配置好了。我们只需要引入依赖直接使用就好了。
+<br>
+<br>
+编写启动类，添加@EnableEurekaServer注解
+
+<br>
+添加application.yml文件，编写下面的配置：
+
+<br>server:
+  port: 10086
+spring:  
+  application:    
+    name: eurekaserver
+eureka: 
+  client:  
+	service-url:      
+      defaultZone: http://127.0.0.1:10086/eureka/
+复制<br><br>
+<br>在user-service项目引入spring-cloud-starter-netflix-eureka-client的依赖
+<br>&lt;dependency&gt;    
+	&lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;    
+	&lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt;
+&lt;/dependency&gt;
+复制<br>
+<br>在application.yml文件，编写下面的配置：
+<br>eureka:  
+  client:    
+	service-url:      
+      defaultZone: http://127.0.0.1:10086/eureka/
+复制<br>启动多个服务实例<br>
+-Dserver.port=8082<br>
+<img alt="Pasted image 20240401152524.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401152524.png">
+<br><img alt="Pasted image 20240401152912.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401152912.png"><br><br>
+<br>修改OrderService的代码，修改访问的url路径，用服务名代替ip、端口：
+<br>String url = "http://userservice/user/" + order.getUserId();
+复制<br>
+<br>在order-service项目的启动类OrderApplication中的RestTemplate添加负载均衡注解：
+<br>@Bean
+@LoadBalanced
+public RestTemplate restTemplate() {    
+	return new RestTemplate();
+}
+复制<br>
+<br>在浏览器中访问http://localhost:8088/order/103<br>
+<img alt="Pasted image 20240401155402.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240401155402.png">
+<br><br><br><img alt="Pasted image 20240403101629.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403101629.png"><br><br>
+Ribbon的负载均衡规则是一个叫做IRule的接口来定义的，每一个子接口都是一种规则：
+<br><img alt="Pasted image 20240403101937.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403101937.png"><br><img alt="Pasted image 20240403102010.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403102010.png"><br><br>通过定义IRule实现可以修改负载均衡规则，有两种方式：<br>
+<br>代码方式：在order-service中的OrderApplication类中，定义一个新的IRule：
+<br>@Bean
+public IRule randomRule(){
+	return new RandomRule();
+}
+复制<br>
+<br>配置文件方式：在order-service的application.yml文件中，添加新的配置也可以修改规则：
+<br>userservice:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则 
+复制<br>
+第一种方案是全局负载均衡方案配置，配置完之后所有的请求都会使用这个方案进行请求<br>
+第二种方案是先配置了服务名称，在配置了负载均衡方案。这种只会在请求这个服务的时候才会使用本方案。其他的请求不使用本方案。
+<br><br>Ribbon默认是采用懒加载，即第一次访问时才会去创建LoadBalanceClient，请求时间会很长。<br>
+而饥饿加载则会在项目启动时创建，降低第一次访问的耗时，通过下面配置开启饥饿加载：<br>ribbon:
+  eager-load:
+	enabled: true # 开启饥饿加载
+	  clients: userservice # 对userservice这个服务饥饿加载；对一个服务进行饥饿加载
+	  # 对多个服务进行饥饿加载的方法
+		# - userservice1 
+		# - userservice2
+复制<br><br>
+<br>Ribbon负载均衡规则
+
+<br>规则接口是IRule
+<br>默认实现是ZoneAvoidanceRule，根据zone选择服务列表，然后轮询
+
+
+<br>负载均衡自定义方式
+
+<br>代码方式：配置灵活，但修改时需要重新打包发布
+<br>配置方式：直观，方便，无需重新打包发布，但是无法做全局配置
+
+
+<br>饥饿加载
+
+<br>开启饥饿加载
+<br>指定饥饿加载的微服务名称
+
+
+<br><br>Nacos 是阿里巴巴的产品，现在是 SpringCloud 中的一个组件。相比 Eureka 功能更加丰富，在国内受欢迎程度较高。<br><br>Nacos 是使用 Java 开发的注册中心，所以首先需要在配置 Java 的运行环境。<br>
+<br>下载并解压 Nacos 安装包：<a data-tooltip-position="top" aria-label="https://github.com/alibaba/nacos" rel="noopener" class="external-link" href="https://github.com/alibaba/nacos" target="_blank">下载地址</a><br>
+<img alt="Pasted image 20240407110432.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407110432.png"><br>
+Nacos 目录结构
+<br>
+<br>Bin：启动 Nacos 的可执行目录
+<br>Conf：Nacos 的配置文件
+<br>Target：Nacos 的 jar 包
+<br>
+<br>通过命令行执行 bin 目录下的脚本启动 Nacos
+<br>sh startup.sh -m standalone
+复制<br>
+<br>-m：启动的模式
+<br>Standalone：单机启动
+<br>
+<br>验证<br>
+<img alt="Pasted image 20240407111340.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407111340.png"><br>
+访问http://localhost:8848/nacos/index.html查看Nacos主页：<br>
+<img alt="Pasted image 20240407111428.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407111428.png">
+<br><br>
+<br>在 cloud-demo 父工程中添加 spring-cloud-alilbaba 的管理依赖：
+<br>&lt;!-- springCloud --&gt;  
+&lt;dependency&gt;  
+    &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt;  
+    &lt;artifactId&gt;spring-cloud-alibaba-dependencies&lt;/artifactId&gt;  
+    &lt;version&gt;${spring-cloud-alibaba.version}&lt;/version&gt;  
+    &lt;type&gt;pom&lt;/type&gt;  
+    &lt;scope&gt;import&lt;/scope&gt;  
+&lt;/dependency&gt;
+复制<br>
+<br>添加 Nacos 客户端依赖
+<br>&lt;dependency&gt;  
+    &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt;  
+    &lt;artifactId&gt;spring-cloud-starter-alibaba-nacos-discovery&lt;/artifactId&gt;  
+&lt;/dependency&gt;
+复制<br>
+<br>修改 user-service&amp;order-service 中的 application. Yml 文件，注释 eureka 地址，添加 nacos 地址：
+<br>spring:  
+  cloud:  
+    nacos:  
+      server-addr: localhost:8848
+复制<br>
+<br>启动 client 服务并验证<br>
+<img alt="Pasted image 20240407114815.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407114815.png">
+<br><br>Nacos 的服务级别为服务-集群-实例；通过这种分级模型可以大大增加应用的容灾能力。<br>
+<img alt="Pasted image 20240407115734.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407115734.png"><br><br><img alt="Pasted image 20240407120004.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407120004.png"><br><br>
+<br>修改 application. yml，添加如下内容
+<br>spring:
+  cloud:  
+    nacos:  
+      discovery:  
+        cluster-name: HZ # 集群名称；例如：HZ，杭州
+复制<br>
+<br>验证<br>
+<img alt="Pasted image 20240407120800.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407120800.png">
+<br><br>START<br>
+问答题<br>
+正面: 单体架构的优缺点？<br>
+背面: <a data-href="day01-SpringCloud01#单体架构" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#单体架构" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 单体架构</a><br><br>END<br>START<br>
+问答题<br>
+正面: 分布式架构的优缺点？<br>
+背面: <a data-href="day01-SpringCloud01#分布式架构" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#分布式架构" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 分布式架构</a><br><br>END<br>START<br>
+问答题<br>
+正面: 在分布式架构中的服务治理要考虑哪些东西？<br>
+背面: <a data-href="day01-SpringCloud01#服务治理" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#服务治理" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 服务治理</a><br><br>END<br>START<br>
+问答题<br>
+正面: 什么是微服务？<br>
+背面: <a data-href="day01-SpringCloud01#微服务" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#微服务" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 微服务</a><br><br>END<br>START<br>
+问答题<br>
+正面: 微服务都有哪些技术栈？<br>
+背面: <a data-href="day01-SpringCloud01#微服务技术对比" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#微服务技术对比" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 微服务技术对比</a><br><br>END<br>START<br>
+问答题<br>
+正面: spring cloud都有哪些技术组件？【了解】<br>
+背面: <a data-href="day01-SpringCloud01#技术组件" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#技术组件" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 技术组件</a><br><br>END<br>START<br>
+填空题<br>
+文字: cloud和boot之间{{c1::存在}}版本兼容问题吗？<br>
+背面额外: 存在；<a data-href="day01-SpringCloud01#spring cloud和spring boot之间的版本兼容" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#spring_cloud和spring_boot之间的版本兼容" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; spring cloud和spring boot之间的版本兼容</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何使用RestTemplate发送Http请求？<br>
+背面: <a data-href="day01-SpringCloud01#远程调用" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#远程调用" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 远程调用</a><br><br>END<br>START<br>
+问答题<br>
+正面: 什么是提供者和消费者？<br>
+背面: <a data-href="day01-SpringCloud01#提供者和消费者" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#提供者和消费者" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 提供者和消费者</a><br><br>END<br>START<br>
+问答题<br>
+正面: Eureka解决了什么问题？<br>
+背面: <a data-href="day01-SpringCloud01#解决了什么问题" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#解决了什么问题" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 解决了什么问题</a><br><br>END<br>START<br>
+问答题<br>
+正面: Eureka的工作流程？<br>
+背面: <a data-href="day01-SpringCloud01#Eureka的工作流程" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#Eureka的工作流程" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; Eureka的工作流程</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何搭建Eureka服务端？<br>
+背面: <a data-href="day01-SpringCloud01#搭建EurekaServer" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#搭建EurekaServer" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 搭建EurekaServer</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何搭建EurekaClient？<br>
+背面: <a data-href="day01-SpringCloud01#将client注册到Eureka" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#将client注册到Eureka" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 将client注册到Eureka</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何通过Eureka实现远程调用？<br>
+背面: <a data-href="day01-SpringCloud01#通过Eureka完成远程调用" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#通过Eureka完成远程调用" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 通过Eureka完成远程调用</a><br><br>END<br>START<br>
+问答题<br>
+正面: ribbon负载均衡的流程？<br>
+背面: <a data-href="day01-SpringCloud01#负载均衡的流程" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#负载均衡的流程" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 负载均衡的流程</a><br><br>END<br>START<br>
+问答题<br>
+正面: ribbon负载均衡都有哪些策略？<br>
+背面: <a data-href="day01-SpringCloud01#负载均衡策略" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#负载均衡策略" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 负载均衡策略</a><br><br>END<br>START<br>
+问答题<br>
+正面: 调整ribbon负载均衡的策略有哪几种方案，以及它们之间的区别是什么？<br>
+背面: <a data-href="day01-SpringCloud01#调整负载均衡的策略" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#调整负载均衡的策略" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 调整负载均衡的策略</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何开启Ribbon的饥饿加载？如何指定单个或多个服务开启饥饿加载？<br>
+背面: <a data-href="day01-SpringCloud01#饥饿加载" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#饥饿加载" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 饥饿加载</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何安装 Nacos？<br>
+背面: <a data-href="day01-SpringCloud01#安装 Nacos" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#安装_Nacos" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 安装 Nacos</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何注册服务到 Nacos？<br>
+背面: <a data-href="day01-SpringCloud01#服务注册到 Nacos" href="https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html#服务注册到_Nacos" class="internal-link" target="_self" rel="noopener">day01-SpringCloud01 &gt; 服务注册到 Nacos</a><br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/it黑马微服务/实用篇/day01-springcloud01.html</link><guid isPermaLink="false">3-学习笔记/IT黑马微服务/实用篇/day01-SpringCloud01.md</guid><pubDate>Sun, 07 Apr 2024 04:08:09 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240328161731.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240328161731.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2.1.1 下载JDK]]></title><description><![CDATA[ 
+ <br><br>
+java开发工具包网址 : <a data-tooltip-position="top" aria-label="http://www.oracle.com/technetwork/java/javase/downloads" rel="noopener" class="external-link" href="http://www.oracle.com/technetwork/java/javase/downloads" target="_blank">www.oracle.com/technetwork/java/javase/downloads</a>
+<br><br><img alt="Pasted image 20240306160258.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306160258.png"><br>
+<img alt="Pasted image 20240306160309.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306160309.png"><br><br>java的开发环境早期比较混乱，这种混乱在Java SE 9被终结。Java SE 9之后主要知道SE和EE这两种开发环境即可。参见<a data-href="2. Java SE vs Java EE" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/2.-java-se-vs-java-ee.html" class="internal-link" target="_self" rel="noopener">2. Java SE vs Java EE</a><br>
+<br>javaSE ：java的标准标，包含了核心库已经像JVM等核心组件。适合开发轻型应用
+<br>javaEE ： Java的企业版，除了包含核心库已经JVM等。还包含了web，邮件等企业常用的开发库。
+<br>javaME ：移动版java
+<br><br>
+<br>将“java/bin”的具体路径添加到系统的可执行路径列表中：
+<br><img alt="Pasted image 20240306163100.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306163100.png"><br>
+<br>在命令行输入java --version查看是否有正确的输出
+<br><img alt="Pasted image 20240306163027.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306163027.png"><br><br>在JDK的安装目录中下有一个src.zip文件，这个就是JDK类库的源代码。<br>解压后目录结构如下：<br>
+<img alt="Pasted image 20240306162802.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306162802.png"><br><br>START<br>
+问答题<br>
+正面: java开发工具包有哪些专业名词<br>
+背面: <a data-href="2.1 安装Java开发工具包#2.1.1 下载JDK" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.1-安装java开发工具包.html#2.1.1_下载JDK" class="internal-link" target="_self" rel="noopener">2.1 安装Java开发工具包 &gt; 2.1.1 下载JDK</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何设置JDK<br>
+背面: <a data-href="2.1 安装Java开发工具包#2.1.2 设置JDK" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.1-安装java开发工具包.html#2.1.2_设置JDK" class="internal-link" target="_self" rel="noopener">2.1 安装Java开发工具包 &gt; 2.1.2 设置JDK</a><br><br>END<br>START<br>
+问答题<br>
+正面: 如何查看JDK类库的源码<br>
+背面: <a data-href="2.1 安装Java开发工具包#2.1.3 安装库源文件和文档" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.1-安装java开发工具包.html#2.1.3_安装库源文件和文档" class="internal-link" target="_self" rel="noopener">2.1 安装Java开发工具包 &gt; 2.1.3 安装库源文件和文档</a><br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.1-安装java开发工具包.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.1 安装Java开发工具包.md</guid><pubDate>Thu, 28 Mar 2024 03:36:58 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240306160258.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240306160258.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2.2 使用命令行工具]]></title><description><![CDATA[ 
+ <br><br><img alt="Pasted image 20240306164959.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306164959.png"><br><br>javac和java是java/bin目录下的两个程序如图：<br>
+<img alt="Pasted image 20240306164546.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306164546.png"><br>
+<br>javac程序是一个java编译器，作用是将文件Welcome.java编译成类文件Welcome.class。
+<br>java程序启动Java虚拟机，执行Welcome.class中的字节码
+<br><br>
+<br>编译器需要 一个文件名(welcome.java)，而运行程序时，只需要指定类名(welcome)，不要带扩展名. java 或. class。
+<br><br>START<br>
+问答题<br>
+正面: 如何命令行运行一个java程序<br>
+背面: javac ; java ; <a data-href="2.2 使用命令行工具" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.2-使用命令行工具.html" class="internal-link" target="_self" rel="noopener">2.2 使用命令行工具</a><br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.2-使用命令行工具.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.2 使用命令行工具.md</guid><pubDate>Thu, 28 Mar 2024 03:36:53 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240306164959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240306164959.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2.3 使用集成开发环境]]></title><description><![CDATA[ 
+ <br>参见<a data-href="idea如何创建一个普通的java-demo项目" href="https://WhiteClouds.github.io/5-开发纪录/idea/idea如何创建一个普通的java-demo项目.html" class="internal-link" target="_self" rel="noopener">idea如何创建一个普通的java-demo项目</a>]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.3-使用集成开发环境.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.3 使用集成开发环境.md</guid><pubDate>Thu, 28 Mar 2024 03:41:27 GMT</pubDate></item><item><title><![CDATA[2.4 JShell]]></title><description><![CDATA[ 
+ <br>我靠Java也有Shell工具啊。我以前测java片段，都是从main开始写的😭<br><br><img alt="Pasted image 20240306170451.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240306170451.png"><br><br>$表示这个结果可以用于将来的计算。例如5 * $1 - 3中的$1取的就是“9”<br><br>START<br>
+问答题<br>
+正面: 如何运行JShell<br>
+背面: jshell ；<a data-href="2.4 JShell" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.4-jshell.html" class="internal-link" target="_self" rel="noopener">2.4 JShell</a><br><br>END<br>START<br>
+问答题<br>
+正面: JShell中“]]<br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.4-jshell.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.4 JShell.md</guid><pubDate>Thu, 28 Mar 2024 03:41:30 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240306170451.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240306170451.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[demo]]></title><description><![CDATA[ 
+ <br><br>public class FirstSample {
+	public static void main(String[] args) {
+		System.out.println("We will not use 'Hello, World!'"); 
+	}
+}
+复制<br>语法<br>
+<br>Java区分大小写
+<br>Java的全部内容都必须放置在类中
+<br>源代码的文件名必须与公共类的名字相同，并用.java作为扩展名。
+<br>运行已编译的程序时，Java 虚拟机总是从指定类中的main 方法的代码开始执行。因此为了代码能够执行，在类的源文件中必须包含一个main方法。
+<br>类的命名规则<br>
+<br>必须以字母开头
+<br>后面可以跟字母和数字的组合
+<br>长度基本没有限制。
+<br>但是不能使用Java保留字作为类名（例如：public或class）
+<br>如果名字由多个单词组成，每个单词第一个字母都应该大写（camel case）
+<br>
+在Java 中，每个句子必须用分号结束。特别需要说明，回车不是语句的结束标志，因此，如果需要可以将一条语向写在多行上。
+<br><br>START<br>
+问答题<br>
+正面: 通过Hello World程序，你能看出什么？<br>
+背面: <a data-href="3.1 一个简单的Java应用程序" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.1-一个简单的java应用程序.html" class="internal-link" target="_self" rel="noopener">3.1 一个简单的Java应用程序</a><br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.1-一个简单的java应用程序.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.1 一个简单的Java应用程序.md</guid><pubDate>Wed, 03 Apr 2024 07:41:50 GMT</pubDate></item><item><title><![CDATA[3.2 注释]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:注释" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注释</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:注释" class="tag" target="_blank" rel="noopener">#注释</a><br>本文可以参考：<a data-href="1. 注释有哪几种形式" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本语法/1.-注释有哪几种形式.html" class="internal-link" target="_self" rel="noopener">1. 注释有哪几种形式</a><br>
+与大多数程序设计语言一样，Java 中的注释也不会出现在可执行程序中。因此，可以在源程序中根据需要添加任意多的注释，而不必担心可执行代码会膨胀。
+<br>单行注释<br>最常用的方式是使用//，其注释内容从//开始到本行结尾。<br>System.out.println("Wewill not use 'Hello,world!'"); // is this too cute?
+复制<br>多行注释<br>当需要更长的注释时，既可以在每行的注释前面标//1，也可以使用/* 和 */ 注释界定符将一段比较长的注释括起来。<br>文档注释<br>第了种注释可以用来自动地生成文档。这种注释以/* 开始，以/ 结束。<br>/**
+
+*/
+public class FirstSample {
+	public static void main(String[] args) {
+		System.out.println("We will not use 'Hello, World!'"); 
+	}
+}
+复制]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.2-注释.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.2 注释.md</guid><pubDate>Wed, 03 Apr 2024 08:08:06 GMT</pubDate></item><item><title><![CDATA[3.3 数据类型]]></title><description><![CDATA[ 
+ <br>Java 是一种强类型语言。这就意味着必须为每一个变量声明一种类型。在Java中，一共有8种基本类型(primitive type)，其中有4种整型、2种浮点类型、1种宇符类型char (用于表示Unicode编码的代码单元)和1种用于表示真值的 boolean 类型。具体可以参考<a data-href="1. Java中的基本数据类型" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本数据类型/1.-java中的基本数据类型.html" class="internal-link" target="_self" rel="noopener">1. Java中的基本数据类型</a>]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3-数据类型.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3 数据类型.md</guid><pubDate>Wed, 03 Apr 2024 08:01:55 GMT</pubDate></item><item><title><![CDATA[3.3.1 整型]]></title><description><![CDATA[ 
+ <br>整型用于表示没有小数部分的数值，允许是负数。Java提供了4种整型:<br><img alt="Pasted image 20240403160321.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403160321.png"><br>在Java中，整型的范围与运行Java代码的机器无关。这就解决了软件从一个平台移植 到另一个平台，或者在同一个平台中的不同操作系统之间进行移植给程序员带来的诸多问题。 <br>
+Tips: C和C+程序会针对不同的处理器选择最为高效的整型，这样就会造成一 个在32位处理器上运行很好的C程序在16位系统上运行时却发生整数溢出。由于Java程序必须保证在所有机器上都能够得到相同的运行结果，所以各种数据类型的取值范围必须固定。
+<br>字面量的前缀和后缀？ <br>
+<br>长整型数值需要有一个后缀L或l(如4000000L)。
+<br>十六进制：前缀0x或0X，如0xCAEF
+<br>八进制： 八进制有一个前缀0，例如 ，010对应十进制中的8。很显然，八进制表示法比较容易混淆，所以建议最好不要使用八进制常数
+<br>二进制：从 Java7开始，前缀0b或0B表示二进制，如0b1001就是9
+<br>还可以为数字字面量加下划线，如用 100000 (或  0b1111_0100_0010_0000) 表示 100 万。这些下划线只是为了让人更易读。Java 编译器会去除这些下划线。
+<br><br>START<br>
+问答题<br>
+正面: Java和C++在变量字节长度上的区别？<br>
+背面: <a data-href="3.3.1 整型#^a4afa4" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.1-整型.html#^a4afa4" class="internal-link" target="_self" rel="noopener">3.3.1 整型 &gt; ^a4afa4</a><br><br>END<br>START<br>
+问答题<br>
+正面: 字面量有哪些前缀和后缀？<br>
+背面: <a data-href="3.3.1 整型#^0e6c7c" href="https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.1-整型.html#^0e6c7c" class="internal-link" target="_self" rel="noopener">3.3.1 整型 &gt; ^0e6c7c</a><br><br>END]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.1-整型.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.1 整型.md</guid><pubDate>Wed, 03 Apr 2024 08:48:09 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240403160321.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240403160321.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3.3.2 浮点类型]]></title><description><![CDATA[ 
+ <br>浮点类型用于表示有小数部分的数值。在 Java 中有两种浮点类型：<br><img alt="Pasted image 20240403164900.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240403164900.png">]]></description><link>https://WhiteClouds.github.io/3-学习笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.2-浮点类型.html</link><guid isPermaLink="false">3-学习笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.2 浮点类型.md</guid><pubDate>Wed, 03 Apr 2024 08:50:13 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240403164900.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20240403164900.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[README]]></title><description><![CDATA[ 
+ <br>学习模块是呈现了我在阅读书籍时记录的笔记和学习总结。目录需要按照教材的大纲进行组织，内容要详细，但不要啰嗦。并且每一个知识点配合Zotero链接到原文。除此之外还需要使用Anki进行记忆。最后以章为单位，学习一个章节之后，要做一份思维导图。最后在将每张的思维导图整理成全书的思维导图。]]></description><link>https://WhiteClouds.github.io/3-学习笔记/readme.html</link><guid isPermaLink="false">3-学习笔记/README.md</guid><pubDate>Tue, 26 Mar 2024 05:52:58 GMT</pubDate></item><item><title><![CDATA[跨域（CSRF）]]></title><description><![CDATA[ 
+ <br>
+source:
+
+<br><a data-tooltip-position="top" aria-label="https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html" rel="noopener" class="external-link" href="https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html" target="_blank">浅谈CSRF攻击方式 - hyddd - 博客园</a>
+<br><a data-tooltip-position="top" aria-label="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" rel="noopener" class="external-link" href="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" target="_blank">前端安全系列（二）：如何防止CSRF攻击？ - 美团技术团队</a>
+
+<br><br><img alt="Pasted image 20230906111013.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20230906111013.png"><br>从上图可以看出，要完成一次CSRF攻击，受害者必须依次完成两个步骤：<br>
+<br>登录受信任网站A，并在本地生成Cookie。
+<br>在不登出A的情况下，访问危险网站B。
+<br>browser在发送请求时会自动带上Cookie（CSRF攻击是源于WEB的隐式身份验证机制！WEB的身份验证机制虽然可以保证一个请求是来自于某个用户的浏览器，但却无法保证该请求是用户批准发送的！）<br>
+看到这里，你也许会说：“如果我不满足以上两个条件中的一个，我就不会受到CSRF的攻击”。是的，确实如此，但你不能保证以下情况不会发生：
+<br>你不能保证你登录了一个网站后，不再打开一个tab页面并访问另外的网站。
+<br>你不能保证你关闭浏览器了后，你本地的Cookie立刻过期，你上次的会话已经结束。（事实上，关闭浏览器不能结束一个会话，但大多数人都会错误的认为关闭浏览器就等于退出登录/结束会话了......）
+<br>上图中所谓的攻击网站，可能是一个存在其他漏洞的可信任的经常被人访问的网站。
+<br><br>银行网站A，它以GET请求来完成银行转账的操作，如：<a rel="noopener" class="external-link" href="http://www.mybank.com/Transfer.php?toBankId=11&amp;money=1000" target="_blank">http://www.mybank.com/Transfer.php?toBankId=11&amp;money=1000</a><br>// 银行的请求代码
+&lt;?php　　　　
+session_start();　　　　
+if (isset($_POST['toBankId'] &amp;&amp;　isset($_POST['money'])){　　　　    buy_stocks($_POST['toBankId'],　$_POST['money']);　　　　
+}　　
+?&gt;
+复制<br>// 恶意网站发送的请求
+&lt;html&gt;　　
+&lt;head&gt;　　　　
+&lt;script type="text/javascript"&gt;　　　　　　
+function steal(){
+iframe = document.frames["steal"];　　     　　         iframe.document.Submit("transfer");　　　　　　
+}　　　　
+&lt;/script&gt;　　
+&lt;/head&gt;　　
+&lt;body onload="steal()"&gt;　　　　
+&lt;iframe name="steal" display="none"&gt;　　　　　　&lt;form method="POST" name="transfer"　action="http://www.myBank.com/Transfer.php"&gt;　　　　　　　　&lt;input type="hidden" name="toBankId" value="11"&gt;　　　　　　　　&lt;input type="hidden" name="money" value="1000"&gt;　　　　　　
+&lt;/form&gt;　　　　
+&lt;/iframe&gt;　　
+&lt;/body&gt;
+&lt;/html&gt;
+复制<br><br>CSRF通常从第三方网站发起，被攻击的网站无法防止攻击发生，只能通过增强自己网站针对CSRF的防护能力来提升安全性。<br>上文中讲了CSRF的两个特点：<br>
+<br>CSRF（通常）发生在第三方域名。
+<br>CSRF攻击者不能获取到Cookie等信息，只是使用。
+<br>针对这两点，我们可以专门制定防护策略，如下：<br>
+<br>阻止不明外域的访问
+<br>
+<br>同源检测
+<br>Samesite Cookie
+<br>
+<br>提交时要求附加本域才能获取的信息
+<br>
+<br>CSRF Token
+<br>双重Cookie验证
+<br>详细防御措施介绍见<a data-tooltip-position="top" aria-label="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" rel="noopener" class="external-link" href="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" target="_blank">前端安全系列（二）：如何防止CSRF攻击？ - 美团技术团队</a><br><br>START<br>
+填空题<br>
+文字: 跨域攻击的英文简称{{c1::CSRF}}<br>
+背面额外: <br><br>END<br>START<br>
+问答题<br>
+正面: CSRF的原理<br>
+背面: <a data-href="跨域（CSRF）#^16b02b" href="https://WhiteClouds.github.io/4-精选随笔/跨域（csrf）.html#^16b02b" class="internal-link" target="_self" rel="noopener">跨域（CSRF） &gt; ^16b02b</a><br><br>END]]></description><link>https://WhiteClouds.github.io/4-精选随笔/跨域（csrf）.html</link><guid isPermaLink="false">4-精选随笔/跨域（CSRF）.md</guid><pubDate>Sun, 07 Apr 2024 12:10:35 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20230906111013.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20230906111013.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Https的加密原理]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:http" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#http</a> <a class="tag" href="https://WhiteClouds.github.io/?query=tag:加密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#加密</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:http" class="tag" target="_blank" rel="noopener">#http</a> <a href="https://WhiteClouds.github.io?query=tag:加密" class="tag" target="_blank" rel="noopener">#加密</a><br><br>因为http的内容是明文传输的，明文数据会经过多个节点，劫持者在节点中查看、篡改传输的信息且不被双方察觉。所以需要对信息进行加密。最简单就是对称加密 。<br><br>
+通信双方使用对称密钥进行加密和解密 
+<br><img alt="Pasted image 20231117105844.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png"><br>
+对称加密的问题在于通信双方如何安全的密钥交换，同时不被别人知晓。可以预先把密钥存储在双方的浏览器中。但是浏览器不可能存储所有网站的通信密钥，所以接下来我们要解决的是如何在网络环境中使用非对称加密安全的交换对称密钥。<br><br>
+使用公钥加密的数据只有对应的私钥可以解密，使用私钥加密的数据只有对应的公钥可以解密。
+<br><img alt="Pasted image 20231117110909.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117110909.png"><br>
+基于非对称加密的特性，我们自然会有这样的思路：<br>
+<br>某网站服务器拥有公钥A与对应的私钥A’
+<br>浏览器向网站服务器请求，服务器把公钥A明文给传输浏览器。
+<br>浏览器生成对称密钥X使用A加密数据发送给服务器
+<br>服务器使用A‘进行解密获取到对称密钥X
+<br>这样浏览器和服务器双方就可以使用对称加密X进行安全通信啦。
+<br>最后就是为啥要先用非对称加密的方法先交换对称密钥，然后在用对称密钥通信呢。不能直接使用非对称加密方法加密数据直接进行通信吗？很重要的原因是非对称加密算法非常耗时，而对称加密快很多。<br>到这里就结束了吗？不对吧如果浏览器和服务器在交换对称密钥的过程中，通信的过程中被劫持了会怎么样呢？<br><br>我们来模拟一下上述的交换过程存在哪些漏洞：<br>
+<br>某网站有用于非对称加密的公钥A、私钥A’，中间人拥有公钥B、私钥B’并劫持了浏览器和服务器的通信
+<br>浏览器向网站服务器请求，服务器把公钥A明文给传输浏览器。
+<br>中间人劫持到公钥A，保存下来，把数据包中的公钥A替换成自己伪造的公钥B
+<br>浏览器生成一个用于对称加密的密钥X，用公钥B（浏览器无法得知公钥被替换了）加密后传给服务器。
+<br>中间人劫持后用私钥B’解密得到密钥X，再用公钥A加密后传给服务器。
+<br>服务器拿到后用私钥A’解密得到密钥X。
+<br>这么一通操作之后通信双方都不知道密钥X已经被中间人获取了。造成这个结果的根本原因是浏览器无法确认收到的公钥是不是网站自己的。<br>这究竟要怎么办呢？这就需要数字证书来解决这个问题啦。<br><br>证书证书字面意思就是向浏览器保证你从这本”书“里获取到的公钥是一个可信任的网站的，并且这个公钥绝对没有并篡改过。<br><br><br>我们可以类比一下省份证，身份证也是一个证书。用来证明”你这个人真的是你这个人“，为什么身份证可以证明自己呢？因为有国家信用背书。同样的道理网站需要向证书机构（CA）申请一张数字证书，CA机构在颁发证书之前确认这个网站是合法的，可信任的。<br><br>图中左侧是证书的制作过程，右侧是验证过程：<br>
+<img alt="Pasted image 20231117134734.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117134734.png"><br>
+<br>数字签名的制作过程：
+<br>
+<br>CA机构拥有非对称加密的私钥和公钥
+<br>CA机构对证书明文数据T（包含了网站的域名，网站的公钥和CA机构的信息、非对称加密算法等等）进行hash。
+<br>对hash后的使用私钥加密，得到数字签名S。
+<br>明文数据T和数字签名共同组成了数字证书，这样一份数字证书就可以颁发给网站了。
+<br>
+<br>浏览器验证过程：
+<br>
+<br>拿到证书，得到明文T，签名S。
+<br>用CA机构的公钥对S解密得到明文数据T的散列值S‘。
+<br>用证书里指明的hash算法对明文T进行hash得到T’。
+<br>T’应当等于S‘，除非明文或签名被篡改。此时比较S’是否等于T’，等于则表明证书的值是否被篡改。
+<br>显而易见在中间人没有CA机构的私钥并且浏览器使用的CA机构公钥是可信的情况下，中间人不可能在修改证书的内容后，还能通过验证。<br><br>我初识HTTPS的时候就有这个疑问，因为似乎那里的hash有点多余，把hash过程去掉也能保证证书没有被篡改。<br>最显然的是性能问题，前面我们已经说了非对称加密效率较差，证书信息一般较长，比较耗时。而hash后得到的是固定长度的信息（比如用md5算法hash后可以得到固定的128位的值），这样加解密就快很多。<br>当然也有安全上的原因，这部分内容相对深一些，感兴趣的可以看这篇解答：crypto.stackexchange.com/a/12780<br>在浏览器验证证书的流程中使用了CA机构的公钥对签名进行了解密，那又是如何保证CA公钥是可信的呢？<br><br>可以使用CA机构A对CA机构B的公钥制作证书。但终归是要有个顶的吧，不然这就不成无限套娃了。没错，操作系统、浏览器本身会预装一些它们信任的根证书，如果其中会有CA机构的根证书，这样就可以拿到它对应的可信公钥了。<br>实际上证书之间的认证也可以不止一层，可以A信任B，B信任C，以此类推，我们把它叫做信任链或数字证书链。也就是一连串的数字证书，由根证书为起点，透过层层信任，使终端实体证书的持有者可以获得转授的信任，以证明身份。<br><img alt="Pasted image 20231117141430.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117141430.png"><br><br>另外，不知你们是否遇到过网站访问不了、提示需安装证书的情况？这里安装的就是根证书。说明浏览器不认给这个网站颁发证书的机构（这个证书的CA结构是我们自己当然没有啦），那么你就得手动下载安装该机构的根证书（风险自己承担）。安装后，你就有了它的公钥，就可以用它验证服务器发来的证书是否可信了。当然也可以选择信任然后使用证书中的网站公钥进行加密通信🤣]]></description><link>https://WhiteClouds.github.io/4-精选随笔/https的加密原理.html</link><guid isPermaLink="false">4-精选随笔/Https的加密原理.md</guid><pubDate>Sun, 07 Apr 2024 13:07:00 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[开源协议]]></title><description><![CDATA[ 
+ <br><img alt="Pasted image 20230908112038.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20230908112038.png"> <br><br>START<br>
+问答题<br>
+正面: 有哪些主要的开源协议，他们的区别是什么？<br>
+背面: <a data-href="开源协议#^56ff85" href="https://WhiteClouds.github.io/5-开发纪录/开源/开源协议.html#^56ff85" class="internal-link" target="_self" rel="noopener">开源协议 &gt; ^56ff85</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/开源/开源协议.html</link><guid isPermaLink="false">5-开发纪录/开源/开源协议.md</guid><pubDate>Thu, 28 Mar 2024 03:42:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20230908112038.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://WhiteClouds.github.io/lib/media/pasted-image-20230908112038.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方案概述]]></title><description><![CDATA[ 
+ <br>
+所有方案的核心都是通过一台拥有公网IP的服务器进行中转
+<br><br>
+使用服务器的公网IP+端口来代理内网IP+端口，访问公网IP:端口等于访问内网IP:端口
+<br>
+<br>优点：
+
+<br>任何人都可以通过公网IP:端口访问服务。
+
+
+<br>缺点：
+
+<br>所有的流量都需要走中转服务器，中转服务器的带宽不够时，对网速影响巨大。
+<br>向公网暴露IP端口，会有安全隐患，比如会被不良人爬虫，或者被dd攻击，所以公网端口要取的不常见。
+<br>FRP的公网IP:端口与内网IP:端口的隐射关系是写在配置文件中的，没有适应性。当IP发生改变时。需要重新配置映射关系。
+
+
+<br>应用场景
+
+<br>通过链接向别人分享自己搭建的博客笔记
+<br>通过链接向别人分享自己nas的文件
+
+
+<br><br>
+所有节点在同一个虚拟局域网中，通过中转服务器在节点间构建隧道进行通信。
+<br>
+<br>优点：
+
+<br>公网IP的端口不会暴露在公网中，不良人访问公网IP:端口需要进行验证，验证不通过无法提供服务（需要节点配置vpn）
+<br>节点之间的通信时加密的，安全性高
+
+
+<br>缺点：
+
+<br>节点即使在同一个lan中，使用vlan的ip:prot访问时流量依旧会走中转服务器。而我的阿里云中转服务器带宽只有3Gb/s[😭]
+
+
+<br>应用场景
+
+<br>将NAS的硬盘作为网络盘挂载到本地存储系统中
+<br>访问NAS影视中的小电影
+<br>搭建私人gitLab平台
+
+
+<br><br>
+ 是VPN方案的升级版，增加了协调服务器，记录所有节点和中转服务器的信息，节点间通信时会先尝试能不能建立P2P连接，如果不行才会使用中转服务器进行通信。
+<br>
+<br>相对于VPN的优点：
+
+<br>会优先使用P2P通信，在vlan中对网速提升巨大
+
+
+<br>缺点
+
+<br>ZeroTier、Tailscale都是私人公司推出的产品，方案的安全、兼容性没有VPN高
+
+
+<br><br>
+<br>购买阿里云ECS服务器搭建FRPS、中转服务器、协调服务器
+<br>购买硬件组装NAS（带考虑，穷）
+<br>想要实现的功能
+
+<br>公网可访问的博客
+<br>公网分享NAS文件链接
+<br>私人GitLab
+<br>私人影音系统
+<br>私人NAS云盘
+<br>1Panel管理网站
+
+
+]]></description><link>https://WhiteClouds.github.io/5-开发纪录/内外网访问/方案概述.html</link><guid isPermaLink="false">5-开发纪录/内外网访问/方案概述.md</guid><pubDate>Thu, 28 Mar 2024 03:42:04 GMT</pubDate></item><item><title><![CDATA[VPN]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:vpn" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#vpn</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:vpn" class="tag" target="_blank" rel="noopener">#vpn</a> ]]></description><link>https://WhiteClouds.github.io/5-开发纪录/内外网访问/vpn.html</link><guid isPermaLink="false">5-开发纪录/内外网访问/VPN.md</guid><pubDate>Thu, 28 Mar 2024 05:27:10 GMT</pubDate></item><item><title><![CDATA[ZeroTier、Tailscale]]></title><description><![CDATA[ 
+ ]]></description><link>https://WhiteClouds.github.io/5-开发纪录/内外网访问/zerotier、tailscale.html</link><guid isPermaLink="false">5-开发纪录/内外网访问/ZeroTier、Tailscale.md</guid><pubDate>Thu, 28 Mar 2024 03:42:16 GMT</pubDate></item><item><title><![CDATA[解决Flex布局内容换行的方法]]></title><description><![CDATA[ 
+ <br>当内容超出Flex容器的宽度时，Flex布局会默认将内容换行。如果你希望内容不被挤换行，可以采取以下方法：<br>
+<br>使用flex-wrap属性：将容器的flex-wrap属性设置为nowrap，这样内容将不会换行，而是尽可能地放置在一行中。
+<br>.container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+复制<br>
+<br>使用flex-shrink属性：默认情况下，项目会根据需要缩小以适应容器，导致内容换行。通过将项目的flex-shrink属性设置为0，可以禁止其缩小。
+<br>.item {
+  flex-shrink: 0;
+}
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/解决flex布局内容换行的方法.html</link><guid isPermaLink="false">5-开发纪录/css/解决Flex布局内容换行的方法.md</guid><pubDate>Thu, 28 Mar 2024 03:43:18 GMT</pubDate></item><item><title><![CDATA[<a data-href="CSS 类选择器中的空格与不加空格的区别" href="CSS 类选择器中的空格与不加空格的区别" class="internal-link" target="_self" rel="noopener">CSS 类选择器中的空格与不加空格的区别</a>]]></title><description><![CDATA[ 
+ <br><br>在CSS中，类选择器可以使用空格与不使用空格，用于选择不同类型的元素。以下是两种不同选择器的区别：<br>不加空格的类选择器（交集选择器）：<br>当在两个类名之间不加空格时，您将创建一个交集选择器，它会选择同时具有这两个类的元素。这意味着这两个类都必须在同一个元素上出现，才会匹配该元素。<br>.class1.class2 {
+  /* 样式规则 */
+}
+
+在上面的示例中，只有同时具有 .class1 和 .class2 类的元素才会应用样式规则。
+
+.ancestor .descendant {
+  /* 样式规则 */
+}
+当在两个类名之间加一个空格时，您将创建一个后代选择器，它会选择包含在特定祖先元素内的后代元素，并且后代元素具有指定的类名。
+复制<br>在上面的示例中，只有 .descendant 类在 .ancestor 元素内作为后代出现时，才会应用样式规则。<br>您应该根据您的设计需求选择适当的选择器类型，以确保您的样式被应用在正确的元素上。]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/类选择器中的空格与不加空格的区别.html</link><guid isPermaLink="false">5-开发纪录/css/类选择器中的空格与不加空格的区别.md</guid><pubDate>Thu, 28 Mar 2024 03:43:21 GMT</pubDate></item><item><title><![CDATA[CSS属性 <code>background-size: cover;</code>]]></title><description><![CDATA[ 
+ <br><br>CSS属性 background-size: cover; 用于指定背景图片的尺寸调整方式，以确保背景图片覆盖整个容器，并保持其纵横比例。具体来说，它会缩放背景图片以使其完全覆盖容器，同时保持图片的纵横比例，可能会裁剪图片的一部分以适应容器。<br>以下是一个示例，演示了如何在CSS中使用 background-size: cover;：<br>.container {
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 400px; /* 或者您可以指定任何高度 */
+}
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/background-size.html</link><guid isPermaLink="false">5-开发纪录/css/background-size.md</guid><pubDate>Thu, 28 Mar 2024 03:43:24 GMT</pubDate></item><item><title><![CDATA[CSS属性 <code>box-sizing</code>]]></title><description><![CDATA[ 
+ <br><br>CSS属性 box-sizing 用于控制元素的内容框（content box）的尺寸计算方式，包括内边距（padding）和边框（border）。当你将 box-sizing 设置为 border-box 时，意味着你指定的元素宽度和高度包括了内边距和边框。<br>以下是CSS中如何使用 box-sizing 的示例：<br>.element {
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid #000;
+}
+复制<br>在这个示例中，使用 box-sizing: border-box;，.element 的总宽度为 200 像素，包括内边距和边框。如果没有使用 box-sizing: border-box;，那么内边距和边框会被加到宽度上，导致元素的宽度大于 200 像素。<br><br>START<br>
+问答题<br>
+正面: box-sizing: border-box<br>
+背面: <br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/box-sizing.html</link><guid isPermaLink="false">5-开发纪录/css/box-sizing.md</guid><pubDate>Thu, 28 Mar 2024 03:43:27 GMT</pubDate></item><item><title><![CDATA[CSS 图片裁剪属性]]></title><description><![CDATA[ 
+ <br><br>CSS 提供了多种方式来裁剪图片，你可以使用以下属性来控制图片的裁剪：<br>
+<br>
+object-fit：这个属性用于指定图片如何适应其容器框。它有以下几个可能的值： 
+
+<br>fill：图片会拉伸以填满容器框，可能会变形。
+<br>contain：图片会按比例缩放以适应容器框，可能会有留白。
+<br>cover：图片会按比例缩放以覆盖整个容器框，可能会有部分裁剪。
+<br>none：图片不会进行缩放，会完全显示在容器框内。
+<br>scale-down：图片会按比例缩放以适应容器框，但不会超过图片的原始大小或容器框的大小，选择最小的那个。
+
+
+<br>
+object-position：这个属性用于指定图片在容器框中的位置。你可以使用像素值、百分比或关键词来定义位置。例如：
+
+<br>object-position: center center;：将图片居中显示在容器框内。
+<br>object-position: 50% 20%;：将图片水平居中，垂直位置偏上。
+
+
+<br>
+clip-path：这个属性允许你通过定义一个裁剪路径来裁剪元素，包括图片。你可以使用各种形状来裁剪图片，如矩形、圆形、多边形等。
+
+<br>
+overflow：这个属性用于控制容器框中的内容溢出时的行为。你可以将其设置为 hidden 来裁剪超出容器框的内容。
+
+<br><br>START<br>
+问答题<br>
+正面: object-fit属性值，以及用处？<br>
+背面: <a data-href="CSS 图片裁剪属性#^a33527" href="https://WhiteClouds.github.io/5-开发纪录/css/css-图片裁剪属性.html#^a33527" class="internal-link" target="_self" rel="noopener">CSS 图片裁剪属性 &gt; ^a33527</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/css-图片裁剪属性.html</link><guid isPermaLink="false">5-开发纪录/css/CSS 图片裁剪属性.md</guid><pubDate>Thu, 28 Mar 2024 03:43:30 GMT</pubDate></item><item><title><![CDATA[CSS属性 <code>opacity</code>]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+属性名称： opacity
+
+<br>
+属性值： 0 到 1 之间的数字，其中 0 表示完全透明，1 表示完全不透明。
+
+<br>
+作用： 设置元素的不透明度，影响元素的可见性。
+
+<br><br>/* 完全透明 */
+.hidden-element {
+  opacity: 0;
+}
+
+/* 半透明 */
+.semi-transparent-element {
+  opacity: 0.5;
+}
+
+/* 完全不透明 */
+.visible-element {
+  opacity: 1;
+}
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/opacity.html</link><guid isPermaLink="false">5-开发纪录/css/opacity.md</guid><pubDate>Thu, 28 Mar 2024 03:43:32 GMT</pubDate></item><item><title><![CDATA[CSS属性 <code>position: relative;</code>]]></title><description><![CDATA[ 
+ <br><br>CSS属性 position: relative; 用于指定元素相对于其正常位置进行定位。当您将元素的 position 属性设置为 relative 时，您可以使用 top、right、bottom 和 left 属性来微调元素的位置，而不会影响其他元素的布局。<br>以下是一个示例，演示如何使用 position: relative; 来微调元素的位置：<br>.box {
+  position: relative;
+  left: 20px;
+  top: -10px;
+}
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/relative.html</link><guid isPermaLink="false">5-开发纪录/css/relative.md</guid><pubDate>Thu, 28 Mar 2024 03:43:35 GMT</pubDate></item><item><title><![CDATA[CSS属性 <code>transition</code>]]></title><description><![CDATA[ 
+ <br><br>CSS属性 transition 用于控制元素状态变化的过渡效果，可以创建平滑的动画效果。通常，transition 属性需要指定两个关键值：<br>
+<br>
+属性名称：表示要应用过渡效果的CSS属性名称（如 width、height、color 等）。
+
+<br>
+过渡时间：表示过渡效果的持续时间，通常以秒（s）为单位。
+
+<br>以下是一个示例，演示了如何使用 transition 属性为鼠标悬停状态下的按钮添加颜色过渡效果：<br>.button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/css/transition.html</link><guid isPermaLink="false">5-开发纪录/css/transition.md</guid><pubDate>Thu, 28 Mar 2024 03:43:37 GMT</pubDate></item><item><title><![CDATA[本地代码托管到 Git平台]]></title><description><![CDATA[ 
+ <br>
+<br>初始化本地Git仓库
+<br>git init
+复制<br>
+<br>将 GitLab 远程仓库地址添加为远程地址
+<br>git remote add origin &lt;远程仓库地址&gt; #其中 `&lt;远程仓库地址&gt;` 是您在 GitLab 上创建的远程仓库的地址。
+复制<br>
+<br>添加并提交本地代码到本地仓库：
+<br>git add .
+git commit -m "Initial commit"
+# 不可以使用 git commit -am "Initial commit"代替
+复制<br>
+<br>将本地代码推送到 GitLab 远程仓库的 develop 分支：
+<br>git push -u origin master
+复制<br><br>START<br>
+问答题<br>
+正面: 本地代码托管到 Git平台<br>
+背面: 原文：<a data-href="本地代码托管到 Git平台" href="https://WhiteClouds.github.io/5-开发纪录/git/本地代码托管到-git平台.html" class="internal-link" target="_self" rel="noopener">本地代码托管到 Git平台</a><br>
+git init ; git remote add origin &lt;远程仓库地址&gt; ; git add . ; git commit -m "Initial commit" ; git push -u origin master<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/git/本地代码托管到-git平台.html</link><guid isPermaLink="false">5-开发纪录/git/本地代码托管到 Git平台.md</guid><pubDate>Sun, 07 Apr 2024 12:21:50 GMT</pubDate></item><item><title><![CDATA[分支管理]]></title><description><![CDATA[ 
+ <br>
+<br>创建分支
+<br>git branch &lt;branch-name&gt;
+复制<br>
+<br>切换到分支
+<br>git checkout &lt;branch-name&gt;
+复制<br>
+<br>创建并切换到分支
+<br>git checkout -b &lt;branch-name&gt;
+# 创建完分支后必须commit一次代码或者合并其他分支改分支才能关联到一个commitId。这个分支才能创建成功
+复制<br>
+<br>查看分支
+<br>git branch -a
+复制<br>
+<br>合并分支
+<br>git merge &lt;branch-name&gt;
+复制<br>
+<br>重命名分支
+<br>git branch -m &lt;old-name&gt; &lt;new-name&gt;
+复制<br>
+<br>删除分支
+<br>git branch -d &lt;branch-name&gt;
+复制<br>
+<br>推送分支到远程仓库
+<br>git push -u origin &lt;branch-name&gt;
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/git/分支管理.html</link><guid isPermaLink="false">5-开发纪录/git/分支管理.md</guid><pubDate>Sat, 30 Mar 2024 01:15:22 GMT</pubDate></item><item><title><![CDATA[远程仓库管理]]></title><description><![CDATA[ 
+ <br>
+<br>添加远程仓库
+<br>git remote add &lt;remote-name&gt; &lt;remote-url&gt;
+复制<br>
+<br>查看远程仓库
+<br>git remote -v
+复制<br>
+<br>获取远程仓库最新变更
+<br>git fetch &lt;remote-name&gt; # 从指定的远程仓库 &lt;remote-name&gt; 获取最新的变更，但不会合并到当前分支。
+复制<br>
+<br>拉取远程仓库的变更并合并到当前分支
+<br>git pull &lt;remote-name&gt; &lt;branch-name&gt;
+复制<br>
+<br>推送本地分支到远程仓库
+<br>git push &lt;remote-name&gt; &lt;branch-name&gt;
+复制<br>
+<br>删除远程分支
+<br>git push &lt;remote-name&gt; --delete &lt;branch-name&gt;
+复制<br>
+<br>查看远程仓库信息
+<br>git remote show &lt;remote-name&gt;
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/git/远程仓库管理.html</link><guid isPermaLink="false">5-开发纪录/git/远程仓库管理.md</guid><pubDate>Thu, 28 Mar 2024 03:43:50 GMT</pubDate></item><item><title><![CDATA[Git常用命令]]></title><description><![CDATA[ 
+ <br><br>git branch -m &lt;old_branch_name&gt; &lt;new_branch_name&gt;
+复制<br><br>git checkout -b &lt;new_branch_name&gt;
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/git/git常用命令.html</link><guid isPermaLink="false">5-开发纪录/git/Git常用命令.md</guid><pubDate>Thu, 28 Mar 2024 03:43:52 GMT</pubDate></item><item><title><![CDATA[idea如何创建一个普通的java-demo项目]]></title><description><![CDATA[ 
+ <br><a data-tooltip-position="top" aria-label="https://blog.csdn.net/oschina_41790905/article/details/79475187" rel="noopener" class="external-link" href="https://blog.csdn.net/oschina_41790905/article/details/79475187" target="_blank">IntelliJ IDEA 如何创建一个普通的 Java 项目，及创建 Java 文件并运行_intellij idea怎么创建java项目-CSDN博客</a>]]></description><link>https://WhiteClouds.github.io/5-开发纪录/idea/idea如何创建一个普通的java-demo项目.html</link><guid isPermaLink="false">5-开发纪录/idea/idea如何创建一个普通的java-demo项目.md</guid><pubDate>Thu, 28 Mar 2024 03:43:56 GMT</pubDate></item><item><title><![CDATA[anki]]></title><description><![CDATA[ 
+ <br>在 Java 中，当包名由两个单词组成时，我们可以使用下划线分隔两个单词或者使用首字母大写的驼峰命名法来命名包名。无论哪种方式，都需要保持包名的唯一性，并且符合 Java 的命名规范。<br><br><br>START<br>
+问答题<br>
+正面:  java 包名有两个单词组成怎么办<br>
+背面: <a data-href="java包名有两个单词组成怎么办" href="https://WhiteClouds.github.io/5-开发纪录/java/java包名有两个单词组成怎么办.html" class="internal-link" target="_self" rel="noopener">java包名有两个单词组成怎么办</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/java/java包名有两个单词组成怎么办.html</link><guid isPermaLink="false">5-开发纪录/java/java包名有两个单词组成怎么办.md</guid><pubDate>Wed, 03 Apr 2024 09:10:37 GMT</pubDate></item><item><title><![CDATA[ThreadLocal]]></title><description><![CDATA[ 
+ <br>私有变量 authApplication 是一个 ThreadLocal&lt;String?&gt; 对象，用于在多线程环境中存储线程本地的可空字符串。该对象被命名为 "request_application"。<br>private var authApplication: ThreadLocal&lt;String?&gt; = NamedThreadLocal("request_application")
+复制<br>上述代码使用了 Kotlin 中的 ThreadLocal 来存储一个名为 authApplication 的线程本地变量，用于存储字符串类型的值。每个线程都会有其自己的 authApplication 实例，因此在不同的线程中，authApplication 的值确实是不同的对象。这确保了在不同线程之间不会共享相同的 authApplication 实例，从而防止了线程之间的干扰。<br>这是因为 ThreadLocal 是基于线程的，每个线程都有自己的 ThreadLocal 变量副本。当您调用 setApplicationId 方法时，它会在当前线程的 authApplication 上设置值，不会影响其他线程的 authApplication。<br>总之，上述代码可以确保在不同的线程中，authApplication 的值都是不同的对象，因此不会发生线程之间的干扰。<br><br>START<br>
+问答题<br>
+正面: private var authApplication: ThreadLocal&lt;String?&gt; = NamedThreadLocal("request_application")的作用<br>
+背面: 私有变量 authApplication 是一个 ThreadLocal&lt;String?&gt; 对象，用于在多线程环境中存储线程本地的可空字符串。该对象被命名为 "request_application"。在不同的线程中访问这个变量返回的是不同的对象引用。<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/java/threadlocal.html</link><guid isPermaLink="false">5-开发纪录/java/ThreadLocal.md</guid><pubDate>Thu, 28 Mar 2024 03:43:59 GMT</pubDate></item><item><title><![CDATA[从spring boot加载JS文件并自动执行]]></title><description><![CDATA[ 
+ <br><br>后端通过response.contentType = "application/javascript"指定返回的文件是一个JS文件<br>package com.dashenglab.briefcase.business
+
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.web.bind.annotation.CrossOrigin
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
+import org.springframework.web.bind.annotation.RequestParam
+import freemarker.template.Configuration
+import jakarta.servlet.http.HttpServletResponse
+import org.springframework.beans.factory.annotation.Value
+import org.springframework.core.io.Resource
+import org.springframework.http.MediaType
+import org.springframework.web.bind.annotation.RestController
+
+@RestController
+@RequestMapping("/open/panels")
+class OpenStaticHTMLController {
+    @Autowired
+    private lateinit var freeMarkerConfig: Configuration
+
+    @Value("classpath:static/panel/index.js")
+    private lateinit var panelJs: Resource
+
+    /**
+     * 第三方网站根据ID请求一个被FreeMarker渲染后的静态HTML字符串
+     */
+    @CrossOrigin("*")
+    @GetMapping
+    fun renderStaticHTML(@RequestParam caseId: String, response: HttpServletResponse) {
+        response.contentType = "application/javascript"
+        panelJs.inputStream.use {
+            it.copyTo(response.outputStream)
+        }
+        response.flushBuffer()
+    }
+}
+复制<br><br>通过<br>loadJs(src) {
+        return new Promise((resolve, reject) =&gt; {
+          const script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = src;
+          script.onload = () =&gt; {
+            resolve();
+          };
+          script.onerror = () =&gt; {
+            reject();
+          };
+          document.body.appendChild(script);
+        });
+      },
+复制<br><br>START<br>
+问答题<br>
+正面: 从spring boot加载JS文件并自动执行<br>
+背面: <a data-href="从spring boot加载JS文件并自动执行" href="https://WhiteClouds.github.io/5-开发纪录/js/从spring-boot加载js文件并自动执行.html" class="internal-link" target="_self" rel="noopener">从spring boot加载JS文件并自动执行</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/js/从spring-boot加载js文件并自动执行.html</link><guid isPermaLink="false">5-开发纪录/js/从spring boot加载JS文件并自动执行.md</guid><pubDate>Thu, 28 Mar 2024 03:44:03 GMT</pubDate></item><item><title><![CDATA[使用HTML字符串创建DOM]]></title><description><![CDATA[ 
+ <br><br>这是一个示例的Markdown笔记，演示了如何使用JavaScript将HTML字符串转换为DOM，并以纯文本形式表示它。<br><br>要创建DOM，我们可以使用JavaScript的DOMParser对象来解析HTML字符串并生成DOM元素。<br>// 创建一个DOMParser对象
+var parser = new DOMParser();
+
+// 要解析的HTML字符串
+var htmlString = "&lt;div style='width: 100%; height: 200px; border: black 1px solid'&gt;11111&lt;/div&gt;";
+
+// 使用DOMParser解析HTML字符串并创建DOM元素
+var doc = parser.parseFromString(htmlString, "text/html");
+
+// 获取新创建的DOM元素
+var divElement = doc.body.firstChild;
+
+// 插入DOM
+document.body.appendChild(divElement)
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/js/使用html字符串创建dom.html</link><guid isPermaLink="false">5-开发纪录/js/使用HTML字符串创建DOM.md</guid><pubDate>Thu, 28 Mar 2024 03:44:05 GMT</pubDate></item><item><title><![CDATA[json 文件读取为 List<Map>对象]]></title><description><![CDATA[ 
+ <br>var translateProvinceMap = listOf&lt;Map&lt;String, String&gt;&gt;()
+        // 对去省，市的中英文映射表
+        translatedProvinceResource.inputStream.use {
+            val mapper = ObjectMapper()
+            val type = mapper.typeFactory.constructCollectionType(List::class.java, Map::class.java)
+            translateProvinceMap = ObjectMapper().readValue(it, type)
+        }
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/json/json-文件读取为-list&lt;map&gt;对象.html</link><guid isPermaLink="false">5-开发纪录/json/json 文件读取为 List&lt;Map&gt;对象.md</guid><pubDate>Thu, 28 Mar 2024 03:44:09 GMT</pubDate></item><item><title><![CDATA[复制ssh公钥到剪贴板]]></title><description><![CDATA[ 
+ <br>复制ssh公钥到剪贴板<br>pbcopy &lt; ~/.ssh/id_rsa.pub
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/linux使用小技巧/复制ssh公钥到剪贴板.html</link><guid isPermaLink="false">5-开发纪录/linux使用小技巧/复制ssh公钥到剪贴板.md</guid><pubDate>Thu, 28 Mar 2024 03:44:13 GMT</pubDate></item><item><title><![CDATA[杀死占用8081端口的应用]]></title><description><![CDATA[ 
+ <br><br>如果需要终止占用8081端口的应用，可以按照以下步骤进行：<br>lsof -i :8081
+kill -9 12345
+复制<br><br>START<br>
+问答题<br>
+正面: 杀死指定端口的应用<br>
+背面: <a data-href="杀死占用8081端口的应用" href="https://WhiteClouds.github.io/5-开发纪录/linux使用小技巧/杀死占用8081端口的应用.html" class="internal-link" target="_self" rel="noopener">杀死占用8081端口的应用</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/linux使用小技巧/杀死占用8081端口的应用.html</link><guid isPermaLink="false">5-开发纪录/linux使用小技巧/杀死占用8081端口的应用.md</guid><pubDate>Thu, 28 Mar 2024 03:44:15 GMT</pubDate></item><item><title><![CDATA[cp -rp]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:linux/技巧" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#linux/技巧</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:linux/技巧" class="tag" target="_blank" rel="noopener">#linux/技巧</a><br><br>cp -rp 是一个在 Unix 和类 Unix 操作系统中用于复制文件和目录的命令，它可以保留文件和目录的权限和其他属性。这个命令的结构如下：<br>cp -rp 源路径 目标路径
+cp：用于复制文件和目录的命令。
+-r：选项，表示递归地复制目录及其内容。这意味着如果源路径是一个目录，它将会复制目录中的所有内容，包括子目录和文件。
+-p：选项，表示保留原始文件和目录的属性，例如权限、时间戳等。
+复制<br>使用 cp -rp 命令会将源路径中的文件和目录复制到目标路径中，并且保留它们的属性和结构<br><br>START<br>
+问答题<br>
+正面: cp -rp的作用<br>
+背面: 完全拷贝、<a data-href="cp -rp" href="https://WhiteClouds.github.io/5-开发纪录/linux使用小技巧/cp-rp.html" class="internal-link" target="_self" rel="noopener">cp -rp</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/linux使用小技巧/cp-rp.html</link><guid isPermaLink="false">5-开发纪录/linux使用小技巧/cp -rp.md</guid><pubDate>Thu, 28 Mar 2024 05:25:17 GMT</pubDate></item><item><title><![CDATA[dependency go-offline和install的区别]]></title><description><![CDATA[ 
+ <br>Maven 构建命令：mvn -B dependency:go-offline 和 mvn install 的区别<br>
+<br>
+mvn -B dependency:go-offline：
+
+<br>目的：下载项目依赖项到本地仓库，以确保后续构建时不依赖外部仓库的可用性。
+<br>行为：下载依赖项到本地 Maven 仓库，但不执行实际项目构建。通常用于预下载依赖项。
+
+
+<br>
+mvn install：
+
+<br>目的：构建项目并将构建结果（通常是 JAR 文件）安装到本地 Maven 仓库，以供其他项目引用。
+<br>行为：执行项目构建，生成构建结果，并将其安装到本地仓库。
+
+
+<br>通常，你可以首先运行 mvn -B dependency:go-offline 下载依赖项，然后运行 mvn install 构建项目并安装到本地仓库，以确保项目构建时依赖项可用并可供其他项目引用。]]></description><link>https://WhiteClouds.github.io/5-开发纪录/maven/dependency-go-offline和install的区别.html</link><guid isPermaLink="false">5-开发纪录/maven/dependency go-offline和install的区别.md</guid><pubDate>Thu, 28 Mar 2024 03:44:22 GMT</pubDate></item><item><title><![CDATA[使用 Promise 处理异步操作]]></title><description><![CDATA[ 
+ <br><br><a data-href="Promises" href="https://WhiteClouds.github.io/Promises" class="internal-link" target="_self" rel="noopener">Promises</a> 是 JavaScript 中用于处理异步操作的方法，它们使异步代码更易于编写和管理。<br><br>const myPromise = new Promise((resolve, reject) =&gt; {
+  // 异步操作
+  setTimeout(() =&gt; {
+    const randomNumber = Math.random();
+    if (randomNumber &gt; 0.5) {
+      resolve(randomNumber); // 成功时调用 resolve
+    } else {
+      reject('Random number is too small'); // 失败时调用 reject
+    }
+  }, 1000); // 模拟一个异步操作，1秒后执行
+});
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/node/使用-promise-处理异步操作.html</link><guid isPermaLink="false">5-开发纪录/node/使用 Promise 处理异步操作.md</guid><pubDate>Thu, 28 Mar 2024 03:44:27 GMT</pubDate></item><item><title><![CDATA[Node.js 模块]]></title><description><![CDATA[ 
+ <br>Node.js 模块<br>Node.js 中的模块是一种将代码拆分为可维护和可重用部分的机制。Node.js 模块系统遵循 CommonJS 规范，它允许您将代码封装在模块中，并通过 require 函数在其他文件中引入这些模块。这种模块系统有助于组织代码、减少命名冲突，并提高代码的可维护性和可重用性。<br>模块定义 <br>在 Node.js 中，每个文件都被视为一个独立的模块。您可以使用 module.exports 或 exports 对象来定义要在其他文件中共享的功能和数据。例如：<br>// 定义一个模块
+// math.js
+exports.add = function(a, b) {
+  return a + b;
+};
+复制<br>模块导入<br>您可以使用 require 函数导入其他模块。导入的模块可以是内置模块、第三方模块，或您自己创建的模块。<br>// 导入模块
+const math = require('./math');
+
+// 使用导入的模块中的功能
+const result = math.add(2, 3);
+console.log(result); // 输出 5
+复制<br>内置模块<br>Node.js 包含一些内置模块，如 fs（文件系统）、http（HTTP 服务器和客户端）、path（文件路径操作）等。您可以直接使用这些模块，无需安装或下载。<br>const fs = require('fs');
+fs.readFile('file.txt', 'utf8', (err, data) =&gt; {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+});
+复制<br>第三方模块<br>Node.js 社区提供了大量的第三方模块，您可以使用 npm（Node 包管理器）来安装和管理这些模块。一旦安装，您可以使用 require 导入它们。<br>// 安装第三方模块
+// npm install lodash
+
+// 导入第三方模块
+const _ = require('lodash');
+const result = _.sum([1, 2, 3, 4, 5]);
+console.log(result); // 输出 15
+复制<br>模块的循环依赖<br>在 Node.js 中，避免循环依赖是重要的。循环依赖是指模块 A 依赖模块 B，同时模块 B 也依赖模块 A。这可能导致问题，因此需要小心设计模块之间的依赖关系。<br>Node.js 的模块系统使得构建和维护复杂的应用程序变得更加容易，因为它提供了一种组织和管理代码的标准方式。通过合理使用模块，您可以将代码拆分为小的可维护单元，提高代码质量和可维护性。]]></description><link>https://WhiteClouds.github.io/5-开发纪录/node/node.js-模块.html</link><guid isPermaLink="false">5-开发纪录/node/Node.js 模块.md</guid><pubDate>Thu, 28 Mar 2024 03:44:30 GMT</pubDate></item><item><title><![CDATA[nvm命令提示]]></title><description><![CDATA[ 
+ <br>
+<a data-tooltip-position="top" aria-label="https://nvm.uihtm.com" rel="noopener" class="external-link" href="https://nvm.uihtm.com" target="_blank">nvm文档手册 - nvm是一个nodejs版本管理工具 - nvm中文网</a>
+<br><br>nvm arch：显示node是运行在32位还是64位。<br>
+nvm install  [arch] ：安装node， version是特定版本也可以是最新稳定版本latest。可选参数arch指定安装32位还是64位版本，默认是系统位数。可以添加--insecure绕过远程服务器的SSL。<br>
+nvm list [available] ：显示已安装的列表。可选参数available，显示可安装的所有版本。list可简化为ls。<br>
+nvm on ：开启node.js版本管理。<br>
+nvm off ：关闭node.js版本管理。<br>
+nvm proxy [url] ：设置下载代理。不加可选参数url，显示当前代理。将url设置为none则移除代理。<br>
+nvm node_mirror [url] ：设置node镜像。默认是<a data-tooltip-position="top" aria-label="https://nodejs.org/dist/%E3%80%82%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%86%99url%EF%BC%8C%E5%88%99%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4url%E3%80%82%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%AF%E8%87%B3%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95settings.txt%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%EF%BC%8C%E4%B9%9F%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%9C%A8%E8%AF%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E3%80%82" rel="noopener" class="external-link" href="https://nodejs.org/dist/%E3%80%82%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%86%99url%EF%BC%8C%E5%88%99%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4url%E3%80%82%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%AF%E8%87%B3%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95settings.txt%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%EF%BC%8C%E4%B9%9F%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%9C%A8%E8%AF%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E3%80%82" target="_blank">https://nodejs.org/dist/。如果不写url，则使用默认url。设置后可至安装目录settings.txt文件查看，也可直接在该文件操作。</a><br>
+nvm npm_mirror [url] ：设置npm镜像。<a data-tooltip-position="top" aria-label="https://github.com/npm/cli/archive/%E3%80%82%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%86%99url%EF%BC%8C%E5%88%99%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4url%E3%80%82%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%AF%E8%87%B3%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95settings.txt%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%EF%BC%8C%E4%B9%9F%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%9C%A8%E8%AF%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E3%80%82" rel="noopener" class="external-link" href="https://github.com/npm/cli/archive/%E3%80%82%E5%A6%82%E6%9E%9C%E4%B8%8D%E5%86%99url%EF%BC%8C%E5%88%99%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4url%E3%80%82%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%AF%E8%87%B3%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95settings.txt%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%EF%BC%8C%E4%B9%9F%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%9C%A8%E8%AF%A5%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E3%80%82" target="_blank">https://github.com/npm/cli/archive/。如果不写url，则使用默认url。设置后可至安装目录settings.txt文件查看，也可直接在该文件操作。</a><br>
+nvm uninstall  ：卸载指定版本node。<br>
+nvm use &lt;版本号&gt; 临时切换版本<br>
+nvm alias default &lt;版本号&gt; 永久切换版本（版本别名，default就是默认使用的版本）<br>
+nvm root [path] ：设置存储不同版本node的目录。如果未设置，默认使用当前目录。<br>
+nvm version ：显示nvm版本。version可简化为v。]]></description><link>https://WhiteClouds.github.io/5-开发纪录/nvm/nvm的使用.html</link><guid isPermaLink="false">5-开发纪录/nvm/NVM的使用.md</guid><pubDate>Thu, 28 Mar 2024 05:24:49 GMT</pubDate></item><item><title><![CDATA[pm2部署node后端项目]]></title><description><![CDATA[ 
+ <br>
+<br>安装PM2
+<br>npm install -g pm2
+复制<br>
+<br>在项目目录下创建配置文件pm2.config.json
+<br>{
+  "name": "meta-puppeteer",        // 应用程序的名称
+  "version": "1.0.0",              // 应用程序的版本号
+  "script": "index.js",            // 应用程序的入口文件
+  "instances": "1",                // 启动的实例数量
+  "watch": false,                  // 是否开启文件变动监视
+  "max_size": "10M",               // 日志文件的最大大小
+  "max_restarts": 5,               // 保留的旧日志文件数量
+  "error_file" : "./logs/app-err.log",  // 错误日志文件路径
+  "out_file"   : "./logs/app-out.log",  // 标准输出日志文件路径
+  "env": {                         // 默认环境变量
+    "PORT": "3980"                 // 环境变量设置
+  },
+  "env_local": {                   // 本地环境变量
+  },
+  "env_test": {                    // 测试环境变量
+  },
+  "env_prod": {                    // 生产环境变量
+  }
+}
+
+复制<br>
+<br>启动项目时指定配置文件以及运行环境
+<br>pm2 start pm2.config.json --env local
+复制<br>
+<br>配置PM2开机自动启动项目
+<br>
+<br>运行pm2 startup
+<br>执行命令行输出的命令（sudo env PATH=$PATH:/Users/cloudswhite/.nvm/versions/node/v16.16.0/bin /Users/cloudswhite/.nvm/versions/node/v16.16.0/lib/node_modules/pm2/bin/pm2 startup launchd -u cloudswhite --hp /Users/cloudswhite）
+]]></description><link>https://WhiteClouds.github.io/5-开发纪录/pm2/pm2部署node后端项目.html</link><guid isPermaLink="false">5-开发纪录/pm2/pm2部署node后端项目.md</guid><pubDate>Thu, 28 Mar 2024 03:44:40 GMT</pubDate></item><item><title><![CDATA[pm2常用命令]]></title><description><![CDATA[ 
+ <br>以下是一些常用的 PM2 命令，用于管理和监控 Node.js 应用程序：<br>
+<br>pm2 start &lt;app&gt;：启动一个应用程序。
+
+<br>pm2 start app.js --env production 指定启动环境
+
+
+<br>pm2 stop &lt;app_id|app_name&gt;：停止指定的应用程序。
+<br>pm2 restart &lt;app_id|app_name&gt;：重启指定的应用程序。
+<br>pm2 delete &lt;app_id|app_name&gt;：删除指定的应用程序。
+<br>pm2 list：列出所有正在运行的应用程序。
+<br>pm2 monit：监控所有正在运行的应用程序的状态，包括 CPU 和内存使用情况等统计信息。
+<br>pm2 logs：显示所有应用程序的日志。
+<br>pm2 info &lt;app_id|app_name&gt;：显示指定应用程序的信息，包括进程ID、CPU使用率、内存使用情况等。
+<br>pm2 s save：保存当前的进程列表，以便在服务器重启后自动加载。
+<br>pm2 resurrect：在服务器重启后自动加载之前保存的进程列表。
+<br>pm2 flush：清空所有应用程序的日志。
+<br>pm2 kill: sha杀死pm的守护进程。请注意，当你运行 pm2 kill 命令时，所有由 PM2 管理的应用程序将被终止。这包括正在运行的应用程序以及被 PM2 自动重启的应用程序。确保在执行 pm2 kill 前保存应用程序的状态和数据。 
+<br>pm2 startup: 开机自动启动pm2 save保存的node项目
+<br>pm2 unstartup: 取消pm2的开机自启动
+<br>这些是常用的一些 PM2 命令，用于启动、停止、重启、监控和管理你的 Node.js 应用程序。你可以根据具体的需求和情况使用这些命令。]]></description><link>https://WhiteClouds.github.io/5-开发纪录/pm2/pm2常用命令.html</link><guid isPermaLink="false">5-开发纪录/pm2/pm2常用命令.md</guid><pubDate>Mon, 01 Apr 2024 01:29:43 GMT</pubDate></item><item><title><![CDATA[Puppeteer在Linux系统中的安装]]></title><description><![CDATA[ 
+ <br>项目有一个需求：将Web页面打印成PDF，为了保证功能的稳定可靠。决定单独起一个安装Puppeteer的Node项目，为导出PDF或者图片提供打印服务。<br>在Mac完成开发测试后，将Puppeteer的Node项目部署到Linux服务器上的时候，遇到了的坑，记录如下。<br><br>
+<br>Linux: Alibaba Cloud Linux release 3
+<br>Node: v16.18.1
+<br>Npm: 8.19.2
+<br>Pm2: 5.3.0
+<br><br>// 在创建一个浏览器对象的时候需要禁用沙盒模式
+browser = await puppeteer.launch({
+			headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'],
+		})
+复制<br>npm install
+# 执行puppeteer的初始化脚本
+node node_modules/puppeteer/install.js
+复制<br><br>此时执行打印相关代码Puppeteer会报缺少项目库的错误，一种方案是根据报错提示安装对应的依赖库。另一种方案是把chrome在系统里安装一下，解决所有依赖库。<br>sudo yum install chromium
+复制<br>至此便可以把PDF打印出来了，但是打开PDF一看，中文全部乱码🥰<br><br>为了解决中文乱码的问题，我们需要为Linux系统安装相关的中文字体。<br>
+<br>安装fontconfig库，
+<br>创建chinese文件夹并cd该目录。
+<br>将整合好的Fonts.zip字体文件夹上传到服务器该目录（Fonts.zip早不到的话可以直接将Win系统的C:\Windows\Fonts整个压缩）。
+<br>解压缩整理一下目录
+<br>执行mkfontscale和fc-cache -fv 使字体生效
+<br>yum -y install fontconfig
+mkdir -p /usr/share/fonts/chinese
+cd /usr/share/fonts/chinese
+rz Fonts.zip
+unzip Fonts.zip
+mv Fonts/* ./
+rm -r Fonts
+rm Fonts.zip
+mkfontscale 
+# 如果提示 mkfontscale: command not found，需自行安装 yum install mkfontscale mkfontdir
+fc-cache -fv 
+#如果提示 fc-cache: command not found，则需要安装 yum install fontconfig
+复制<br>最后我们就可以快快乐乐的打印PDF啦😛]]></description><link>https://WhiteClouds.github.io/5-开发纪录/puppeteer/puppeteer在linux系统中的安装.html</link><guid isPermaLink="false">5-开发纪录/Puppeteer/Puppeteer在Linux系统中的安装.md</guid><pubDate>Thu, 28 Mar 2024 03:44:46 GMT</pubDate></item><item><title><![CDATA[@ConditionalOnBean]]></title><description><![CDATA[ 
+ <br>
+source:<a data-tooltip-position="top" aria-label="https://cloud.tencent.com/developer/article/1403117" rel="noopener" class="external-link" href="https://cloud.tencent.com/developer/article/1403117" target="_blank">SpringBoot基础篇Bean之@ConditionalOnBean与@ConditionalOnClass-腾讯云开发者社区-腾讯云</a>
+<br><br>要求bean存在时，才会创建这个bean 如我提供了一个bean名为RedisOperBean，用于封装redis相关的操作；但是我这个bean需要依赖restTemplate这个bean，只有当应用引入了redis的相关依赖，并存在RestTemplate这个bean的时候，我这个bean才会生效<br>@Component
+@ConditionalOnBean(name="redisTemplate")
+public class RedisOperBean {
+  private final RedisTemplate redisTemplate;
+  public RedisOperBean(RedisTemplate redisTemplate) {
+      // ...
+  }
+}
+复制<br>
+这样的好处就是我提供的这个第三方包，如果被用户A间接依赖（但是A本身不需要操作redis），也不会因为创建RedisOperBean而抛异常。产生异常的原因是因为找不到RestTemplate的bean，因此无法实例化RedisOperBean，从而抛出异常
+<br>START<br>
+问答题<br>
+正面: @ConditionalOnBean<br>
+背面: 要求bean存在时，才会创建这个bean<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@conditionalonbean.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@ConditionalOnBean.md</guid><pubDate>Thu, 28 Mar 2024 05:26:36 GMT</pubDate></item><item><title><![CDATA[@ConditionalOnClass]]></title><description><![CDATA[ 
+ <br>类存在,这个bean应该被正常注册<br>/**
+ * 当引用了 {@link DependedClz} 类之后，才会创建bean： `LoadIfClzExists`
+ *
+ * @return
+ */
+@Bean
+@ConditionalOnClass(DependedClz.class)
+public LoadIfClzExists loadIfClzExists() {
+    return new LoadIfClzExists("dependedClz");
+}
+复制<br><br>START<br>
+问答题<br>
+正面: @ConditionalOnClass<br>
+背面: 类存在,这个bean应该被正常注册<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@conditionalonclass.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@ConditionalOnClass.md</guid><pubDate>Thu, 28 Mar 2024 03:44:54 GMT</pubDate></item><item><title><![CDATA[@ConditionalOnMissingBean]]></title><description><![CDATA[ 
+ <br>当 bean 不存在时创建 bean<br>/**
+ * 只有当没有notExistsBean时，才会创建bean: `LoadIfBeanNotExists`
+ *
+ * @return
+ */
+@Bean
+@ConditionalOnMissingBean(name = "notExistsBean")
+public LoadIfBeanNotExists loadIfBeanNotExists() {
+    return new LoadIfBeanNotExists("notExistsBean");
+}
+复制<br><br>START<br>
+问答题<br>
+正面: @ConditionalOnMissingBean<br>
+背面: 当 bean 不存在时创建 bean<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@conditionalonmissingbean.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@ConditionalOnMissingBean.md</guid><pubDate>Thu, 28 Mar 2024 03:44:56 GMT</pubDate></item><item><title><![CDATA[@ConditionalOnMissingClass]]></title><description><![CDATA[ 
+ <br>class不存在时，才会加载bean<br>/**
+ * 当系统中没有 com.git.hui.boot.conditionbean.example.depends.clz.DependedClz类时，才会创建这个bean
+ *
+ * @return
+ */
+@Bean
+@ConditionalOnMissingClass("com.git.hui.boot.conditionbean.example.depends.clz.DependedClz")
+public LoadIfClzNotExists loadIfClzNotExists() {
+    return new LoadIfClzNotExists("com.git.hui.boot.conditionbean.example.depends.clz.DependedClz");
+}
+复制<br>START<br>
+问答题<br>
+正面: @ConditionalOnMissingClass<br>
+背面: class不存在时，才会加载bean<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@conditionalonmissingclass.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@ConditionalOnMissingClass.md</guid><pubDate>Thu, 28 Mar 2024 03:44:58 GMT</pubDate></item><item><title><![CDATA[@EnableWebSecurity 注解]]></title><description><![CDATA[ 
+ <br><br>@EnableWebSecurity 是Spring Security中的一个注解，用于启用Spring Security的Web安全性功能。它通常在Spring Boot应用程序中的一个配置类上使用，以自定义安全性配置。 <br><br>import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .authorizeRequests()
+                .antMatchers("/public/**").permitAll()
+                .anyRequest().authenticated()
+                .and()
+            .formLogin()
+                .loginPage("/login")
+                .permitAll()
+                .and()
+            .logout()
+                .permitAll();
+    }
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth
+            .inMemoryAuthentication()
+                .withUser("user").password("{noop}password").roles("USER");
+    }
+}
+复制<br><br>START<br>
+问答题<br>
+正面: @EnableWebSecurity<br>
+背面: <a data-href="@EnableWebSecurity#^0558eb" href="https://WhiteClouds.github.io/5-开发纪录/spring/注解/@enablewebsecurity.html#^0558eb" class="internal-link" target="_self" rel="noopener">@EnableWebSecurity &gt; ^0558eb</a><br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@enablewebsecurity.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@EnableWebSecurity.md</guid><pubDate>Thu, 28 Mar 2024 03:45:01 GMT</pubDate></item><item><title><![CDATA[@RestControllerAdvice]]></title><description><![CDATA[ 
+ <br>
+source: <a data-tooltip-position="top" aria-label="https://developer.aliyun.com/article/1131561" rel="noopener" class="external-link" href="https://developer.aliyun.com/article/1131561" target="_blank">验证码拦截</a>
+<br>@RestControllerAdvice 是一个注解，通常用于创建全局性的异常处理器（Exception Handler）类，以处理 Spring Boot 或 Spring MVC 中的异常情况。它允许您集中处理应用程序中的异常，而不需要在每个控制器中重复编写异常处理代码。<br>import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.http.ResponseEntity;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity&lt;String&gt; handleException(Exception ex) {
+        // 在这里编写处理异常的逻辑
+        return ResponseEntity.status(500).body("Internal Server Error");
+    }
+}
+复制<br><br>START<br>
+问答题<br>
+正面: @RestControllerAdvice<br>
+背面: 配合@ExceptionHandler、@InitBinder、@ModelAttribute增强控制器<br><br>END<br>START<br>
+问答题<br>
+正面: ControllerAdvice与RestContollerAdvice的区别<br>
+背面: 这两个注解猛一看很相似，只是差了一个Rest。那他们有什么相似和区别呢？其实完全可以类比RestController与Controller的区别，RestControllerAdvice=ControllerAdvice+ResponseBody。这样就很清晰了ResponseBody的作用是将返回前端的参数转化成json格式，说白了就是以json数据与前端进行交互。所以ControllerAdvice与RestContollerAdvice的却别就是一个返回给前端的数据是json格式，一个返回的是对象，现在大部分项目前后端交互都是json格式，所以建议都是使用RestControllerAdvice与RestController等注解。<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/@restcontrolleradvice.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/@RestControllerAdvice.md</guid><pubDate>Thu, 28 Mar 2024 03:45:03 GMT</pubDate></item><item><title><![CDATA[未命名]]></title><description><![CDATA[ 
+ ]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/注解/未命名.html</link><guid isPermaLink="false">5-开发纪录/spring/注解/未命名.canvas</guid><pubDate>Thu, 28 Mar 2024 05:18:42 GMT</pubDate></item><item><title><![CDATA[Spring Resource 接口]]></title><description><![CDATA[ 
+ <br><br>在 Spring 框架中，Resource 是一个接口，用于对各种资源（如文件、类路径、URL 等）进行抽象和统一访问。它提供了一种用于获取资源的标准化方式，无论资源实际存储在何处，都可以通过 Resource 接口来进行访问。<br>Resource 接口提供了一系列方法来读取资源的内容、获取资源的元数据等。在 Spring 中，Resource 接口的实现类包括了对文件系统、类路径、URL 等不同类型资源的支持。<br><br>以下是一个简单的示例，展示如何在 Spring 中使用 Resource 接口：<br>import org.springframework.core.io.Resource;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.FileSystemResource;
+
+public class ResourceExample {
+    public static void main(String[] args) throws IOException {
+        // 通过类路径获取资源
+        Resource classPathResource = new ClassPathResource("config.properties");
+        if (classPathResource.exists()) {
+            InputStream inputStream = classPathResource.getInputStream();
+            // 在这里可以读取 inputStream 中的内容
+            [[inputStream.close()]];
+        }
+
+        // 通过文件系统路径获取资源
+        Resource fileSystemResource = new FileSystemResource("C:/path/to/file.txt");
+        if (fileSystemResource.exists()) {
+            InputStream inputStream = fileSystemResource.getInputStream();
+            // 在这里可以读取 inputStream 中的内容
+            inputStream.close();
+        }
+    }
+}
+
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring/resource.html</link><guid isPermaLink="false">5-开发纪录/spring/Resource.md</guid><pubDate>Thu, 28 Mar 2024 03:45:07 GMT</pubDate></item><item><title><![CDATA[HandlerInterceptor 简介]]></title><description><![CDATA[ 
+ <br><br>HandlerInterceptor 是 Spring 框架中的一个关键组件，用于拦截请求（Controller）的处理流程。它常用于执行一些在请求处理之前或之后需要进行的操作，如身份验证、日志记录、权限控制等。HandlerInterceptor 主要用于拦截请求，而不是修改请求或响应本身。<br><br>
+<br>
+身份验证：验证用户身份，确保只有合法用户能够访问特定资源。
+
+<br>
+日志记录：记录请求的详细信息，如请求参数、请求路径、处理时间等，用于调试和监控。
+
+<br>
+权限控制：检查用户是否有访问特定资源的权限，以确保只有授权用户可以执行某些操作。
+
+<br>
+缓存控制：检查缓存，如果有缓存数据，可以直接返回缓存结果，提高性能。
+
+<br><br>使用 HandlerInterceptor 需要实现 HandlerInterceptor 接口，并实现以下三个方法：<br>
+<br>
+preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)：在请求到达处理方法之前被调用，返回 true 表示继续处理，返回 false 表示拦截请求。handler 参数表示当前请求所要执行的处理方法，通常是一个控制器（Controller）中的处理方法。
+
+<br>
+postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)：在处理方法执行之后，视图渲染之前被调用。可修改请求或响应。
+
+<br>
+afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)：在请求完成之后被调用，无论处理方法是否抛出异常都会执行。通常用于清理资源或记录日志。
+
+<br><br>要使用 HandlerInterceptor，需在 Spring 配置文件中配置拦截器，并指定拦截的路径规则。通常，需创建一个类实现 WebMvcConfigurer 接口，重写 addInterceptors 方法配置拦截器。<br>import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+public class MyInterceptor implements HandlerInterceptor {
+
+    // 在请求到达处理方法之前执行
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        // 这里可以进行身份验证，例如检查用户是否登录
+
+        // 如果用户未登录，可以重定向到登录页面
+        if (!isUserLoggedIn(request)) {
+            response.sendRedirect("/login");
+            return false; // 拦截请求
+        }
+
+        // 记录请求开始时间
+        request.setAttribute("startTime", System.currentTimeMillis());
+
+        // 继续处理请求
+        return true;
+    }
+
+    // 在处理方法执行之后，视图渲染之前执行
+    @Override
+    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+            ModelAndView modelAndView) throws Exception {
+        // 这里可以记录日志，修改响应，或其他后处理操作
+
+        // 记录请求处理时间
+        long startTime = (long) request.getAttribute("startTime");
+        long endTime = System.currentTimeMillis();
+        long executionTime = endTime - startTime;
+        System.out.println("Request Execution Time: " + executionTime + " ms");
+    }
+
+    // 在请求完成之后执行，无论处理方法是否抛出异常都会执行
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler,
+            Exception ex) throws Exception {
+        // 这里可以进行资源清理，如关闭数据库连接等
+    }
+
+    // 检查用户是否已登录（示例方法，需根据实际情况实现）
+    private boolean isUserLoggedIn(HttpServletRequest request) {
+        // 这里可以根据会话或其他方式判断用户是否已登录
+        // 如果已登录，返回 true；否则，返回 false
+        return true; // 假设用户已登录
+    }
+}
+
+
+@Configuration
+public class MyInterceptorConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor(new MyInterceptor())
+                .addPathPatterns("/secured/**") // 拦截的路径
+                .excludePathPatterns("/public/**"); // 排除的路径
+    }
+}
+复制<br><br>START<br>
+问答题<br>
+正面: HandlerInterceptor接口的介绍及使用？<br>
+背面: HandlerInterceptor 是 Spring 框架中的一个关键组件，用于拦截请求（Controller）的处理流程。它常用于执行一些在请求处理之前或之后需要进行的操作，如身份验证、日志记录、权限控制等。对controller的方法进行切面<br>
+使用 HandlerInterceptor 需要实现 HandlerInterceptor 接口，并实现以下三个方法：<br>
+<br>preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)：在请求到达处理方法之前被调用，返回 true 表示继续处理，返回 false 表示拦截请求。handler 参数表示当前请求所要执行的处理方法，通常是一个控制器（Controller）中的处理方法。
+<br>postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)：在处理方法执行之后，视图渲染之前被调用。可修改请求或响应。
+<br>afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)：在请求完成之后被调用，无论处理方法是否抛出异常都会执行。通常用于清理资源或记录日志。
+
+END
+]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring-mvc/handlerinterceptor接口.html</link><guid isPermaLink="false">5-开发纪录/spring mvc/HandlerInterceptor接口.md</guid><pubDate>Thu, 28 Mar 2024 03:45:13 GMT</pubDate></item><item><title><![CDATA[允许接口跨域请求]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:跨域" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#跨域</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:跨域" class="tag" target="_blank" rel="noopener">#跨域</a><br><br>这是一个Markdown笔记，介绍如何允许接口进行跨域请求，以便其他域名的客户端可以访问您的接口资源。<br><br>在Spring Boot框架中，您可以使用@CrossOrigin注解来配置CORS（跨源资源共享）策略。以下是一个示例，演示如何使用@CrossOrigin注解允许所有来源的跨域请求：<br>import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import javax.servlet.http.HttpServletResponse;
+
+@CrossOrigin(origins = "*")
+@GetMapping("/api/open/statics")
+fun renderStaticHTML(@RequestParam caseId: String, response: HttpServletResponse) {
+    // ...
+}
+复制<br><br>START<br>
+问答题<br>
+正面: 允许接口跨域请求<br>
+背面: <a data-href="允许接口跨域请求#^2e6c14" href="https://WhiteClouds.github.io/5-开发纪录/spring-security/允许接口跨域请求.html#^2e6c14" class="internal-link" target="_self" rel="noopener">允许接口跨域请求 &gt; ^2e6c14</a>  @CrossOrigin(origins = "*")<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring-security/允许接口跨域请求.html</link><guid isPermaLink="false">5-开发纪录/spring security/允许接口跨域请求.md</guid><pubDate>Mon, 01 Apr 2024 01:28:20 GMT</pubDate></item><item><title><![CDATA[Spring Security CSRF 配置]]></title><description><![CDATA[ 
+ <br><br>Spring Security 默认情况下只对 POST 请求进行 CSRF（跨站请求伪造）保护，而不会对 GET 请求进行保护。这是因为 POST 请求通常用于执行可能有副作用的操作，而 GET 请求通常用于只读操作。如果需要对 GET 请求进行 CSRF 保护，您可以通过配置来实现。<br><br>@Configuration
+@EnableWebSecurity
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        http
+            .csrf()
+                .requireCsrfProtectionMatcher(new RequestMatcher() {
+                    @Override
+                    public boolean matches(HttpServletRequest request) {
+                        // 自定义匹配逻辑，决定哪些请求需要进行 CSRF 保护
+                        return !request.getMethod().equals("GET");
+                    }
+                })
+                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
+        // 其他配置
+    }
+}
+复制<br><br>START<br>
+填空题<br>
+文字: spring security开启CSRF时默认不对{{c1::get}}请求做过滤<br>
+背面额外: <br><br>END<br>START<br>
+问答题<br>
+正面: 在前后端分离项目中为什么要禁用spring security的CSRF功能？<br>
+背面: 因为前后端分离项目中，向后端发送的请求是由前端代理发送的。http请求的请求域名会与后端的服务域名不一致。产生跨域问题。<br><br>END<br>START<br>
+问答题<br>
+正面: 在后端已经禁用CSRF的情况下，为什么还是需要配置@CrossOrigin(origins = "*")来允许跨域请求。<br>
+背面: 如果后端禁用了CSRF，那么所有的请求后端都是可以成功相应的。只是在http请求成功之后浏览器会自动对跨域的请求进行报错处理，通过@CrossOrigin(origins = "*")来通知浏览器该接口可以进行跨域请求。所以当后端关闭CSRF请求之后，即使浏览器对请求报错了，但是该请求依旧是可以修改后端资源的。<br><br>END]]></description><link>https://WhiteClouds.github.io/5-开发纪录/spring-security/spring-security-csrf-配置.html</link><guid isPermaLink="false">5-开发纪录/spring security/Spring Security CSRF 配置.md</guid><pubDate>Thu, 28 Mar 2024 03:45:21 GMT</pubDate></item><item><title><![CDATA[Spring JPA - 映射 MySQL 的 Text 数据类型]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:sql" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#sql</a> 
+ <br><a href="https://WhiteClouds.github.io?query=tag:sql" class="tag" target="_blank" rel="noopener">#sql</a><br><br>在 Spring 中，使用 @Lob (Large Object) 注解可以将 MySQL 中的 text 数据类型映射到 Java 实体类。<br>text 数据类型通常用于存储较长的文本数据，可以容纳较大的字符或文本内容。在 MySQL 中，text 类型有多个变种，如 TEXT、MEDIUMTEXT、LONGTEXT 等，它们具有不同的最大长度。<br>在 Spring 的 JPA (Java Persistence API) 中，使用 @Lob 注解可以将 Java 实体类中的字段映射到数据库的 text 数据类型。<br><br>import javax.persistence.*;
+
+@Entity
+@Table(name = "your_table_name")
+public class YourEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Lob // 使用 @Lob 注解将字段映射到数据库的 text 类型
+    @Column(name = "your_text_column", columnDefinition = "TEXT") // 根据实际情况指定列定义
+    private String yourTextData;
+
+    // Getter 和 Setter 方法
+}
+
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/sql/存储长字符串.html</link><guid isPermaLink="false">5-开发纪录/sql/存储长字符串.md</guid><pubDate>Thu, 28 Mar 2024 05:26:09 GMT</pubDate></item><item><title><![CDATA[main]]></title><description><![CDATA[ 
+ <br><br>  export default {<br>
+components: { Todo },<br>
+props: {},<br>
+data() {<br>
+return {<br>
+poId: '646758070ebea96e708e747f',<br>
+tasks: [<br>
+{<br>
+checked: true,<br>
+htmlCode: ,             type:'TODO'           },           {             type:'TODO',             checked: true,             htmlCode: `fdaksjfkldjaslkjf&lt;div&gt;fdasddfas&lt;/div&gt;&lt;div&gt;ddd&lt;span contenteditable="false" style="color: rgba(3, 80, 135, 0.925);"&gt;@F-User, PEK-SCC02 (SMS Siemag Technology (Beijing) Co., Ltd.)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class="iconfont icon-naozhong" contenteditable="false" style="color: rgba(3, 80, 135, 0.925);"&gt;2023-08-22&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;fdsafjadsldfdsafdasfasd&lt;/div&gt;`,           },           {             type:'NORMAL',             checked: false,             htmlCode: ,<br>
+},<br>
+],<br>
+};<br>
+},<br>
+computed: {},<br>
+methods: {},<br>
+watch: {},<br>
+created() {},<br>
+mounted() {},<br>
+};<br>
+<br>]]></description><link>https://WhiteClouds.github.io/5-开发纪录/vue/组件/todo/main.html</link><guid isPermaLink="false">5-开发纪录/vue/组件/TODO/main.md</guid><pubDate>Fri, 25 Aug 2023 07:46:09 GMT</pubDate></item><item><title><![CDATA[Todo]]></title><description><![CDATA[ 
+ <br><br>  export default {<br>
+components: { TodoItem },<br>
+props: {<br>
+poId: {<br>
+type: String,<br>
+default: '',<br>
+},<br>
+tasks: {<br>
+type: Array,<br>
+require: true,<br>
+default: () =&gt; [],<br>
+},<br>
+},<br>
+data() {<br>
+return {};<br>
+},<br>
+computed: {},<br>
+methods: {<br>
+addTodoItem(index, type) {<br>
+this.tasks.splice(index + 1, 0, {<br>
+type: type,<br>
+checked: false,<br>
+htmlCode: '',<br>
+});<br>
+},<br>
+delTodoItem(index) {<br>
+this.tasks.splice(index, 1);<br>
+},<br>
+},<br>
+watch: {<br>
+tasks(nv) {<br>
+if (nv.length = 0) {<br>
+this.tasks.push({<br>
+checked: false,<br>
+htmlCode: ``,<br>
+type: 'NORMAL',<br>
+});<br>
+}<br>
+},<br>
+},<br>
+created() {<br>
+if (this.tasks.length = 0) {<br>
+this.tasks.push({<br>
+checked: false,<br>
+htmlCode: ``,<br>
+type: 'NORMAL',<br>
+});<br>
+}<br>
+},<br>
+mounted() {},<br>
+};<br>
+<br>]]></description><link>https://WhiteClouds.github.io/5-开发纪录/vue/组件/todo/todo.html</link><guid isPermaLink="false">5-开发纪录/vue/组件/TODO/Todo.md</guid><pubDate>Fri, 25 Aug 2023 07:34:08 GMT</pubDate></item><item><title><![CDATA[TodoItem]]></title><description><![CDATA[ 
+ <br><br>  export default {<br>
+components: { MentionSelect, DateSelect },<br>
+props: {<br>
+poId: {<br>
+type: String,<br>
+default: '',<br>
+},<br>
+task: {<br>
+type: Object,<br>
+require: true,<br>
+default: () =&gt; {<br>
+return {};<br>
+},<br>
+},<br>
+},<br>
+data() {<br>
+return {<br>
+atVisible: false,<br>
+dateVisible: false,<br>
+currentRange: undefined,<br>
+};<br>
+},<br>
+computed: {},<br>
+methods: {<br>
+onCancel() {<br>
+this.atVisible = false;<br>
+this.dateVisible = false;<br>
+},<br>
+addTodoItem(type) {<br>
+this.{user.title || ''}`;<br>
+newSpan.style.color = '#035087EC';<br>
+newSpan.setAttribute('contentEditable', 'false');<br>
+this.insertNode(newSpan);<br>
+this.onCancel();<br>
+},<br>
+addClock(timeStr) {<br>
+const newSpan = document.createElement('span');<br>
+newSpan.classList.add('iconfont', 'icon-naozhong');<br>
+newSpan.innerHTML = timeStr;<br>
+newSpan.style.color = '#035087EC';<br>
+newSpan.setAttribute('contentEditable', 'false');<br>
+this.insertNode(newSpan);<br>
+this.onCancel();<br>
+},<br>
+insertNode(DOM) {<br>
+if (!this.currentRange) {<br>
+this.currentRange = document.createRange();<br>
+this.currentRange.setStart(<br>
+this.refs.editorRef.childNodes.length<br>
+);<br>
+}<br>
+const selection = document.getSelection();<br>
+selection.removeAllRanges();<br>
+selection.addRange(this.currentRange);<br>
+this.currentRange.collapse();<br>
+this.currentRange.insertNode(DOM);<br>
+this.currentRange.setStartAfter(DOM);<br>
+},<br>
+delTodoItem() {<br>
+this.refs.editorRef.innerHTML;<br>
+},<br>
+},<br>
+watch: {<br>
+'task.htmlCode'(nv, ov) {<br>
+if (nv !== this.refs.editorRef.innerHTML = nv;<br>
+},<br>
+},<br>
+created() {},<br>
+mounted() {<br>
+this.$refs.editorRef.innerHTML = this.task?.htmlCode;<br>
+},<br>
+beforeDestroy() {},<br>
+};<br>
+<br>]]></description><link>https://WhiteClouds.github.io/5-开发纪录/vue/组件/todo/todoitem.html</link><guid isPermaLink="false">5-开发纪录/vue/组件/TODO/TodoItem.md</guid><pubDate>Fri, 25 Aug 2023 07:40:55 GMT</pubDate></item><item><title><![CDATA[一个事件绑定多个方法]]></title><description><![CDATA[ 
+ <br><br>&lt;div
+	@blur="
+	onEditorBlur();
+	onInput();
+	"
+/&gt;
+复制]]></description><link>https://WhiteClouds.github.io/5-开发纪录/vue/一个事件绑定多个方法.html</link><guid isPermaLink="false">5-开发纪录/vue/一个事件绑定多个方法.md</guid><pubDate>Thu, 28 Mar 2024 03:45:33 GMT</pubDate></item></channel></rss>

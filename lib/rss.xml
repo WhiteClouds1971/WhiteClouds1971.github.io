@@ -1,4 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://WhiteClouds.github.io/</link><image><url>https://WhiteClouds.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://WhiteClouds.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Apr 2024 13:38:42 GMT</lastBuildDate><atom:link href="https://WhiteClouds.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Apr 2024 13:38:41 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://WhiteClouds.github.io/</link><image><url>https://WhiteClouds.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://WhiteClouds.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 07 Apr 2024 13:40:01 GMT</lastBuildDate><atom:link href="https://WhiteClouds.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 07 Apr 2024 13:40:01 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[4. 什么是字节码?采用字节码的好处是什么?]]></title><description><![CDATA[ 
+ <br>在 Java 中，JVM 可以理解的代码就叫做字节码（即扩展名为 .class 的文件），它不面向任何特定的处理器，只面向虚拟机。Java 语言通过字节码的方式，在一定程度上解决了传统解释型语言执行效率低的问题，同时又保留了解释型语言可移植的特点。所以， Java 程序运行时相对来说还是高效的（不过，和 C、 C++，Rust，Go 等语言还是有一定差距的），而且，由于字节码并不针对一种特定的机器，因此，Java 程序无须重新编译便可在多种不同操作系统的计算机上运行。<br>Java 程序从源代码到运行的过程如下图所示：<br>
+<img alt="Pasted image 20240308091209.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"><br>Java程序转变为机器代码的过程
+我们需要格外注意的是 .class-&gt;机器码 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 **JIT（Just in Time Compilation）** 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言**。
+![[Pasted image 20240308091522.png]]
+Java程序转变为机器代码的过程<br>
+HotSpot 采用了惰性评估(Lazy Evaluation)的做法，根据二八定律，消耗大部分系统资源的只有那一小部分的代码（热点代码），而这也就是 JIT 所需要编译的部分。JVM 会根据代码每次被执行的情况收集信息并相应地做出一些优化，因此执行的次数越多，它的速度就越快。
+<br>JDK、JRE、JVM、JIT 这四者的关系如下图所示。<br>
+<img alt="Pasted image 20240308091638.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091638.png"><br>JDK、JRE、JVM、JIT 这四者的关系<br>下面这张图是 JVM 的大致结构模型。<br>
+<img alt="Pasted image 20240308091750.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091750.png"><br>JVM 的大致结构模型
+# anki
+START
+问答题
+正面: 什么是字节码？
+背面: 由编译器编译的.class文件，是JVM可以理解的代码。
+[[4. 什么是字节码?采用字节码的好处是什么?]]
+
+END<br>START<br>
+问答题<br>
+正面: 什么是HotSpot？是如何运行的？<br>
+背面: 是热点代码的意思，在程序中经常被执行的代码叫热点代码。为加快程序执行速度，会将热点代码编译成机器码，而不是通过解释字节码的方式执行。<br>
+[[4. 什么是字节码?采用字节码的好处是什么?<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/4.-什么是字节码/4.-什么是字节码.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/4. 什么是字节码?采用字节码的好处是什么?.md</guid><pubDate>Thu, 28 Mar 2024 03:40:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[ 
  <br><img alt="Pasted image 20240407103709.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png"><br>
 <br>语法形式：从语法形式上看，成员变量是属于类的，而局部变量是在代码块或方法中定义的变量或是方法的参数；成员变量可以被&nbsp;public,private,static&nbsp;等修饰符所修饰，而局部变量不能被访问控制修饰符及&nbsp;static&nbsp;所修饰；但是，成员变量和局部变量都能被&nbsp;final&nbsp;所修饰。
 <br>存储方式：从变量在内存中的存储方式来看，如果成员变量是使用&nbsp;static&nbsp;修饰的，那么这个成员变量是属于类的，如果没有使用&nbsp;static&nbsp;修饰，这个成员变量是属于实例的。而对象存在于堆内存，局部变量则存在于栈内存。
@@ -47,28 +68,7 @@
 复制<br><br>START<br>
 问答题<br>
 正面: 成员变量与局部变量的区别？<br>
-背面: <a data-href="1. 成员变量与局部变量的区别？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html" class="internal-link" target="_self" rel="noopener">1. 成员变量与局部变量的区别？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/变量/1. 成员变量与局部变量的区别？.md</guid><pubDate>Sun, 07 Apr 2024 13:36:42 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[4. 什么是字节码?采用字节码的好处是什么?]]></title><description><![CDATA[ 
- <br>在 Java 中，JVM 可以理解的代码就叫做字节码（即扩展名为 .class 的文件），它不面向任何特定的处理器，只面向虚拟机。Java 语言通过字节码的方式，在一定程度上解决了传统解释型语言执行效率低的问题，同时又保留了解释型语言可移植的特点。所以， Java 程序运行时相对来说还是高效的（不过，和 C、 C++，Rust，Go 等语言还是有一定差距的），而且，由于字节码并不针对一种特定的机器，因此，Java 程序无须重新编译便可在多种不同操作系统的计算机上运行。<br>Java 程序从源代码到运行的过程如下图所示：<br>
-<img alt="Pasted image 20240308091209.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"><br>Java程序转变为机器代码的过程
-我们需要格外注意的是 .class-&gt;机器码 这一步。在这一步 JVM 类加载器首先加载字节码文件，然后通过解释器逐行解释执行，这种方式的执行速度会相对比较慢。而且，有些方法和代码块是经常需要被调用的(也就是所谓的热点代码)，所以后面引进了 **JIT（Just in Time Compilation）** 编译器，而 JIT 属于运行时编译。当 JIT 编译器完成第一次编译后，其会将字节码对应的机器码保存下来，下次可以直接使用。而我们知道，机器码的运行效率肯定是高于 Java 解释器的。这也解释了我们为什么经常会说 **Java 是编译与解释共存的语言**。
-![[Pasted image 20240308091522.png]]
-Java程序转变为机器代码的过程<br>
-HotSpot 采用了惰性评估(Lazy Evaluation)的做法，根据二八定律，消耗大部分系统资源的只有那一小部分的代码（热点代码），而这也就是 JIT 所需要编译的部分。JVM 会根据代码每次被执行的情况收集信息并相应地做出一些优化，因此执行的次数越多，它的速度就越快。
-<br>JDK、JRE、JVM、JIT 这四者的关系如下图所示。<br>
-<img alt="Pasted image 20240308091638.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091638.png"><br>JDK、JRE、JVM、JIT 这四者的关系<br>下面这张图是 JVM 的大致结构模型。<br>
-<img alt="Pasted image 20240308091750.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091750.png"><br>JVM 的大致结构模型
-# anki
-START
-问答题
-正面: 什么是字节码？
-背面: 由编译器编译的.class文件，是JVM可以理解的代码。
-[[4. 什么是字节码?采用字节码的好处是什么?]]
-
-END<br>START<br>
-问答题<br>
-正面: 什么是HotSpot？是如何运行的？<br>
-背面: 是热点代码的意思，在程序中经常被执行的代码叫热点代码。为加快程序执行速度，会将热点代码编译成机器码，而不是通过解释字节码的方式执行。<br>
-[[4. 什么是字节码?采用字节码的好处是什么?<br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/基本概念与常识/4.-什么是字节码/4.-什么是字节码.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/基本概念与常识/4. 什么是字节码?采用字节码的好处是什么?.md</guid><pubDate>Thu, 28 Mar 2024 03:40:28 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240308091209.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Https的加密原理]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:http" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#http</a> <a class="tag" href="https://WhiteClouds.github.io/?query=tag:加密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#加密</a> 
+背面: <a data-href="1. 成员变量与局部变量的区别？" href="https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html" class="internal-link" target="_self" rel="noopener">1. 成员变量与局部变量的区别？</a><br><br>END]]></description><link>https://WhiteClouds.github.io/2-我的活动/每日面试题/java/变量/1.-成员变量与局部变量的区别？.html</link><guid isPermaLink="false">2-我的活动/每日面试题/java/变量/1. 成员变量与局部变量的区别？.md</guid><pubDate>Sun, 07 Apr 2024 13:36:42 GMT</pubDate><enclosure url="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://WhiteClouds.github.io/lib/media/pasted-image-20240407103709.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Https的加密原理]]></title><description><![CDATA[<a class="tag" href="https://WhiteClouds.github.io/?query=tag:http" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#http</a> <a class="tag" href="https://WhiteClouds.github.io/?query=tag:加密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#加密</a> 
  <br><a href="https://WhiteClouds.github.io?query=tag:http" class="tag" target="_blank" rel="noopener">#http</a> <a href="https://WhiteClouds.github.io?query=tag:加密" class="tag" target="_blank" rel="noopener">#加密</a><br><br>因为http的内容是明文传输的，明文数据会经过多个节点，劫持者在节点中查看、篡改传输的信息且不被双方察觉。所以需要对信息进行加密。最简单就是对称加密 。<br><br>
 通信双方使用对称密钥进行加密和解密 11111
 <br><img alt="Pasted image 20231117105844.png" src="https://WhiteClouds.github.io/lib/media/pasted-image-20231117105844.png"><br>

@@ -1,1 +1,375 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 08 Apr 2024 10:39:51 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 08 Apr 2024 10:39:51 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[HOME]]></title><description><![CDATA[<br>欢迎来到我的个人知识库]]></description><link>https://whiteclouds1971.github.io/home.html</link><guid isPermaLink="false">HOME.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 10:39:43 GMT</pubDate></item></channel></rss>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 08 Apr 2024 12:18:00 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 08 Apr 2024 12:17:58 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[2. 两数相加]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:链表" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#链表</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:链表" class="tag is-unresolved" target="_self" rel="noopener" data-href="#链表">#链表</a><br>给你两个 非空 的链表，表示两个非负的整数。它们每位数字都是按照 逆序 的方式存储的，并且每个节点只能存储 一位 数字。<br>请你将两个数相加，并以相同形式返回一个表示和的链表。<br>你可以假设除了数字 0 之外，这两个数都不会以 0 开头。<br>示例 1：<br>
+输入：l1 = [2,4,3], l2 = [5,6,4]<br>
+输出：[7,0,8]<br>
+解释：342 + 465 = 807.<br>示例 2：<br>
+输入：l1 = [0], l2 = [0]<br>
+输出：[0]<br>示例 3：<br>
+输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]<br>
+输出：[8,9,9,9,0,0,0,1]<br>提示：<br>
+每个链表中的节点数在范围 [1, 100] 内<br>
+0 &lt;= Node.val &lt;= 9<br>
+题目数据保证列表表示的数字不含前导零<br>ListNode:<br>package hard.addtwonumbers; public class ListNode { int val; ListNode next; ListNode() { } ListNode(int val) { this.val = val; } ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+复制<br>Solution:<br>package hard.addtwonumbers; public class Solution { /** * 1ms;43.52MB */ public ListNode addTwoNumbers(ListNode l1, ListNode l2) { int c = 0, number1 = 0, number2 = 0; ListNode head = null; ListNode end = null; while (l1 != null || l2 != null || c != 0) { ListNode temp = end; end = new ListNode(0, null); if (temp != null) temp.next = end; if (head == null) head = end; if (l1 == null) number1 = 0; else number1 = l1.val; if (l2 == null) number2 = 0; else number2 = l2.val; int result = number1 + number2 + c; end.val = result % 10; c = result / 10; l1 = l1 != null ? l1.next : null; l2 = l2 != null ? l2.next : null; } return head; }
+}
+复制<br>Solution2:<br>
+小技巧：对于链表问题，返回结果为头结点时，通常需要先初始化一个预先指针 pre，该指针的下一个节点指向真正的头结点 head。使用预先指针的目的在于链表初始化时无可用节点值，而且链表构造过程需要指针移动，进而会导致头指针丢失，无法返回结果。
+<br>class Solution { public ListNode addTwoNumbers(ListNode l1, ListNode l2) { ListNode pre = new ListNode(0); ListNode cur = pre; int carry = 0; while(l1 != null || l2 != null) { int x = l1 == null ? 0 : l1.val; int y = l2 == null ? 0 : l2.val; int sum = x + y + carry; carry = sum / 10; sum = sum % 10; cur.next = new ListNode(sum); cur = cur.next; if(l1 != null) l1 = l1.next; if(l2 != null) l2 = l2.next; } if(carry == 1) { cur.next = new ListNode(carry); } return pre.next; }
+}
+复制]]></description><link>https://whiteclouds1971.github.io/004-leetcode/2.-两数相加.html</link><guid isPermaLink="false">004 LeetCode/2. 两数相加.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:17:13 GMT</pubDate></item><item><title><![CDATA[1. 两数之和]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:hash" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#hash</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:hash" class="tag is-unresolved" target="_self" rel="noopener" data-href="#hash">#hash</a><br>
+查找用 hash
+<br>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。<br>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。<br>你可以按任意顺序返回答案。<br>示例 1：<br>
+输入：nums = [2,7,11,15], target = 9<br>
+输出：[0,1]<br>
+解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1] 。<br>示例 2：<br>
+输入：nums = [3,2,4], target = 6<br>
+输出：[1,2]<br>示例 3：<br>
+输入：nums = [3,3], target = 6<br>
+输出：[0,1]<br>Solution :<br>package easy.twosum; public class Solution { /** * 55ms;43.78MB */ int[] twoSum(int[] nums, int target) { for (int i = 0; i &lt; nums.length; i++) { for (int j = i + 1; j &lt; nums.length; j++) { if (nums[i] + nums[j] == target) return new int[]{i, j}; } } return null; }
+}
+复制<br>Solution2：<br>package easy.twosum; import java.util.HashMap; public class Solution2 { /** * 2ms;44MB */ int[] twoSum(int[] nums, int target) { HashMap&lt;Integer, Integer&gt; hashTable = new HashMap&lt;&gt;(); for (int i = 0; i &lt; nums.length; i++) { if (hashTable.containsKey(target - nums[i])) { return new int[]{hashTable.get(target - nums[i]), i}; } hashTable.put(nums[i], i); } return new int[0]; }
+}
+复制]]></description><link>https://whiteclouds1971.github.io/004-leetcode/1.-两数之和.html</link><guid isPermaLink="false">004 LeetCode/1. 两数之和.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:17:08 GMT</pubDate></item><item><title><![CDATA[2. CentOS的安装与SSH、FTP的配置]]></title><description><![CDATA[<br><br>Linux发行版本的选择一版是CentOS和Ubuntu，这两个系统应该没有什么好坏的区别。选择CentOS 7.9是因为公司一直在用这个版本，随大流。<br>CentOS的安装与Win基本一致，制作安装U盘，开机按F7进入启动项选择U盘启动。之后进入图形界面一路下一步。在系统组件菜单项里我选的是最小化安装，需要GUI图形界面的话，把相关组件勾选上就可以了。如果你对系统按照流程不熟悉，可以参考这个教程: <a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1Ft4y187Ta" rel="noopener" class="external-link is-unresolved" href="https://www.bilibili.com/video/BV1Ft4y187Ta" target="_self">简单粗暴安装centos全过程 实机演示_哔哩哔哩_bilibili</a>,视频中的刻录软件点击这里可以直接下载。系统镜像可以通过国内的清华源进行下载，官网下载镜像的速度太慢。<br><br>在安装完Linux之后，我们<br>]]></description><link>https://whiteclouds1971.github.io/003-all-in-one/2.-centos的安装与ssh、ftp的配置.html</link><guid isPermaLink="false">003 All in one/2. CentOS的安装与SSH、FTP的配置.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:17:00 GMT</pubDate></item><item><title><![CDATA[1. 7*24运行的家用微型服务器选购指南]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:硬件" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#硬件</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:硬件" class="tag is-unresolved" target="_self" rel="noopener" data-href="#硬件">#硬件</a> <br>楔机是最近在阿里云上看到了一个优惠活动，2核2G 3Mbps固定的公网IP的机子99/年，优惠时间是3年，便萌发了想要自己搭建一个私人服务器的想法。虽然趟了一路的坑，过程曲折了一点，但最终的结果还是搭成了。<br>先总体介绍一下项目，总体结构如图：<br><img alt="Pasted image 20231128113943.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128113943.png" target="_self"><br>首先我们需要选购一台能够7*24h运转的家用服务器
+<br>之后在阿里云上购买一台带固定公网IP的ESC
+<br>为了能够在外网通过ssh连接放置在内网的服务器需要搭建openVpn
+<br>最后如果你想让同事能在公网中访问到我们自建的博客服务，在同事面前秀一手。还有要做内网穿透FRP
+<br>废话不多说，开始本文的主题。首先分析一下本文的服务器需要满足的需求。<br>既然是7*24小时运转，那自然需要考虑到功耗啦。我们先来算一笔账如果直接选购市面上常见的个人电脑按照待机80W来算，见下图：<br><img alt="Pasted image 20231128160417.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128160417.png" target="_self"><br>一个月就需要46元的电费。但我是一个穷逼，30W是我的极限了。然后就是出于安全考虑，自然也是要选着小功耗。作为一台服务器，尽管是一台微型私人服务器，但毕竟是一台服务器性能肯定是有要求的。首先排除树莓派这种单片机。<br>在操作系统方面我们基本没得选，就是Linux系统。其次就是X86还是ARM，ARM虽然功耗更低，但X86发展了这么多年，兼容性、可玩性肯定是要比ARM强，所以选X86（主要是X86的网络教程多😊）。<br>确定OS和架构之后，那就开始分析硬件了：<br>CPU自然是往多核多线程靠，主频要求不高，这玩意就那两家，随便挑一家，散热器用CPU自带的。
+<br>显卡是什么，不知道啊，用核显。
+<br>内存我们后期需要使用Docker起服务所以起步16G DDR4，DDR5没降价前不考虑。内存我倒是觉得可以二手，之前二手内存的笔记本用了好几年了，没出过啥问题。
+<br>因为需要全天运行机械硬盘的话，就只能选企业级硬盘了。这个玩意又大又贵，不考虑。那就是剩下固态硬盘了，SSD几乎也没得选 M.2接口、NV协议、PCI E 3.0走起。根据我这些年来被电脑折腾的经验来看，512G的硬盘够用了。
+<br>主板在兼容我们选择的硬件的基础上。最重要的就是扩展性，尽量选购有两个内存插槽、两个M2接口的主板，至于后期升级CPU的说法，我只能说我没钱。其他的只要它不自燃都是阿巴阿巴阿巴
+<br>电源如果你不想死的快的话，买新的买靠谱的。至于功率你只要买正常的基本都错错有余。
+<br>机箱就看个人情况啦，实在穷的话鞋盒又不是不能用
+<br>总结一下我们的需求：<br>整机功耗尽可能的低
+<br>多核多线程的CPU
+<br>16G起步的DDR4内存
+<br>512G的M2固态
+<br>带两个内存插槽、两个M2插槽的主板
+<br>靠谱的电源
+<br>这么一通限制下来，如果你像我一样还不太想折腾的话。那留下来的选项就只剩机顶盒了，俗称迷你主机。<br>
+这里先叠个甲，厂商没给我钱。但是我非常愿意带货。
+<br>”狗猫黄红“四大软件逛了一圈。有一个啥啥啥牌子的迷你主机挺便宜的，但是它的CPU市Intel的N100太弱鸡了不选。然后就是小米的那个迷你主机了，这个太贵了也不选。<br>最终我选的是um480xt这个产品。R7 4800H 8核16线程、双内存固态接口、待机功耗25W。准系统(不带内存，固态)叠叠劵之后售价1069。PDD淘一个镁光的16G 3200 DDR4 售价164。某东上的长城固态208，再加上阿里云ESC年费99。预计总费用：<br><img alt="Pasted image 20231128152131.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128152131.png" target="_self"><br>
+除了有点小贵，其他基本符合要求。<br>最后付上所有硬件的产品截图：<br><img alt="Pasted image 20231128163809.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128163809.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/003-all-in-one/1.-7*24运行的家用微型服务器选购指南.html</link><guid isPermaLink="false">003 All in one/1. 7*24运行的家用微型服务器选购指南.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:16:53 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128113943.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20231128113943.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[6. continue、break和return的区别是什么？]]></title><description><![CDATA[<br>在循环结构中，当循环条件不满足或者循环次数达到要求时，循环会正常结束。但是，有时候可能需要在循环的过程中，当发生了某种条件之后 ，提前终止循环，这就需要用到下面几个关键词：<br>
+<br>
+continue：指跳出当前的这一次循环，继续下一次循环。 <br>
+break：指跳出整个循环体，继续执行循环下面的语句。
+return 用于跳出所在方法，结束该方法的运行。 <br>
+return 一般有两种用法：return;：直接使用 return 结束方法执行，用于没有返回值函数的方法 <br>
+return value：return 一个特定值，用于有返回值函数的方法 <br>思考一下：下列语句的运行结果是什么？<br> public static void main(String[] args) { boolean flag = false; for (int i = 0; i &lt;= 3; i++) { if (i == 0) { System.out.println("0"); } else if (i == 1) { System.out.println("1"); continue; } else if (i == 2) { System.out.println("2"); flag = true; } else if (i == 3) { System.out.println("3"); break; } else if (i == 4) { System.out.println("4"); } System.out.println("xixi"); } if (flag) { System.out.println("haha"); return; } System.out.println("heihei"); }
+复制<br>运行结果：<br>0
+xixi
+1
+2
+xixi
+3
+haha
+复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/6.-continue、break和return的区别是什么？.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/6. continue、break和return的区别是什么？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:16:34 GMT</pubDate></item><item><title><![CDATA[5. 位移运算符]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:位移" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#位移</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:位移" class="tag is-unresolved" target="_self" rel="noopener" data-href="#位移">#位移</a><br>
+Tips：位移都是在补码的基础上进行计算的
+<img alt="Pasted image 20240401101121.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401101121.png" target="_self">
+<br>移位运算符是最基本的运算符之一，几乎每种编程语言都包含这一运算符。移位操作中，被操作的数据被视为二进制数，移位就是将其向左或向右移动若干位的运算。<br>移位运算符在各种框架以及 JDK 自身的源码中使用还是挺广泛的，HashMap（JDK1.8） 中的 hash 方法的源码就用到了移位运算符：<br>static final int hash(Object key) { int h; // key.hashCode()：返回散列值也就是hashcode // ^：按位异或 // &gt;&gt;&gt;:无符号右移，忽略符号位，空位都以0补齐 return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16); }
+复制<br>在 Java 代码里使用 &lt;&lt;、 &gt;&gt; 和&gt;&gt;&gt;转换成的指令码运行起来会更高效些。<br>
+掌握最基本的移位运算符知识还是很有必要的，这不光可以帮助我们在代码中使用，还可以帮助我们理解源码中涉及到移位运算符的代码。<br>
+<br>&lt;&lt; :左移运算符，向左移若干位，高位丢弃，低位补零。x &lt;&lt; 1,相当于 x 乘以 2(不溢出的情况下)。
+<br>&gt;&gt;:带符号右移，向右移若干位，高位补符号位，低位丢弃。正数高位补 0,负数高位补 1。x &gt;&gt; 1,相当于 x 除以 2。
+<br>&gt;&gt;&gt;:无符号右移，忽略符号位，空位都以 0 补齐。
+<br>由于 double，float 在二进制中的表现比较特殊，因此不能来进行移位操作。<br>移位操作符实际上支持的类型只有int和long，编译器在对short、byte、char类型进行移位前，都会将其转换为int类型再操作。 <br>当 int 类型左移/右移位数大于等于 32 位操作时，会先求余（%）后再进行左移/右移操作。也就是说左移/右移 32 位相当于不进行移位操作（32%32=0），左移/右移 42 位相当于左移/右移 10 位（42%32=10）。当 long 类型进行左移/右移操作时，由于 long 对应的二进制是 64 位，因此求余操作的基数也变成了 64。<br>也就是说：x&lt;&lt;42等同于x&lt;&lt;10，x&gt;&gt;42等同于x&gt;&gt;10，x &gt;&gt;&gt;42等同于x &gt;&gt;&gt; 10。<br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i)); // 这个是补码
+i &lt;&lt;= 10;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>输出：<br>初始数据：-1
+初始数据对应的二进制字符串：11111111111111111111111111111111
+左移 10 位后的数据 -1024
+左移 10 位后的数据对应的二进制字符 11111111111111111111110000000000
+复制<br>由于左移位数大于等于 32 位操作时，会先求余（%）后再进行左移操作，所以下面的代码左移 42 位相当于左移 10 位（42%32=10），输出结果和前面的代码一样。<br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i));
+i &lt;&lt;= 42;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>右移运算符使用类似，篇幅问题，这里就不做演示了。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/5.-位移运算符.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/5. 位移运算符.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:16:19 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401101121.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401101121.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[4. 自增自减运算符]]></title><description><![CDATA[<br>在写代码的过程中，常见的一种情况是需要某个整数类型变量增加 1 或减少 1，Java 提供了一种特殊的运算符，用于这种表达式，叫做自增运算符（++)和自减运算符（--）。<br>++ 和 -- 运算符可以放在变量之前，也可以放在变量之后，当运算符放在变量之前时(前缀)，先自增/减，再赋值；当运算符放在变量之后时(后缀)，先赋值，再自增/减。例如，当 b = ++a 时，先自增（自己增加 1），再赋值（赋值给 b）；当 b = a++ 时，先赋值(赋值给 b)，再自增（自己增加 1）。也就是，++a 输出的是 a+1 的值，a++输出的是 a 值。用一句口诀就是：“符号在前就先加/减，符号在后就后加/减”。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/4.-自增自减运算符.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/4. 自增自减运算符.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:16:00 GMT</pubDate></item><item><title><![CDATA[3. Java语言关键字有哪些？]]></title><description><![CDATA[<br><img alt="Pasted image 20240401100238.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401100238.png" target="_self"><br>
+Tips：所有的关键字都是小写的，在 IDE 中会以特殊颜色显示。default 这个关键字很特殊，既属于程序控制，也属于类，方法和变量修饰符，还属于访问控制。在程序控制中，当在 switch 中匹配不到任何情况时，可以使用 default 来编写默认匹配的情况。在类，方法和变量修饰符中，从 JDK8 开始引入了默认方法，可以使用 default 关键字来定义一个方法的默认实现。在访问控制中，如果一个方法前没有任何修饰符，则默认会有一个修饰符 default，但是这个修饰符加上了就会报错。
+<br>⚠️ 注意：虽然 true, false, 和 null 看起来像关键字但实际上他们是字面值，同时你也不可以作为标识符来使用。(官方文档)[https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.htmlopen ]]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/3.-java语言关键字有哪些？.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/3. Java语言关键字有哪些？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:15:46 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401100238.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401100238.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. 标识符和关键字的区别是什么？]]></title><description><![CDATA[<br>在我们编写程序的时候，需要大量地为程序、类、变量、方法等取名字，于是就有了 标识符 。简单来说， 标识符就是一个名字 。<br>有一些标识符，Java 语言已经赋予了其特殊的含义，只能用于特定的地方，这些特殊的标识符就是 关键字 。简单来说，关键字是被赋予特殊含义的标识符 。比如，在我们的日常生活中，如果我们想要开一家店，则要给这个店起一个名字，起的这个“名字”就叫标识符。但是我们店的名字不能叫“警察局”，因为“警察局”这个名字已经被赋予了特殊的含义，而“警察局”就是我们日常生活中的关键字。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/2.-标识符和关键字的区别是什么？.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/2. 标识符和关键字的区别是什么？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:15:24 GMT</pubDate></item><item><title><![CDATA[1. 注释有哪几种形式]]></title><description><![CDATA[<br>Java 中的注释有三种：<br><img alt="Pasted image 20240328103341.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328103341.png" target="_self"><br>Java 注释类型总结
+1. **单行注释**：通常用于解释方法内某单行代码的作用。//
+2. **多行注释**：通常用于解释一段代码的作用。/* \*/
+3. **文档注释**：通常用于生成 Java 开发文档。/** \*/<br>用的比较多的还是单行注释和文档注释，多行注释在实际开发中使用的相对较少。<br><img alt="Pasted image 20240328103521.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328103521.png" target="_self"><br>在我们编写代码的时候，如果代码量比较少，我们自己或者团队其他成员还可以很轻易地看懂代码，但是当项目结构一旦复杂起来，我们就需要用到注释了。注释并不会执行(编译器在编译代码之前会把代码中的所有注释抹掉,字节码中不保留注释)，是我们程序员写给自己看的，注释是你的代码说明书，能够帮助看代码的人快速地理清代码之间的逻辑关系。因此，在写程序的时候随手加上注释是一个非常好的习惯。<br>《Clean Code》这本书明确指出：<br>
+代码的注释不是越详细越好。实际上好的代码本身就是注释，我们要尽量规范和美化自己的代码来减少不必要的注释。<br>
+若编程语言足够有表达力，就不需要注释，尽量通过代码来阐述。
+<br>举个例子：<br>
+去掉下面复杂的注释，只需要创建一个与注释所言同一事物的函数即可<br>// check to see if the employee is eligible for full benefits
+if ((employee.flags &amp; HOURLY_FLAG) &amp;&amp; (employee.age &gt; 65))
+复制<br>应替换为<br>if (employee.isEligibleForFullBenefits())
+复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/1.-注释有哪几种形式.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/1. 注释有哪几种形式.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:15:10 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328103341.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328103341.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[7. 超过long整数的数据应该如何表示？]]></title><description><![CDATA[<br>基本数值类型都有一个表达范围，如果超过这个范围就会有数值溢出的风险。<br>在 Java 中，64 位 long 整型是最大的整数类型。<br>long l = Long.MAX_VALUE;
+System.out.println(l + 1); // -9223372036854775808
+System.out.println(l + 1 == Long.MIN_VALUE); // true
+复制<br>BigInteger&nbsp;内部使用&nbsp;int[]&nbsp;数组来存储任意大小的整形数据。<br>相对于常规整数类型的运算来说，BigInteger&nbsp;运算的效率会相对较低。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/7.-超过long整数的数据应该如何表示？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/7. 超过long整数的数据应该如何表示？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:14:55 GMT</pubDate></item><item><title><![CDATA[6. 如何解决浮点数运算的精度丢失问题？]]></title><description><![CDATA[<br>BigDecimal&nbsp;可以实现对浮点数的运算，不会造成精度丢失。通常情况下，大部分需要浮点数精确运算结果的业务场景（比如涉及到钱的场景）都是通过&nbsp;BigDecimal&nbsp;来做的。<br>BigDecimal a = new BigDecimal("1.0");
+BigDecimal b = new BigDecimal("0.9");
+BigDecimal c = new BigDecimal("0.8"); BigDecimal x = a.subtract(b);
+BigDecimal y = b.subtract(c); System.out.println(x); /* 0.1 */
+System.out.println(y); /* 0.1 */
+System.out.println(Objects.equals(x, y)); /* true */
+复制<br>关于&nbsp;BigDecimal&nbsp;的详细介绍，可以看看我写的这篇文章：<a data-tooltip-position="top" aria-label="https://javaguide.cn/java/basis/bigdecimal.html" rel="noopener" class="external-link is-unresolved" href="https://javaguide.cn/java/basis/bigdecimal.html" target="_self">BigDecimal 详解open in new window</a>。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/6.-如何解决浮点数运算的精度丢失问题？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/6. 如何解决浮点数运算的精度丢失问题？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:14:41 GMT</pubDate></item><item><title><![CDATA[5. 为什么浮点数运算的时候会有精度丢失的风险？]]></title><description><![CDATA[<br>浮点数运算精度丢失代码演示：<br>float a = 2.0f - 1.9f;
+float b = 1.8f - 1.7f;
+System.out.println(a);// 0.100000024
+System.out.println(b);// 0.099999905
+System.out.println(a == b);// false
+复制<br>为什么会出现这个问题呢？<br>这个和计算机保存浮点数的机制有很大关系。我们知道计算机是二进制的，而且计算机在表示一个数字时，宽度是有限的，无限循环的小数存储在计算机时，只能被截断，所以就会导致小数精度发生损失的情况。这也就是解释了为什么浮点数没有办法用二进制精确表示。<br>就比如说十进制下的 0.2 就没办法精确转换成二进制小数：<br>// 0.2 转换为二进制数的过程为，不断乘以 2，直到不存在小数为止，
+// 在这个计算过程中，得到的整数部分从上到下排列就是二进制的结果。
+0.2 * 2 = 0.4 -&gt; 0
+0.4 * 2 = 0.8 -&gt; 0
+0.8 * 2 = 1.6 -&gt; 1
+0.6 * 2 = 1.2 -&gt; 1
+0.2 * 2 = 0.4 -&gt; 0（发生循环）
+...
+复制<br>关于浮点数的更多内容，建议看一下<a data-tooltip-position="top" aria-label="http://kaito-kidd.com/2018/08/08/computer-system-float-point/" rel="noopener" class="external-link is-unresolved" href="http://kaito-kidd.com/2018/08/08/computer-system-float-point/" target="_self">计算机系统基础（四）浮点数</a>这篇文章。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/5.-为什么浮点数运算的时候会有精度丢失的风险？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/5. 为什么浮点数运算的时候会有精度丢失的风险？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:14:25 GMT</pubDate></item><item><title><![CDATA[4. 自动装箱与自动拆箱了解吗？原理是什么？]]></title><description><![CDATA[<br>什么是自动拆装箱？<br>
+<br>装箱：将基本类型用它们对应的引用类型包装起来；
+<br>拆箱：将包装类型转换为基本数据类型；
+<br>举例：<br>Integer i = 10; //装箱
+int n = i; //拆箱
+复制<br>上面这两行代码对应的字节码为：<br> L1 LINENUMBER 8 L1 ALOAD 0 BIPUSH 10 INVOKESTATIC java/lang/Integer.valueOf (I)Ljava/lang/Integer; PUTFIELD AutoBoxTest.i : Ljava/lang/Integer; L2 LINENUMBER 9 L2 ALOAD 0 ALOAD 0 GETFIELD AutoBoxTest.i : Ljava/lang/Integer; INVOKEVIRTUAL java/lang/Integer.intValue ()I PUTFIELD AutoBoxTest.n : I RETURN
+复制<br>从字节码中，我们发现装箱其实就是调用了包装类的 valueOf() 方法，拆箱其实就是调用了&nbsp;xxxValue() 方法。<br>因此，<br>
+<br>Integer i = 10&nbsp;等价于&nbsp;Integer i = Integer.valueOf(10)
+<br>int n = i&nbsp;等价于&nbsp;int n = i.intValue();
+<br>注意：如果频繁拆装箱的话，也会严重影响系统的性能。我们应该尽量避免不必要的拆装箱操作。<br>private static long sum() { // 应该使用 long 而不是 Long Long sum = 0L; for (long i = 0; i &lt;= Integer.MAX_VALUE; i++) sum += i; return sum;
+}
+复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/4.-自动装箱与自动拆箱了解吗？原理是什么？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/4. 自动装箱与自动拆箱了解吗？原理是什么？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:14:10 GMT</pubDate></item><item><title><![CDATA[3. 包装类型的换成机制了解吗？]]></title><description><![CDATA[<br>Java 基本数据类型的包装类型的大部分都用到了缓存机制来提升性能。<br>Byte,Short,Integer,Long&nbsp;这 4 种包装类默认创建了数值&nbsp;[-128，127]&nbsp;的相应类型的缓存数据，Character&nbsp;创建了数值在&nbsp;[0,127]&nbsp;范围的缓存数据，Boolean&nbsp;直接返回&nbsp;True&nbsp;or&nbsp;False。<br>Integer 缓存源码：<br>public static Integer valueOf(int i) { if (i &gt;= IntegerCache.low &amp;&amp; i &lt;= IntegerCache.high) return IntegerCache.cache[i + (-IntegerCache.low)]; return new Integer(i);
+} private static class IntegerCache { static final int low = -128; static final int high; static { // high value may be configured by property int h = 127; }
+}
+复制<br>Character&nbsp;缓存源码:<br>public static Character valueOf(char c) { if (c &lt;= 127) { // must cache return CharacterCache.cache[(int)c]; } return new Character(c);
+} private static class CharacterCache { private CharacterCache(){} static final Character cache[] = new Character[127 + 1]; static { for (int i = 0; i &lt; cache.length; i++) cache[i] = new Character((char)i); } }
+复制<br>Boolean&nbsp;缓存源码：<br>public static Boolean valueOf(boolean b) { return (b ? TRUE : FALSE);
+}
+复制<br>如果超出对应范围仍然会去创建新的对象，缓存的范围区间的大小只是在性能和资源之间的权衡。<br>两种浮点数类型的包装类&nbsp;Float, Double&nbsp;并没有实现缓存机制。<br>Integer i1 = 33;
+Integer i2 = 33;
+System.out.println(i1 == i2);// 输出 true Float i11 = 333f;
+Float i22 = 333f;
+System.out.println(i11 == i22);// 输出 false Double i3 = 1.2;
+Double i4 = 1.2;
+System.out.println(i3 == i4);// 输出 false
+复制<br>下面我们来看一个问题：下面的代码的输出结果是&nbsp;true&nbsp;还是&nbsp;false&nbsp;呢？ <br>Integer i1 = 40;
+Integer i2 = new Integer(40);
+System.out.println(i1==i2);
+复制<br>Integer i1=40&nbsp;这一行代码会发生装箱，也就是说这行代码等价于&nbsp;Integer i1=Integer.valueOf(40)&nbsp;。因此，i1直接使用的是缓存中的对象。而Integer i2 = new Integer(40)&nbsp;会直接创建新的对象。<br>因此，答案是&nbsp;false&nbsp;。你答对了吗？<br>记住：所有整型包装类对象之间值的比较，全部使用 equals 方法比较。<br><img alt="Pasted image 20240407095857.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407095857.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/3.-包装类型的换成机制了解吗？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/3. 包装类型的换成机制了解吗？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:13:44 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407095857.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407095857.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. 基本类型和包装类型的区别]]></title><description><![CDATA[<br><img alt="Pasted image 20240407094416.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407094416.png" target="_self"><br>基本类型 vs 包装类型<br>
+<br>用途：除了定义一些常量和局部变量之外，我们在其他地方比如方法参数、对象属性中很少会使用基本类型来定义变量。并且，包装类型可用于泛型，而基本类型不可以。
+<br>存储方式：基本数据类型的局部变量存放在 Java 虚拟机栈中的局部变量表中，基本数据类型的成员变量（未被&nbsp;static&nbsp;修饰 ）存放在 Java 虚拟机的堆中。包装类型属于对象类型，我们知道几乎所有对象实例都存在于堆中。
+<br>占用空间：相比于包装类型（对象类型）， 基本数据类型占用的空间往往非常小。
+<br>默认值：成员变量包装类型不赋值就是&nbsp;null&nbsp;，而基本类型有默认值且不是&nbsp;null。
+<br>比较方式：对于基本数据类型来说，==&nbsp;比较的是值。对于包装数据类型来说，==&nbsp;比较的是对象的内存地址。所有整型包装类对象之间值的比较，全部使用&nbsp;equals()&nbsp;方法。
+<br>为什么说是几乎所有对象实例都存在于堆中呢？&nbsp;这是因为 HotSpot 虚拟机引入了 JIT 优化之后，会对对象进行逃逸分析，如果发现某一个对象并没有逃逸到方法外部，那么就可能通过标量替换来实现栈上分配，而避免堆上分配内存<br>⚠️ 注意：基本数据类型存放在栈中是一个常见的误区！&nbsp;基本数据类型的存储位置取决于它们的作用域和声明方式。如果它们是局部变量，那么它们会存放在栈中；如果它们是成员变量，那么它们会存放在堆中。 <br>public class Test { // 成员变量，存放在堆中 int a = 10; // 被 static 修饰，也存放在堆中，但属于类，不属于对象 // JDK1.7 静态变量从永久代移动了 Java 堆中 static int b = 20; public void method() { // 局部变量，存放在栈中 int c = 30; static int d = 40; // 编译错误，不能在方法中使用 static 修饰局部变量 }
+}
+复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/2.-基本类型和包装类型的区别.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/2. 基本类型和包装类型的区别.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:13:30 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407094416.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407094416.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Java 中有 8 种基本数据类型，分别为：]]></title><description><![CDATA[<br><br>
+<br>6 种数字类型： <br>4 种整数型：byte、short、int、long
+<br>2中浮点型：float、double <br>1中字符类型：char
+<br>1中布尔类型：boolean
+<br><br><br><br>可以看到，像 byte、short、int、long能表示的最大正数都减 1 了。这是为什么呢？这是因为在二进制补码表示法中，最高位是用来表示符号的（0 表示正数，1 表示负数），其余位表示数值部分。所以，如果我们要表示最大的正数，我们需要把除了最高位之外的所有位都设为 1。如果我们再加 1，就会导致溢出，变成一个负数。而最大负数就是全部为0所以不用减1<br>对于 boolean，官方文档未明确定义，它依赖于 JVM 厂商的具体实现。逻辑上理解是占用 1 位，但是实际中会考虑计算机高效存储因素。<br>另外，Java 的每种基本类型所占存储空间的大小不会像其他大多数语言那样随机器硬件架构的变化而变化。这种所占存储空间大小的不变性是 Java 程序比用其他大多数语言编写的程序更具可移植性的原因之一（《Java 编程思想》2.2 节有提到）。<br>注意：<br>
+<br>Java 里使用 long 类型的数据一定要在数值后面加上 L，否则将作为整型解析。
+<br>char a = 'h'char :单引号，String a = "hello" :双引号。
+<br><br>这八种基本类型都有对应的包装类分别为：Byte、Short、Integer、Long、Float、Double、Character、Boolean 。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/1.-java中的基本数据类型.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/1. Java中的基本数据类型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:13:12 GMT</pubDate></item><item><title><![CDATA[8. Java与C++的区别]]></title><description><![CDATA[<br>我知道很多人没学过 C++，但是面试官就是没事喜欢拿咱们 Java 和 C++ 比呀！没办法！！！就算没学过 C++，也要记下来。<br>
+虽然，Java 和 C++ 都是面向对象的语言，都支持封装、继承和多态，但是，它们还是有挺多不相同的地方：<br>
+<br>Java 不提供指针来直接访问内存，程序内存更加安全Java 的类是单继承的，
+<br>C++ 支持多重继承；虽然 Java 的类不可以多继承，但是接口可以多继承。
+<br>Java 有自动内存管理垃圾回收机制(GC)，不需要程序员手动释放无用内存。
+<br>C ++同时支持方法重载和操作符重载，但是 Java 只支持方法重载（操作符重载增加了复杂性，这与 Java 最初的设计思想不符）
+<br>……
+]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/8.-java与c++的区别.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/8. Java与C++的区别.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:12:52 GMT</pubDate></item><item><title><![CDATA[7. Oracle JDK vs OpenJDK]]></title><description><![CDATA[<br>可能在看这个问题之前很多人和我一样并没有接触和使用过 OpenJDK 。那么 Oracle JDK 和 OpenJDK 之间是否存在重大差异？下面我通过收集到的一些资料，为你解答这个被很多人忽视的问题。<br>首先，2006 年 SUN 公司将 Java 开源，也就有了 OpenJDK。2009 年 Oracle 收购了 Sun 公司，于是自己在 OpenJDK 的基础上搞了一个 Oracle JDK。Oracle JDK 是不开源的，并且刚开始的几个版本（Java8 ~ Java11）还会相比于 OpenJDK 添加一些特有的功能和工具。<br>其次，对于 Java 7 而言，OpenJDK 和 Oracle JDK 是十分接近的。 Oracle JDK 是基于 OpenJDK 7 构建的，只添加了一些小功能，由 Oracle 工程师参与维护。<br>下面这段话摘自 Oracle 官方在 2012 年发表的一个博客：<br>
+问：OpenJDK 存储库中的源代码与用于构建 Oracle JDK 的代码之间有什么区别？<br>
+答：非常接近 - 我们的 Oracle JDK 版本构建过程基于 OpenJDK 7 构建，只添加了几个部分，例如部署代码，其中包括 Oracle 的 Java 插件和 Java WebStart 的实现，以及一些闭源的第三方组件，如图形光栅化器，一些开源的第三方组件，如 Rhino，以及一些零碎的东西，如附加文档或第三方字体。展望未来，我们的目的是开源 Oracle JDK 的所有部分，除了我们考虑商业功能的部分。
+<br><br>
+<br>是否开源：OpenJDK 是一个参考模型并且是完全开源的，而 Oracle JDK 是基于 OpenJDK 实现的，并不是完全开源的（个人观点：众所周知，JDK 原来是 SUN 公司开发的，后来 SUN 公司又卖给了 Oracle 公司，Oracle 公司以 Oracle 数据库而著名，而 Oracle 数据库又是闭源的，这个时候 Oracle 公司就不想完全开源了，但是原来的 SUN 公司又把 JDK 给开源了，如果这个时候 Oracle 收购回来之后就把他给闭源，必然会引起很多 Java 开发者的不满，导致大家对 Java 失去信心，那 Oracle 公司收购回来不就把 Java 烂在手里了吗！然后，Oracle 公司就想了个骚操作，这样吧，我把一部分核心代码开源出来给你们玩，并且我要和你们自己搞的 JDK 区分下，你们叫 OpenJDK，我叫 Oracle JDK，我发布我的，你们继续玩你们的，要是你们搞出来什么好玩的东西，我后续发布 Oracle JDK 也会拿来用一下，一举两得！）OpenJDK 开源项目：<a data-tooltip-position="top" aria-label="https://github.com/openjdk/jdk%E3%80%82" rel="noopener" class="external-link is-unresolved" href="https://github.com/openjdk/jdk%E3%80%82" target="_self">https://github.com/openjdk/jdk。</a>
+<br>是否免费：Oracle JDK 会提供免费版本，但一般有时间限制。JDK17 之后的版本可以免费分发和商用，但是仅有 3 年时间，3 年后无法免费商用。不过，JDK8u221 之前只要不升级可以无限期免费。OpenJDK 是完全免费的。
+<br>功能性：Oracle JDK 在 OpenJDK 的基础上添加了一些特有的功能和工具，比如 Java Flight Recorder（JFR，一种监控工具）、Java Mission Control（JMC，一种监控工具）等工具。不过，在 Java 11 之后，OracleJDK 和 OpenJDK 的功能基本一致，之前 OracleJDK 中的私有组件大多数也已经被捐赠给开源组织。
+<br>稳定性：OpenJDK 不提供 LTS 服务，而 OracleJDK 大概每三年都会推出一个 LTS 版进行长期支持。不过，很多公司都基于 OpenJDK 提供了对应的和 OracleJDK 周期相同的 LTS 版。因此，两者稳定性其实也是差不多的。
+<br>协议：Oracle JDK 使用 BCL/OTN 协议获得许可，而 OpenJDK 根据 GPL v2 许可获得许可。
+<br><br>
+答： <br>OpenJDK 是开源的，开源意味着你可以对它根据你自己的需要进行修改、优化，比如 Alibaba 基于 OpenJDK 开发了 Dragonwell8：<a rel="noopener" class="external-link is-unresolved" href="https://github.com/alibaba/dragonwell8" target="_self">https://github.com/alibaba/dragonwell8</a> <br>OpenJDK 是商业免费的（这也是为什么通过 yum 包管理器上默认安装的 JDK 是 OpenJDK 而不是 Oracle JDK）。虽然 Oracle JDK 也是商业免费（比如 JDK 8），但并不是所有版本都是免费的。
+<br>OpenJDK 更新频率更快。Oracle JDK 一般是每 6 个月发布一个新版本，而 OpenJDK 一般是每 3 个月发布一个新版本。（现在你知道为啥 Oracle JDK 更稳定了吧，先在 OpenJDK 试试水，把大部分问题都解决掉了才在 Oracle JDK 上发布）<br>
+基于以上这些原因，OpenJDK 还是有存在的必要的！ <br><img alt="Pasted image 20240328101246.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328101246.png" target="_self"><br>oracle jdk release cadence
+## Oracle JDK 和 OpenJDK 如何选择？
+建议选择 OpenJDK 或者基于 OpenJDK 的发行版，比如 AWS 的 Amazon Corretto，阿里巴巴的 Alibaba Dragonwell。<br>🌈 拓展一下：<br>
+<br>BCL 协议（Oracle Binary Code License Agreement）：可以使用 JDK（支持商用），但是不能进行修改。
+<br>OTN 协议（Oracle Technology Network License Agreement）：11 及之后新发布的 JDK 用的都是这个协议，可以自己私下用，但是商用需要付费。
+]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/7.-oracle-jdk-vs-openjdk.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/7. Oracle JDK vs OpenJDK.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:12:40 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328101246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328101246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[6. AOT有什么优点？为什么不全部使用AOT呢？]]></title><description><![CDATA[<br>JDK 9 引入了一种新的编译模式 AOT(Ahead of Time Compilation) 。和 JIT 不同的是，这种编译模式会在程序被执行前就将其编译成机器码，属于静态编译（C、 C++，Rust，Go 等语言就是静态编译）。AOT 避免了 JIT 预热等各方面的开销，可以提高 Java 程序的启动速度，避免预热时间长。并且，AOT 还能减少内存占用和增强 Java 程序的安全性（AOT 编译后的代码不容易被反编译和修改），特别适合云原生场景。<br>JIT 与 AOT 两者的关键指标对比:<br><img alt="Pasted image 20240326102845.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326102845.png" target="_self"><br>JIT vs AOT
+可以看出，AOT 的主要优势在于启动时间、内存占用和打包体积。JIT 的主要优势在于具备更高的极限处理能力，可以降低请求的最大延迟。<br>既然 AOT 这么多优点，那为什么不全部使用这种编译方式呢？<br>我们前面也对比过 JIT 与 AOT，两者各有优点，只能说 AOT 更适合当下的云原生场景，对微服务架构的支持也比较友好。除此之外，AOT 编译无法支持 Java 的一些动态特性，如反射、动态代理、动态加载、JNI（Java Native Interface）等。然而，很多框架和库（如 Spring、CGLIB）都用到了这些特性。如果只使用 AOT 编译，那就没办法使用这些框架和库了，或者说需要针对性地去做适配和优化。举个例子，CGLIB 动态代理使用的是 ASM 技术，而这种技术大致原理是运行时直接在内存中生成并加载修改后的字节码文件也就是 .class 文件，如果全部使用 AOT 提前编译，也就不能使用 ASM 技术了。为了支持类似的动态特性，所以选择使用 JIT 即时编译器。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/6.-aot有什么优点？为什么不全部使用aot呢？.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/6. AOT有什么优点？为什么不全部使用AOT呢？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:12:23 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326102845.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326102845.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5. 为什么说Java语言“编译与解释并存”？]]></title><description><![CDATA[<br>其实这个问题我们讲字节码的时候已经提到过，因为比较重要，所以我们这里再提一下。<br>我们可以将高级编程语言按照程序的执行方式分为两种：<br>
+<br>编译型：编译型语言会通过编译器将源代码一次性翻译成可被该平台执行的机器码。一般情况下，编译语言的执行速度比较快，开发效率比较低。常见的编译性语言有 C、C++、Go、Rust 等等。
+<br>解释型：解释型语言会通过解释器一句一句的将代码解释（interpret）为机器代码后再执行。解释型语言开发效率比较快，执行速度比较慢。常见的解释性语言有 Python、JavaScript、PHP 等等。
+<br><img alt="Pasted image 20240326100820.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326100820.png" target="_self"><br> 编译型语言和解释型语言
+根据维基百科介绍：<br>
+为了改善编译语言的效率而发展出的即时编译技术，已经缩小了这两种语言间的差距。这种技术混合了编译语言与解释型语言的优点，它像编译语言一样，先把程序源代码编译成字节码。到执行期时，再将字节码直译，之后执行。Java与LLVM是这种技术的代表产物。
+<br>为什么说 Java 语言“编译与解释并存”？<br>这是因为 Java 语言既具有编译型语言的特征，也具有解释型语言的特征。因为 Java 程序要经过先编译，后解释两个步骤，由 Java 编写的程序需要先经过编译步骤，生成字节码（.class 文件），这种字节码必须由 Java 解释器来解释执行。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/5.-为什么说java语言“编译与解释并存”？.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/5. 为什么说Java语言“编译与解释并存”？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:12:08 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326100820.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240326100820.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[JVM]]></title><description><![CDATA[<br><br>Java 虚拟机（JVM）是运行 Java 字节码的虚拟机。JVM 有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。字节码和不同系统的 JVM 实现是 Java 语言“一次编译，随处可以运行”的关键所在。<br><img alt="Pasted image 20240307141133.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240307141133.png" target="_self"><br>运行在 Java 虚拟机之上的编程语言
+<br>JVM 并不是只有一种！只要满足 JVM 规范，每个公司、组织或者个人都可以开发自己的专属 JVM。 也就是说我们平时接触到的 HotSpot VM 仅仅是是 JVM 规范的一种实现而已。除了我们平时最常用的 HotSpot VM 外，还有 J9 VM、Zing VM、JRockit VM 等 JVM。<br><br>JDK（Java Development Kit），它是功能齐全的 Java SDK，是提供给开发者使用，能够创建和编译 Java 程序的开发套件。它包含了 JRE，同时还包含了编译 java 源码的编译器 javac 以及一些其他工具比如 javadoc（文档注释工具）、jdb（调试器）、jconsole（基于 JMX 的可视化监控⼯具）、javap（反编译工具）等等。<br>JRE（Java Runtime Environment） 是 Java 运行时环境。它是运行已编译 Java 程序所需的所有内容的集合，主要包括 Java 虚拟机（JVM）、Java 基础类库（Class Library）。<br>也就是说，JRE 是 Java 运行时环境，仅包含 Java 应用程序的运行时环境和必要的类库。而 JDK 则包含了 JRE，同时还包括了 javac、javadoc、jdb、jconsole、javap 等工具，可以用于 Java 应用程序的开发和调试。如果需要进行 Java 编程工作，比如编写和编译 Java 程序、使用 Java API 文档等，就需要安装 JDK。而对于某些需要使用 Java 特性的应用程序，如 JSP 转换为 Java Servlet、使用反射等，也需要 JDK 来编译和运行 Java 代码。因此，即使不打算进行 Java 应用程序的开发工作，也有可能需要安装 JDK。<br>
+<img alt="Pasted image 20240307141703.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240307141703.png" target="_self"><br>JDK包含JRE
+不过，从 JDK 9 开始，就不需要区分 JDK 和 JRE 的关系了，取而代之的是模块系统（JDK 被重新组织成 94 个模块）+ [jlink](https://openjdk.org/jeps/282)工具 (随 Java 9 一起发布的新命令行工具，用于生成自定义 Java 运行时映像，该映像仅包含给定应用程序所需的模块) 。并且，从 JDK 11 开始，Oracle 不再提供单独的 JRE 下载。<br>在<a data-tooltip-position="top" aria-label="https://javaguide.cn/java/new-features/java9.html" rel="noopener" class="external-link is-unresolved" href="https://javaguide.cn/java/new-features/java9.html" target="_self"> Java 9 新特性概览</a>这篇文章中，我在介绍模块化系统的时候提到：<br>
+在引入了模块系统之后，JDK 被重新组织成 94 个模块。Java 应用可以通过新增的 jlink 工具，创建出只包含所依赖的 JDK 模块的自定义运行时镜像。这样可以极大的减少 Java 运行时环境的大小。
+<br>也就是说，可以用 jlink 根据自己的需求，创建一个更小的 runtime（运行时），而不是不管什么应用，都是同样的 JRE。<br>定制的、模块化的 Java 运行时映像有助于简化 Java 应用的部署和节省内存并增强安全性和可维护性。这对于满足现代应用程序架构的需求，如虚拟化、容器化、微服务和云原生开发，是非常重要的。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/3.-jvm-vs-jdk-vs-jre.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/3. JVM vs JDK vs JRE.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:11:31 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240307141133.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240307141133.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2. Java SE vs Java EE]]></title><description><![CDATA[<br>
+<br>Java SE（Java Platform，Standard Edition）: Java 平台标准版，Java 编程语言的基础，它包含了支持 Java 应用程序开发和运行的核心类库以及虚拟机等核心组件。Java SE 可以用于构建桌面应用程序或简单的服务器应用程序。
+<br>Java EE（Java Platform, Enterprise Edition ）：Java 平台企业版，建立在 Java SE 的基础上，包含了支持企业级应用程序开发和部署的标准和规范（比如 Servlet、JSP、EJB、JDBC、JPA、JTA、JavaMail、JMS）。 Java EE 可以用于构建分布式、可移植、健壮、可伸缩和安全的服务端 Java 应用程序，例如 Web 应用程序。
+<br>简单来说，Java SE 是 Java 的基础版本，Java EE 是 Java 的高级版本。Java SE 更适合开发桌面应用程序或简单的服务器应用程序，Java EE 更适合开发复杂的企业级应用程序或 Web 应用程序。<br>除了 Java SE 和 Java EE，还有一个 Java ME（Java Platform，Micro Edition）。Java ME 是 Java 的微型版本，主要用于开发嵌入式消费电子设备的应用程序，例如手机、PDA、机顶盒、冰箱、空调等。Java ME 无需重点关注，知道有这个东西就好了，现在已经用不上了。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/2.-java-se-vs-java-ee.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/2. Java SE vs Java EE.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:11:16 GMT</pubDate></item><item><title><![CDATA[1. 成员变量与局部变量的区别？]]></title><description><![CDATA[<br><img alt="Pasted image 20240407103709.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407103709.png" target="_self"><br>
+<br>语法形式：从语法形式上看，成员变量是属于类的，而局部变量是在代码块或方法中定义的变量或是方法的参数；成员变量可以被&nbsp;public,private,static&nbsp;等修饰符所修饰，而局部变量不能被访问控制修饰符及&nbsp;static&nbsp;所修饰；但是，成员变量和局部变量都能被&nbsp;final&nbsp;所修饰。
+<br>存储方式：从变量在内存中的存储方式来看，如果成员变量是使用&nbsp;static&nbsp;修饰的，那么这个成员变量是属于类的，如果没有使用&nbsp;static&nbsp;修饰，这个成员变量是属于实例的。而对象存在于堆内存，局部变量则存在于栈内存。
+<br>生存时间：从变量在内存中的生存时间上看，成员变量是对象的一部分，它随着对象的创建而存在，而局部变量随着方法的调用而自动生成，随着方法的调用结束而消亡。
+<br>默认值：从变量是否有默认值来看，成员变量如果没有被赋初始值，则会自动以类型的默认值而赋值（一种情况例外:被&nbsp;final&nbsp;修饰的成员变量也必须显式地赋值），而局部变量则不会自动赋值。
+<br>为什么成员变量有默认值？<br>
+<br>
+先不考虑变量类型，如果没有默认值会怎样？变量存储的是内存地址对应的任意随机值，程序读取该值运行会出现意外。 <br>
+默认值有两种设置方式：手动和自动，根据第一点，没有手动赋值一定要自动赋值。成员变量在运行时可借助反射等方法手动赋值，而局部变量不行。 <br>
+对于编译器（javac）来说，局部变量没赋值很好判断，可以直接报错。而成员变量可能是运行时赋值，无法判断，误报“没默认值”又会影响用户体验，所以采用自动赋默认值。 <br>public class VariableExample { // 成员变量 private String name; private int age; // 方法中的局部变量 public void method() { int num1 = 10; // 栈中分配的局部变量 String str = "Hello, world!"; // 栈中分配的局部变量 System.out.println(num1); System.out.println(str); } // 带参数的方法中的局部变量 public void method2(int num2) { int sum = num2 + 10; // 栈中分配的局部变量 System.out.println(sum); } // 构造方法中的局部变量 public VariableExample(String name, int age) { this.name = name; // 对成员变量进行赋值 this.age = age; // 对成员变量进行赋值 int num3 = 20; // 栈中分配的局部变量 String str2 = "Hello, " + this.name + "!"; // 栈中分配的局部变量 System.out.println(num3); System.out.println(str2); }
+}
+复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/变量/1.-成员变量与局部变量的区别？.html</link><guid isPermaLink="false">002 每日面试题/java/变量/1. 成员变量与局部变量的区别？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:10:46 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407103709.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407103709.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3.3.2 浮点类型]]></title><description><![CDATA[<br>浮点类型用于表示有小数部分的数值。在 Java 中有两种浮点类型：<br><img alt="Pasted image 20240403164900.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403164900.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.2-浮点类型.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.2 浮点类型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:10:29 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403164900.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403164900.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3.3.1 整型]]></title><description><![CDATA[<br>整型用于表示没有小数部分的数值，允许是负数。Java提供了4种整型:<br><img alt="Pasted image 20240403160321.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403160321.png" target="_self"><br>在Java中，整型的范围与运行Java代码的机器无关。这就解决了软件从一个平台移植 到另一个平台，或者在同一个平台中的不同操作系统之间进行移植给程序员带来的诸多问题。 <br>
+Tips: C和C+程序会针对不同的处理器选择最为高效的整型，这样就会造成一 个在32位处理器上运行很好的C程序在16位系统上运行时却发生整数溢出。由于Java程序必须保证在所有机器上都能够得到相同的运行结果，所以各种数据类型的取值范围必须固定。
+<br>字面量的前缀和后缀？ <br>
+<br>长整型数值需要有一个后缀L或l(如4000000L)。
+<br>十六进制：前缀0x或0X，如0xCAEF
+<br>八进制： 八进制有一个前缀0，例如 ，010对应十进制中的8。很显然，八进制表示法比较容易混淆，所以建议最好不要使用八进制常数
+<br>二进制：从 Java7开始，前缀0b或0B表示二进制，如0b1001就是9
+<br>还可以为数字字面量加下划线，如用 100000 (或 0b1111_0100_0010_0000) 表示 100 万。这些下划线只是为了让人更易读。Java 编译器会去除这些下划线。
+]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.1-整型.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.1 整型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:10:19 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403160321.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403160321.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3.3 数据类型]]></title><description><![CDATA[<br>Java 是一种强类型语言。这就意味着必须为每一个变量声明一种类型。在Java中，一共有8种基本类型(primitive type)，其中有4种整型、2种浮点类型、1种宇符类型char (用于表示Unicode编码的代码单元)和1种用于表示真值的 boolean 类型。具体可以参考<a data-href="1. Java中的基本数据类型" href="https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/1.-java中的基本数据类型.html" class="internal-link" target="_self" rel="noopener">1. Java中的基本数据类型</a>]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3-数据类型.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3 数据类型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:09:58 GMT</pubDate></item><item><title><![CDATA[3.2 注释]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:注释" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注释</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:注释" class="tag is-unresolved" target="_self" rel="noopener" data-href="#注释">#注释</a><br>本文可以参考：<a data-href="1. 注释有哪几种形式" href="https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/1.-注释有哪几种形式.html" class="internal-link" target="_self" rel="noopener">1. 注释有哪几种形式</a><br>
+与大多数程序设计语言一样，Java 中的注释也不会出现在可执行程序中。因此，可以在源程序中根据需要添加任意多的注释，而不必担心可执行代码会膨胀。
+<br>单行注释<br>最常用的方式是使用//，其注释内容从//开始到本行结尾。<br>System.out.println("Wewill not use 'Hello,world!'"); // is this too cute?
+复制<br>多行注释<br>当需要更长的注释时，既可以在每行的注释前面标//1，也可以使用/* 和 */ 注释界定符将一段比较长的注释括起来。<br>文档注释<br>第了种注释可以用来自动地生成文档。这种注释以/* 开始，以/ 结束。<br>/** */
+public class FirstSample { public static void main(String[] args) { System.out.println("We will not use 'Hello, World!'"); }
+}
+复制]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.2-注释.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.2 注释.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:09:53 GMT</pubDate></item><item><title><![CDATA[demo]]></title><description><![CDATA[<br><br>public class FirstSample { public static void main(String[] args) { System.out.println("We will not use 'Hello, World!'"); }
+}
+复制<br>语法<br>
+<br>Java区分大小写
+<br>Java的全部内容都必须放置在类中
+<br>源代码的文件名必须与公共类的名字相同，并用.java作为扩展名。
+<br>运行已编译的程序时，Java 虚拟机总是从指定类中的main 方法的代码开始执行。因此为了代码能够执行，在类的源文件中必须包含一个main方法。
+<br>类的命名规则<br>
+<br>必须以字母开头
+<br>后面可以跟字母和数字的组合
+<br>长度基本没有限制。
+<br>但是不能使用Java保留字作为类名（例如：public或class）
+<br>如果名字由多个单词组成，每个单词第一个字母都应该大写（camel case）
+<br>
+在Java 中，每个句子必须用分号结束。特别需要说明，回车不是语句的结束标志，因此，如果需要可以将一条语向写在多行上。
+]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.1-一个简单的java应用程序.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.1 一个简单的Java应用程序.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:09:46 GMT</pubDate></item><item><title><![CDATA[2.4 JShell]]></title><description><![CDATA[<br>我靠Java也有Shell工具啊。我以前测java片段，都是从main开始写的😭<br><br><img alt="Pasted image 20240306170451.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306170451.png" target="_self"><br><br>$表示这个结果可以用于将来的计算。例如5 * $1 - 3中的$1取的就是“9”]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.4-jshell.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.4 JShell.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:09:22 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306170451.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306170451.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2.2 使用命令行工具]]></title><description><![CDATA[<br><br><img alt="Pasted image 20240306164959.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306164959.png" target="_self"><br><br>javac和java是java/bin目录下的两个程序如图：<br>
+<img alt="Pasted image 20240306164546.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306164546.png" target="_self"><br>
+<br>javac程序是一个java编译器，作用是将文件Welcome.java编译成类文件Welcome.class。
+<br>java程序启动Java虚拟机，执行Welcome.class中的字节码
+<br><br>
+<br>编译器需要 一个文件名(welcome.java)，而运行程序时，只需要指定类名(welcome)，不要带扩展名. java 或. class。
+]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.2-使用命令行工具.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.2 使用命令行工具.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:09:11 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306164959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306164959.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[2.3 使用集成开发环境]]></title><description><![CDATA[<br>参见<a data-href="Idea 如何创建一个普通的java-demo项目" href="https://whiteclouds1971.github.io/tp311.5-软件工程/idea-如何创建一个普通的java-demo项目.html" class="internal-link" target="_self" rel="noopener">Idea 如何创建一个普通的java-demo项目</a>]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.3-使用集成开发环境.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.3 使用集成开发环境.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:08:51 GMT</pubDate></item><item><title><![CDATA[2.1.1 下载JDK]]></title><description><![CDATA[<br><br>
+java开发工具包网址 : <a data-tooltip-position="top" aria-label="http://www.oracle.com/technetwork/java/javase/downloads" rel="noopener" class="external-link is-unresolved" href="http://www.oracle.com/technetwork/java/javase/downloads" target="_self">www.oracle.com/technetwork/java/javase/downloads</a>
+<br><br><img alt="Pasted image 20240306160258.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306160258.png" target="_self"><br>
+<img alt="Pasted image 20240306160309.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306160309.png" target="_self"><br><br>java的开发环境早期比较混乱，这种混乱在Java SE 9被终结。Java SE 9之后主要知道SE和EE这两种开发环境即可。参见<a data-href="2. Java SE vs Java EE" href="https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/2.-java-se-vs-java-ee.html" class="internal-link" target="_self" rel="noopener">2. Java SE vs Java EE</a><br>
+<br>javaSE ：java的标准标，包含了核心库已经像JVM等核心组件。适合开发轻型应用
+<br>javaEE ： Java的企业版，除了包含核心库已经JVM等。还包含了web，邮件等企业常用的开发库。
+<br>javaME ：移动版java
+<br><br>
+<br>将“java/bin”的具体路径添加到系统的可执行路径列表中：
+<br><img alt="Pasted image 20240306163100.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306163100.png" target="_self"><br>
+<br>在命令行输入java --version查看是否有正确的输出
+<br><img alt="Pasted image 20240306163027.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306163027.png" target="_self"><br><br>在JDK的安装目录中下有一个src.zip文件，这个就是JDK类库的源代码。<br>解压后目录结构如下：<br>
+<img alt="Pasted image 20240306162802.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306162802.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.1-安装java开发工具包.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.1 安装Java开发工具包.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:08:39 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306160258.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240306160258.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[认识微服务]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:微服务" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#微服务</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:注册中心" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注册中心</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:负载均衡" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#负载均衡</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:微服务" class="tag is-unresolved" target="_self" rel="noopener" data-href="#微服务">#微服务</a> <a href="https://whiteclouds1971.github.io?query=tag:注册中心" class="tag is-unresolved" target="_self" rel="noopener" data-href="#注册中心">#注册中心</a> <a href="https://whiteclouds1971.github.io?query=tag:负载均衡" class="tag is-unresolved" target="_self" rel="noopener" data-href="#负载均衡">#负载均衡</a><br><img alt="Pasted image 20240328161731.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328161731.png" target="_self"><br><img alt="Pasted image 20240328153424.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328153424.png" target="_self"><br><img alt="Pasted image 20240328153727.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328153727.png" target="_self"><br><img alt="Pasted image 20240328154035.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328154035.png" target="_self"><br>
+微服务是一种经过良好架构设计的分布式架构方案。微服务本质上也是一种分布式方案
+<br><img alt="Pasted image 20240328154756.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328154756.png" target="_self"><br>单体架构特点？<br>简单方便，高度耦合，扩展性差，适合小型项目。例如：学生管理系统<br>
+分布式架构特点？
+<br>松耦合，扩展性好，但架构复杂，难度大。适合大型互联网项目，例如：京东、淘宝<br>
+微服务：一种良好的分布式架构方案
+<br>优点：拆分粒度更小、服务更独立、耦合度更低
+<br>缺点：架构非常复杂，运维、监控、部署难度提高
+<br><img alt="Pasted image 20240328162348.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328162348.png" target="_self"><br><img alt="Pasted image 20240328162829.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328162829.png" target="_self"><br><img alt="Pasted image 20240328163053.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328163053.png" target="_self"><br><img alt="Pasted image 20240328163910.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328163910.png" target="_self"><br>OrderService:<br>@Service
+public class OrderService { @Autowired private OrderMapper orderMapper; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); // 4.返回 return order; }
+}
+复制<br>UserService:<br>@Service
+public class UserService { @Autowired private UserMapper userMapper; public User queryById(Long id) { return userMapper.findById(id); }
+}
+复制<br><img alt="Pasted image 20240328164940.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328164940.png" target="_self"><br>
+实现使用Java代码发送http请求
+<br>在order-service的OrderApplication中注册RestTemplate
+<br>@MapperScan("cn.itcast.order.mapper")
+@SpringBootApplication
+public class OrderApplication { public static void main(String[] args) { SpringApplication.run(OrderApplication.class, args); } @Bean public RestTemplate restTemplate() { return new RestTemplate(); }
+}
+复制<br>修改order-service中的OrderService的queryOrderById方法：
+<br>@Service
+public class OrderService { @Autowired private OrderMapper orderMapper; @Autowired private RestTemplate restTemplate; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); String url = "http://localhost:8081/user/" + order.getUserId(); User user = restTemplate.getForObject(url, User.class); order.setUser(user); // 4.返回 return order; }
+}
+复制<br>验证<br>
+<img alt="Pasted image 20240328170745.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328170745.png" target="_self">
+<br>总结：<br>基于RestTemplate发起的http请求实现远程调用
+<br>http请求做远程调用是与语言无关的调用，只要知道对方的ip、端口、接口路径、请求参数即可。
+<br>
+服务提供者：一次业务中，被其它微服务调用的服务。（提供接口给其它微服务）<br>
+服务消费者：一次业务中，调用其它微服务的服务。（调用其它微服务提供的接口）
+<br>服务A调用服务B，服务B调用服务C，那么服务B是什么角色？<br>服务提供者：暴露接口给其它微服务调用
+<br>服务消费者：调用其它微服务提供的接口
+<br>提供者与消费者角色其实是相对的
+<br>一个服务可以同时是服务提供者和服务消费者
+<br><img alt="Pasted image 20240401112122.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401112122.png" target="_self"><br><img alt="Pasted image 20240401112418.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401112418.png" target="_self"><br>消费者该如何获取服务提供者具体信息？ <br>服务提供者启动时向eureka注册自己的信息
+<br>eureka保存这些信息
+<br>消费者根据服务名称向eureka拉取提供者信息 <br>如果有多个服务提供者，消费者该如何选择？ <br>服务消费者利用负载均衡算法，从服务列表中挑选一个 <br>消费者如何感知服务提供者健康状态？ <br>服务提供者会每隔30秒向EurekaServer发送心跳请求，报告健康状态
+<br>eureka会更新记录服务列表信息，心跳不正常会被剔除
+<br>消费者就可以拉取到最新的信息 <br>
+<br>在Eureka架构中，微服务角色有两类：
+<br>EurekaServer：服务端，注册中心 <br>记录服务信息
+<br>心跳监控 <br>EurekaClient：客户端 <br>Provider：服务提供者，例如案例中的 user-service <br>注册自己的信息到EurekaServer
+<br>每隔30秒向EurekaServer发送心跳 <br>consumer：服务消费者，例如案例中的 order-service <br>根据服务名称从EurekaServer拉取服务列表
+<br>基于服务列表做负载均衡，选中一个微服务后发起远程调用 <br>
+<br>创建项目，引入spring-cloud-starter-netflix-eureka-server的依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>
+上文中的spring-cloud-starter-netflix-eureka-server的starter表示Eureka服务端的所有服务spring boot都已经帮我们配置好了。我们只需要引入依赖直接使用就好了。
+<br>
+编写启动类，添加@EnableEurekaServer注解 <br>
+添加application.yml文件，编写下面的配置： <br>server: port: 10086
+spring: application: name: eurekaserver eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
+复制<br>
+<br>在user-service项目引入spring-cloud-starter-netflix-eureka-client的依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>在application.yml文件，编写下面的配置：
+<br>eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
+复制<br>启动多个服务实例<br>
+-Dserver.port=8082<br>
+<img alt="Pasted image 20240401152524.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401152524.png" target="_self">
+<br><img alt="Pasted image 20240401152912.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401152912.png" target="_self"><br>
+<br>修改OrderService的代码，修改访问的url路径，用服务名代替ip、端口：
+<br>String url = "http://userservice/user/" + order.getUserId();
+复制<br>在order-service项目的启动类OrderApplication中的RestTemplate添加负载均衡注解：
+<br>@Bean @LoadBalanced public RestTemplate restTemplate() { return new RestTemplate(); }
+复制<br>在浏览器中访问http://localhost:8088/order/103<br>
+<img alt="Pasted image 20240401155402.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240401155402.png" target="_self">
+<br><img alt="Pasted image 20240403101629.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403101629.png" target="_self"><br>
+Ribbon的负载均衡规则是一个叫做IRule的接口来定义的，每一个子接口都是一种规则：
+<br><img alt="Pasted image 20240403101937.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403101937.png" target="_self"><br><img alt="Pasted image 20240403102010.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240403102010.png" target="_self"><br>通过定义IRule实现可以修改负载均衡规则，有两种方式：<br>代码方式：在order-service中的OrderApplication类中，定义一个新的IRule：
+<br>@Bean
+public IRule randomRule(){ return new RandomRule();
+}
+复制<br>配置文件方式：在order-service的application.yml文件中，添加新的配置也可以修改规则：
+<br>userservice: ribbon: NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则 复制<br>
+第一种方案是全局负载均衡方案配置，配置完之后所有的请求都会使用这个方案进行请求<br>
+第二种方案是先配置了服务名称，在配置了负载均衡方案。这种只会在请求这个服务的时候才会使用本方案。其他的请求不使用本方案。
+<br>Ribbon默认是采用懒加载，即第一次访问时才会去创建LoadBalanceClient，请求时间会很长。<br>
+而饥饿加载则会在项目启动时创建，降低第一次访问的耗时，通过下面配置开启饥饿加载：<br>ribbon: eager-load: enabled: true # 开启饥饿加载 clients: userservice # 对userservice这个服务饥饿加载；对一个服务进行饥饿加载 # 对多个服务进行饥饿加载的方法 # - userservice1 # - userservice2
+复制<br>
+<br>Ribbon负载均衡规则 <br>规则接口是IRule
+<br>默认实现是ZoneAvoidanceRule，根据zone选择服务列表，然后轮询 <br>负载均衡自定义方式 <br>代码方式：配置灵活，但修改时需要重新打包发布
+<br>配置方式：直观，方便，无需重新打包发布，但是无法做全局配置 <br>饥饿加载 <br>开启饥饿加载
+<br>指定饥饿加载的微服务名称 <br>Nacos 是阿里巴巴的产品，现在是 SpringCloud 中的一个组件。相比 Eureka 功能更加丰富，在国内受欢迎程度较高。<br>Nacos 是使用 Java 开发的注册中心，所以首先需要在配置 Java 的运行环境。<br>下载并解压 Nacos 安装包：<a data-tooltip-position="top" aria-label="https://github.com/alibaba/nacos" rel="noopener" class="external-link is-unresolved" href="https://github.com/alibaba/nacos" target="_self">下载地址</a>
+<br><img alt="Pasted image 20240407110432.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407110432.png" target="_self"><br>
+Nacos 目录结构<br>Bin：启动 Nacos 的可执行目录
+<br>Conf：Nacos 的配置文件
+<br>Target：Nacos 的 jar 包
+<br>通过命令行执行 bin 目录下的脚本启动 Nacos
+<br>sh startup.sh -m standalone
+复制<br>-m：启动的模式
+<br>Standalone：单机启动
+<br>验证
+<br><img alt="Pasted image 20240407111340.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407111340.png" target="_self"><br>
+访问http://localhost:8848/nacos/index.html查看Nacos主页：<br>
+<img alt="Pasted image 20240407111428.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407111428.png" target="_self"><br>
+<br>在 cloud-demo 父工程中添加 spring-cloud-alilbaba 的管理依赖：
+<br>&lt;!-- springCloud --&gt; &lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-alibaba-dependencies&lt;/artifactId&gt; &lt;version&gt;${spring-cloud-alibaba.version}&lt;/version&gt; &lt;type&gt;pom&lt;/type&gt; &lt;scope&gt;import&lt;/scope&gt; &lt;/dependency&gt;
+复制<br>添加 Nacos 客户端依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-alibaba-nacos-discovery&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>修改 user-service&amp;order-service 中的 application. Yml 文件，注释 eureka 地址，添加 nacos 地址：
+<br>spring: cloud: nacos: server-addr: localhost:8848
+复制<br>启动 client 服务并验证
+<br><img alt="Pasted image 20240407114815.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407114815.png" target="_self"><br>Nacos 的服务级别为服务-集群-实例；通过这种分级模型可以大大增加应用的容灾能力。<br>
+<img alt="Pasted image 20240407115734.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407115734.png" target="_self"><br><img alt="Pasted image 20240407120004.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407120004.png" target="_self"><br>
+<br>修改 application. yml，添加如下内容
+<br>spring: cloud: nacos: discovery: cluster-name: HZ # 集群名称；例如：HZ，杭州
+复制<br>验证
+<br><img alt="Pasted image 20240407120800.png" src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240407120800.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/it黑马微服务/实用篇/day01-springcloud01.html</link><guid isPermaLink="false">001 读书笔记/IT黑马微服务/实用篇/day01-SpringCloud01.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:08:32 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328161731.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$sys999-attachment/pasted-image-20240328161731.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>

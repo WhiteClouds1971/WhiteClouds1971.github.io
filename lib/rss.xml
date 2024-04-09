@@ -1,103 +1,150 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 09 Apr 2024 02:40:52 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 09 Apr 2024 02:40:52 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[5. 什么是可变长参数？]]></title><description><![CDATA[<br>从 Java5 开始，Java 支持定义可变长参数，所谓可变长参数就是允许在调用方法时传入不定长度的参数。就比如下面的这个&nbsp;printVariable&nbsp;方法就可以接受 0 个或者多个参数。<br>public static void method1(String... args) { //......
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 09 Apr 2024 03:53:05 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 09 Apr 2024 03:53:05 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[认识微服务]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:微服务" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#微服务</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:注册中心" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注册中心</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:负载均衡" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#负载均衡</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:微服务" class="tag is-unresolved" target="_self" rel="noopener" data-href="#微服务">#微服务</a> <a href="https://whiteclouds1971.github.io?query=tag:注册中心" class="tag is-unresolved" target="_self" rel="noopener" data-href="#注册中心">#注册中心</a> <a href="https://whiteclouds1971.github.io?query=tag:负载均衡" class="tag is-unresolved" target="_self" rel="noopener" data-href="#负载均衡">#负载均衡</a><br><img alt="Pasted image 20240328161731.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png" target="_self"><br><img alt="Pasted image 20240328153424.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328153424.png" target="_self"><br><img alt="Pasted image 20240328153727.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328153727.png" target="_self"><br><img alt="Pasted image 20240328154035.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328154035.png" target="_self"><br>
+微服务是一种经过良好架构设计的分布式架构方案。微服务本质上也是一种分布式方案
+<br><img alt="Pasted image 20240328154756.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328154756.png" target="_self"><br>单体架构特点？<br>简单方便，高度耦合，扩展性差，适合小型项目。例如：学生管理系统<br>
+分布式架构特点？
+<br>松耦合，扩展性好，但架构复杂，难度大。适合大型互联网项目，例如：京东、淘宝<br>
+微服务：一种良好的分布式架构方案
+<br>优点：拆分粒度更小、服务更独立、耦合度更低
+<br>缺点：架构非常复杂，运维、监控、部署难度提高
+<br><img alt="Pasted image 20240328162348.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328162348.png" target="_self"><br><img alt="Pasted image 20240328162829.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328162829.png" target="_self"><br><img alt="Pasted image 20240328163053.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328163053.png" target="_self"><br><img alt="Pasted image 20240328163910.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328163910.png" target="_self"><br>OrderService:<br>@Service
+public class OrderService { @Autowired private OrderMapper orderMapper; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); // 4.返回 return order; }
 }
-复制<br>另外，可变参数只能作为函数的最后一个参数，但其前面可以有也可以没有任何其他参数。 <br>public static void method2(String arg1, String... args) { //......
+复制<br>UserService:<br>@Service
+public class UserService { @Autowired private UserMapper userMapper; public User queryById(Long id) { return userMapper.findById(id); }
 }
-复制<br>遇到方法重载的情况怎么办呢？会优先匹配固定参数还是可变参数的方法呢？<br>答案是会优先匹配固定参数的方法，因为固定参数的方法匹配度更高。 <br>我们通过下面这个例子来证明一下。<br>public class VariableLengthArgument { public static void printVariable(String... args) { for (String s : args) { System.out.println(s); } } public static void printVariable(String arg1, String arg2) { System.out.println(arg1 + arg2); } public static void main(String[] args) { printVariable("a", "b"); printVariable("a", "b", "c", "d"); }
+复制<br><img alt="Pasted image 20240328164940.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328164940.png" target="_self"><br>
+实现使用Java代码发送http请求
+<br>在order-service的OrderApplication中注册RestTemplate
+<br>@MapperScan("cn.itcast.order.mapper")
+@SpringBootApplication
+public class OrderApplication { public static void main(String[] args) { SpringApplication.run(OrderApplication.class, args); } @Bean public RestTemplate restTemplate() { return new RestTemplate(); }
 }
-复制<br>输出：<br>ab
-a
-b
-c
-d
-复制<br>另外，Java 的可变参数编译后实际会被转换成一个数组，我们看编译后生成的&nbsp;class文件就可以看出来了。 <br>public class VariableLengthArgument { public static void printVariable(String... args) { String[] var1 = args; int var2 = args.length; for(int var3 = 0; var3 &lt; var2; ++var3) { String s = var1[var3]; System.out.println(s); } } // ......
+复制<br>修改order-service中的OrderService的queryOrderById方法：
+<br>@Service
+public class OrderService { @Autowired private OrderMapper orderMapper; @Autowired private RestTemplate restTemplate; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); String url = "http://localhost:8081/user/" + order.getUserId(); User user = restTemplate.getForObject(url, User.class); order.setUser(user); // 4.返回 return order; }
 }
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/方法/5.-什么是可变长参数？.html</link><guid isPermaLink="false">002 每日面试题/java/方法/5. 什么是可变长参数？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:40:10 GMT</pubDate></item><item><title><![CDATA[重载]]></title><description><![CDATA[<br>
-重载就是同样的一个方法能够根据输入数据的不同，做出不同的处理<br>
-重写就是当子类继承自父类的相同方法，输入数据一样，但要做出有别于父类的响应时，你就要覆盖父类方法
-<br><br>发生在同一个类中（或者父类和子类之间），方法名必须相同，参数类型不同、个数不同、顺序不同，方法返回值和访问修饰符可以不同。<br>《Java 核心技术》这本书是这样介绍重载的：<br>
-如果多个方法(比如&nbsp;StringBuilder&nbsp;的构造方法)有相同的名字、不同的参数， 便产生了重载。
-<br>&gt; StringBuilder sb = new StringBuilder();
-&gt; StringBuilder sb2 = new StringBuilder("HelloWorld");
-&gt; ``` &gt; 编译器必须挑选出具体执行哪个方法，**它通过用各个方法给出的参数类型与特定方法调用所使用的值类型进行匹配来挑选出相应的方法。** 如果编译器找不到匹配的参数， 就会产生编译时错误， 因为根本不存在匹配， 或者没有一个比其他的更好(这个过程被称为重载解析(overloading resolution))。
-&gt; &gt; Java 允许重载任何方法， 而不只是构造器方法。 综上：**重载就是同一个类中多个同名方法根据不同的传参来执行不同的逻辑处理。**
-# 重写 重写发生在运行期，是子类对父类的允许访问的方法的实现过程进行重新编写。 1. 方法名、参数列表必须相同，**子类方法返回值类型应比父类方法返回值类型更小或相等**，抛出的异常范围小于等于父类，访问修饰符范围大于等于父类。
-2. 如果父类方法访问修饰符为 `private/final/static` 则子类就不能重写该方法，但是被 `static` 修饰的方法能够被再次声明。
-3. 构造方法无法被重写 综上：**重写就是子类对父类方法的重新改造，外部样子不能改变，内部逻辑可以改变。** 参考表：
-![[Pasted image 20240409102758.png]] **方法的重写要遵循“两同两小一大”**（以下内容摘录自《疯狂 Java 讲义》，[issue#892](https://github.com/Snailclimb/JavaGuide/issues/892) ）： - “两同”即方法名相同、形参列表相同；
-- “两小”指的是子类方法返回值类型应比父类方法返回值类型更小或相等，子类方法声明抛出的异常类应比父类方法声明抛出的异常类更小或相等；
-- “一大”指的是子类方法的访问权限应比父类方法的访问权限更大或相等。 ⭐️ 关于 **重写的返回值类型** 这里需要额外多说明一下，上面的表述不太清晰准确：如果方法的返回类型是 void 和基本数据类型，则返回值重写时不可修改。但是如果方法的返回值是引用类型，重写时是可以返回该引用类型的子类的。 ```java
-public class Hero { public String name() { return "超级英雄"; }
-}
-public class SuperMan extends Hero{ @Override public String name() { return "超人"; } public Hero hero() { return new Hero(); }
-} public class SuperSuperMan extends SuperMan { public String name() { return "超级超级英雄"; } @Override public SuperMan hero() { return new SuperMan(); }
-}
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/方法/4.-重载和重写有什么区别？.html</link><guid isPermaLink="false">002 每日面试题/java/方法/4. 重载和重写有什么区别？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:36:20 GMT</pubDate></item><item><title><![CDATA[3. 静态方法和实例方法有何不同？]]></title><description><![CDATA[<br>在外部调用静态方法时，可以使用&nbsp;类名.方法名&nbsp;的方式，也可以使用&nbsp;对象.方法名&nbsp;的方式，而实例方法只有后面这种方式。也就是说，调用静态方法可以无需创建对象&nbsp;。<br>不过，需要注意的是一般不建议使用&nbsp;对象.方法名&nbsp;的方式来调用静态方法。这种方式非常容易造成混淆，静态方法不属于类的某个对象而是属于这个类。<br>因此，一般建议使用&nbsp;类名.方法名&nbsp;的方式来调用静态方法。<br>public class Person { public void method() { //...... } public static void staicMethod(){ //...... } public static void main(String[] args) { Person person = new Person(); // 调用实例方法 person.method(); // 调用静态方法 Person.staicMethod() }
-}
-复制<br>2、访问类成员是否存在限制<br>静态方法在访问本类的成员时，只允许访问静态成员（即静态成员变量和静态方法），不允许访问实例成员（即实例成员变量和实例方法），而实例方法不存在这个限制。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/方法/3.-静态方法和实例方法有何不同？.html</link><guid isPermaLink="false">002 每日面试题/java/方法/3. 静态方法和实例方法有何不同？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:20:11 GMT</pubDate></item><item><title><![CDATA[2. 静态方法为什么不能调用非静态成员？]]></title><description><![CDATA[<br>这个需要结合 JVM 的相关知识，主要原因如下：<br>
-<br>静态方法是属于类的，在类加载的时候就会分配内存，可以通过类名直接访问。而非静态成员属于实例对象，只有在对象实例化之后才存在，需要通过类的实例对象去访问。
-<br>在类的非静态成员不存在的时候静态方法就已经存在了，此时调用在内存中还不存在的非静态成员，属于非法操作。
-<br>public class Example { // 定义一个字符型常量 public static final char LETTER_A = 'A'; // 定义一个字符串常量 public static final String GREETING_MESSAGE = "Hello, world!"; public static void main(String[] args) { // 输出字符型常量的值 System.out.println("字符型常量的值为：" + LETTER_A); // 输出字符串常量的值 System.out.println("字符串常量的值为：" + GREETING_MESSAGE); }
-}
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/方法/2.-静态方法为什么不能调用非静态成员？.html</link><guid isPermaLink="false">002 每日面试题/java/方法/2. 静态方法为什么不能调用非静态成员？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:17:50 GMT</pubDate></item><item><title><![CDATA[1. 什么是方法的返回值？方法有哪几种类型？]]></title><description><![CDATA[<br>方法的返回值&nbsp;是指我们获取到的某个方法体中的代码执行后产生的结果！（前提是该方法可能产生结果）。返回值的作用是接收出结果，使得它可以用于其他的操作！<br>我们可以按照方法的返回值和参数类型将方法分为下面这几种：<br>1、无参数无返回值的方法<br>public void f1() { //......
-}
-// 下面这个方法也没有返回值，虽然用到了 return
-public void f(int a) { if (...) { // 表示结束方法的执行,下方的输出语句不会执行 return; } System.out.println(a);
-}
-复制<br>2、有参数无返回值的方法<br>public void f2(Parameter 1, ..., Parameter n) { //......
-}
-复制<br>3、有返回值无参数的方法<br>public int f3() { //...... return x;
-}
-复制<br>4、有返回值有参数的方法<br>public int f4(int a, int b) { return a * b;
-}
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/方法/1.-什么是方法的返回值？方法有哪几种类型？.html</link><guid isPermaLink="false">002 每日面试题/java/方法/1. 什么是方法的返回值？方法有哪几种类型？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:16:07 GMT</pubDate></item><item><title><![CDATA[3. 字符形常量和字符串常量的区别？]]></title><description><![CDATA[<br>
-<br>形式&nbsp;: 字符常量是单引号引起的一个字符，字符串常量是双引号引起的 0 个或若干个字符。
-<br>含义&nbsp;: 字符常量相当于一个整型值( ASCII 值),可以参加表达式运算; 字符串常量代表一个地址值(该字符串在内存中存放位置)。
-<br>占内存大小：字符常量只占 2 个字节; 字符串常量占若干个字节。
-<br>⚠️ 注意&nbsp;char&nbsp;在 Java 中占两个字节。<br>字符型常量和字符串常量代码示例：<br>public class StringExample { // 字符型常量 public static final char LETTER_A = 'A'; // 字符串常量 public static final String GREETING_MESSAGE = "Hello, world!"; public static void main(String[] args) { System.out.println("字符型常量占用的字节数为："+Character.BYTES); System.out.println("字符串常量占用的字节数为："+GREETING_MESSAGE.getBytes().length); }
-}
-复制<br>输出：<br>字符型常量占用的字节数为：2
-字符串常量占用的字节数为：13
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/变量/3.-字符形常量和字符串常量的区别？.html</link><guid isPermaLink="false">002 每日面试题/java/变量/3. 字符形常量和字符串常量的区别？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:13:15 GMT</pubDate></item><item><title><![CDATA[2. 静态变量有什么作用]]></title><description><![CDATA[<br>静态变量也就是被&nbsp;static&nbsp;关键字修饰的变量。它可以被类的所有实例共享，无论一个类创建了多少个对象，它们都共享同一份静态变量。也就是说，静态变量只会被分配一次内存，即使创建多个对象，这样可以节省内存。<br>静态变量是通过类名来访问的，例如StaticVariableExample.staticVar（如果被&nbsp;private关键字修饰就无法这样访问了）。<br>public class StaticVariableExample { // 静态变量 public static int staticVar = 0;
-}
-复制<br>通常情况下，静态变量会被&nbsp;final&nbsp;关键字修饰成为常量。<br>public class ConstantVariableExample { // 常量 public static final int constantVar = 0;
-}
-复制]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/变量/2.-静态变量有什么作用.html</link><guid isPermaLink="false">002 每日面试题/java/变量/2. 静态变量有什么作用.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:09:55 GMT</pubDate></item><item><title><![CDATA[EasyExcel 的 @ExcelIgnore]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:Excel" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Excel</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:导入" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#导入</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:记录" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#记录</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:Excel" class="tag is-unresolved" target="_self" rel="noopener" data-href="#Excel">#Excel</a> <a href="https://whiteclouds1971.github.io?query=tag:导入" class="tag is-unresolved" target="_self" rel="noopener" data-href="#导入">#导入</a> <a href="https://whiteclouds1971.github.io?query=tag:记录" class="tag is-unresolved" target="_self" rel="noopener" data-href="#记录">#记录</a><br>Bug
-在使用 EasyExcel 的模板类导入时，需要为模板类中不需要映射的字段增加@ExcelIgnore 注解。否则在导入的时候会识别报错
-<br>class ProgressReportExcel { @ExcelProperty("Purchasing Document") var poNumber: String? = null @ExcelIgnore var poNumberChanged = false
-}
-复制]]></description><link>https://whiteclouds1971.github.io/tp311.1-程序设计/easyexcel-的-@excelignore.html</link><guid isPermaLink="false">TP311.1 程序设计/EasyExcel 的 @ExcelIgnore.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:05:59 GMT</pubDate></item><item><title><![CDATA[跨域（CSRF）]]></title><description><![CDATA[<br>
-source: <br><a data-tooltip-position="top" aria-label="https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html" rel="noopener" class="external-link is-unresolved" href="https://www.cnblogs.com/hyddd/archive/2009/04/09/1432744.html" target="_self">浅谈CSRF攻击方式 - hyddd - 博客园</a>
-<br><a data-tooltip-position="top" aria-label="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" rel="noopener" class="external-link is-unresolved" href="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" target="_self">前端安全系列（二）：如何防止CSRF攻击？ - 美团技术团队</a> <br><br><img alt="Pasted image 20230906111013.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20230906111013.png" target="_self"><br>从上图可以看出，要完成一次CSRF攻击，受害者必须依次完成两个步骤：<br>
-<br>登录受信任网站A，并在本地生成Cookie。
-<br>在不登出A的情况下，访问危险网站B。
-<br>browser在发送请求时会自动带上Cookie（CSRF攻击是源于WEB的隐式身份验证机制！WEB的身份验证机制虽然可以保证一个请求是来自于某个用户的浏览器，但却无法保证该请求是用户批准发送的！）<br>
-看到这里，你也许会说：“如果我不满足以上两个条件中的一个，我就不会受到CSRF的攻击”。是的，确实如此，但你不能保证以下情况不会发生：
-<br>你不能保证你登录了一个网站后，不再打开一个tab页面并访问另外的网站。
-<br>你不能保证你关闭浏览器了后，你本地的Cookie立刻过期，你上次的会话已经结束。（事实上，关闭浏览器不能结束一个会话，但大多数人都会错误的认为关闭浏览器就等于退出登录/结束会话了......）
-<br>上图中所谓的攻击网站，可能是一个存在其他漏洞的可信任的经常被人访问的网站。
-<br><br>银行网站A，它以GET请求来完成银行转账的操作，如：<a rel="noopener" class="external-link is-unresolved" href="http://www.mybank.com/Transfer.php?toBankId=11&amp;money=1000" target="_self">http://www.mybank.com/Transfer.php?toBankId=11&amp;money=1000</a><br>// 银行的请求代码
-&lt;?php session_start(); if (isset($_POST['toBankId'] &amp;&amp;　isset($_POST['money'])){ buy_stocks($_POST['toBankId'],　$_POST['money']); } ?&gt;
-复制<br>// 恶意网站发送的请求
-&lt;html&gt; &lt;head&gt; &lt;script type="text/javascript"&gt; function steal(){
-iframe = document.frames["steal"]; iframe.document.Submit("transfer"); } &lt;/script&gt; &lt;/head&gt; &lt;body onload="steal()"&gt; &lt;iframe name="steal" display="none"&gt; &lt;form method="POST" name="transfer"　action="http://www.myBank.com/Transfer.php"&gt; &lt;input type="hidden" name="toBankId" value="11"&gt; &lt;input type="hidden" name="money" value="1000"&gt; &lt;/form&gt; &lt;/iframe&gt; &lt;/body&gt;
-&lt;/html&gt;
-复制<br><br>CSRF通常从第三方网站发起，被攻击的网站无法防止攻击发生，只能通过增强自己网站针对CSRF的防护能力来提升安全性。<br>上文中讲了CSRF的两个特点：<br>
-<br>CSRF（通常）发生在第三方域名。
-<br>CSRF攻击者不能获取到Cookie等信息，只是使用。
-<br>针对这两点，我们可以专门制定防护策略，如下：<br>
-<br>阻止不明外域的访问
+复制<br>验证<br>
+<img alt="Pasted image 20240328170745.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328170745.png" target="_self">
+<br>总结：<br>基于RestTemplate发起的http请求实现远程调用
+<br>http请求做远程调用是与语言无关的调用，只要知道对方的ip、端口、接口路径、请求参数即可。
 <br>
-<br>同源检测
-<br>Samesite Cookie
+服务提供者：一次业务中，被其它微服务调用的服务。（提供接口给其它微服务）<br>
+服务消费者：一次业务中，调用其它微服务的服务。（调用其它微服务提供的接口）
+<br>服务A调用服务B，服务B调用服务C，那么服务B是什么角色？<br>服务提供者：暴露接口给其它微服务调用
+<br>服务消费者：调用其它微服务提供的接口
+<br>提供者与消费者角色其实是相对的
+<br>一个服务可以同时是服务提供者和服务消费者
+<br><img alt="Pasted image 20240401112122.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401112122.png" target="_self"><br><img alt="Pasted image 20240401112418.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401112418.png" target="_self"><br>消费者该如何获取服务提供者具体信息？ <br>服务提供者启动时向eureka注册自己的信息
+<br>eureka保存这些信息
+<br>消费者根据服务名称向eureka拉取提供者信息 <br>如果有多个服务提供者，消费者该如何选择？ <br>服务消费者利用负载均衡算法，从服务列表中挑选一个 <br>消费者如何感知服务提供者健康状态？ <br>服务提供者会每隔30秒向EurekaServer发送心跳请求，报告健康状态
+<br>eureka会更新记录服务列表信息，心跳不正常会被剔除
+<br>消费者就可以拉取到最新的信息 <br>
+<br>在Eureka架构中，微服务角色有两类：
+<br>EurekaServer：服务端，注册中心 <br>记录服务信息
+<br>心跳监控 <br>EurekaClient：客户端 <br>Provider：服务提供者，例如案例中的 user-service <br>注册自己的信息到EurekaServer
+<br>每隔30秒向EurekaServer发送心跳 <br>consumer：服务消费者，例如案例中的 order-service <br>根据服务名称从EurekaServer拉取服务列表
+<br>基于服务列表做负载均衡，选中一个微服务后发起远程调用 <br>
+<br>创建项目，引入spring-cloud-starter-netflix-eureka-server的依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>
+上文中的spring-cloud-starter-netflix-eureka-server的starter表示Eureka服务端的所有服务spring boot都已经帮我们配置好了。我们只需要引入依赖直接使用就好了。
 <br>
-<br>提交时要求附加本域才能获取的信息
+编写启动类，添加@EnableEurekaServer注解 <br>
+添加application.yml文件，编写下面的配置： <br>server: port: 10086
+spring: application: name: eurekaserver eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
+复制<br>
+<br>在user-service项目引入spring-cloud-starter-netflix-eureka-client的依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>在application.yml文件，编写下面的配置：
+<br>eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
+复制<br>启动多个服务实例 <br>
+-Dserver.port=8082<br>
+<img alt="Pasted image 20240401152524.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401152524.png" target="_self">
+<br><img alt="Pasted image 20240401152912.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401152912.png" target="_self"><br>
+<br>修改OrderService的代码，修改访问的url路径，用服务名代替ip、端口：
+<br>String url = "http://userservice/user/" + order.getUserId();
+复制<br>在order-service项目的启动类OrderApplication中的RestTemplate添加负载均衡注解：
+<br>@Bean @LoadBalanced public RestTemplate restTemplate() { return new RestTemplate(); }
+复制<br>在浏览器中访问http://localhost:8088/order/103<br>
+<img alt="Pasted image 20240401155402.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401155402.png" target="_self">
+<br><img alt="Pasted image 20240403101629.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403101629.png" target="_self"><br>
+Ribbon的负载均衡规则是一个叫做IRule的接口来定义的，每一个子接口都是一种规则：
+<br><img alt="Pasted image 20240403101937.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403101937.png" target="_self"><br><img alt="Pasted image 20240403102010.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403102010.png" target="_self"><br>通过定义IRule实现可以修改负载均衡规则，有两种方式：<br>代码方式：在order-service中的OrderApplication类中，定义一个新的IRule：
+<br>@Bean
+public IRule randomRule(){ return new RandomRule();
+}
+复制<br>配置文件方式：在order-service的application.yml文件中，添加新的配置也可以修改规则：
+<br>userservice: ribbon: NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则 复制<br>
+第一种方案是全局负载均衡方案配置，配置完之后所有的请求都会使用这个方案进行请求<br>
+第二种方案是先配置了服务名称，在配置了负载均衡方案。这种只会在请求这个服务的时候才会使用本方案。其他的请求不使用本方案。
+<br>Ribbon默认是采用懒加载，即第一次访问时才会去创建LoadBalanceClient，请求时间会很长。<br>
+而饥饿加载则会在项目启动时创建，降低第一次访问的耗时，通过下面配置开启饥饿加载：<br>ribbon: eager-load: enabled: true # 开启饥饿加载 clients: userservice # 对userservice这个服务饥饿加载；对一个服务进行饥饿加载 # 对多个服务进行饥饿加载的方法 # - userservice1 # - userservice2
+复制<br>
+<br>Ribbon负载均衡规则 <br>规则接口是IRule
+<br>默认实现是ZoneAvoidanceRule，根据zone选择服务列表，然后轮询 <br>负载均衡自定义方式 <br>代码方式：配置灵活，但修改时需要重新打包发布
+<br>配置方式：直观，方便，无需重新打包发布，但是无法做全局配置 <br>饥饿加载 <br>开启饥饿加载
+<br>指定饥饿加载的微服务名称 <br>Nacos 是阿里巴巴的产品，现在是 SpringCloud 中的一个组件。相比 Eureka 功能更加丰富，在国内受欢迎程度较高。<br>Nacos 是使用 Java 开发的注册中心，所以首先需要在配置 Java 的运行环境。<br>下载并解压 Nacos 安装包：<a data-tooltip-position="top" aria-label="https://github.com/alibaba/nacos" rel="noopener" class="external-link is-unresolved" href="https://github.com/alibaba/nacos" target="_self">下载地址</a>
+<br><img alt="Pasted image 20240407110432.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407110432.png" target="_self"><br>
+Nacos 目录结构<br>Bin：启动 Nacos 的可执行目录
+<br>Conf：Nacos 的配置文件
+<br>Target：Nacos 的 jar 包
+<br>通过命令行执行 bin 目录下的脚本启动 Nacos
+<br>sh startup.sh -m standalone
+复制<br>-m：启动的模式
+<br>Standalone：单机启动
+<br>验证
+<br><img alt="Pasted image 20240407111340.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407111340.png" target="_self"><br>
+访问http://localhost:8848/nacos/index.html查看Nacos主页：<br>
+<img alt="Pasted image 20240407111428.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407111428.png" target="_self"><br>
+<br>在 cloud-demo 父工程中添加 spring-cloud-alilbaba 的管理依赖：
+<br>&lt;!-- springCloud --&gt; &lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-alibaba-dependencies&lt;/artifactId&gt; &lt;version&gt;${spring-cloud-alibaba.version}&lt;/version&gt; &lt;type&gt;pom&lt;/type&gt; &lt;scope&gt;import&lt;/scope&gt; &lt;/dependency&gt;
+复制<br>添加 Nacos 客户端依赖
+<br>&lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-alibaba-nacos-discovery&lt;/artifactId&gt; &lt;/dependency&gt;
+复制<br>修改 user-service&amp;order-service 中的 application. Yml 文件，注释 eureka 地址，添加 nacos 地址：
+<br>spring: cloud: nacos: server-addr: localhost:8848
+复制<br>启动 client 服务并验证
+<br><img alt="Pasted image 20240407114815.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407114815.png" target="_self"><br>Nacos 的服务级别为服务-集群-实例；通过这种分级模型可以大大增加应用的容灾能力。<br>
+<img alt="Pasted image 20240407115734.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407115734.png" target="_self"><br><img alt="Pasted image 20240407120004.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407120004.png" target="_self"><br>
+<br>修改 application. yml，添加如下内容
+<br>spring: cloud: nacos: discovery: cluster-name: HZ # 集群名称；例如：HZ，杭州
+复制<br>验证
+<br><img alt="Pasted image 20240407120800.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407120800.png" target="_self"><br>
+相同集群的实例服务，在调用时优先调用本集群下的服务实例
+<br>修改 order-service 中的 application.yml，设置集群为 HZ：
+<br>spring: cloud: nacos: discovery: cluster-name: HZ
+复制<br>然后在 order-service 中设置负载均衡的 IRule 为 NacosRule，这个规则优先会寻找与自己同集群的服务：
+<br>userservice: ribbon: NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule #负载均衡规则
+复制<br>Note
+NacosRule 负载均衡策略 <br>优先选择同集群服务实例列表
+<br>本地集群找不到提供者，才去其它集群寻找，并且会报警告
+<br>确定了可用实例列表后，再采用随机负载均衡挑选实例 <br>实际部署中会出现这样的场景：<br>服务器设备性能有差异，部分实例所在机器性能较好，另一些较差，我们希望性能好的机器承担更多的用户请求<br>
+Nacos 提供了权重配置来控制访问频率，权重越大则访问频率越高
+<br>在 Nacos 控制台可以设置实例的权重值；
+<br>将权重设置为 0.1，测试可以发现 8083 被访问到的频率大大降低：
+<br><img alt="Pasted image 20240409110634.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409110634.png" target="_self"><br>实例的权重控制： <br>Nacos 控制台可以设置实例的权重值，0~1 之间
+<br>同集群内的多个实例，权重越高被访问的频率越高
+<br>权重设置为 0 则完全不会被访问 <br>权重为 0 的应用场景： <br>在服务上线升级的过程中，如果不能完全中断服务的情况下，不能重启所有服务，可以使用一下方案进行升级：<br>先将一个服务的权重调整为 0 后停止该服务
+<br>然后升级重启该服务，先为该服务设置一个叫小的权重如 0.1。
+<br>对升级的服务进行小范围测试。如果没有问题的话在调整一个较大的权重。
+<br>重复流程升级所有服务。
 <br>
-<br>CSRF Token
-<br>双重Cookie验证
-<br>详细防御措施介绍见<a data-tooltip-position="top" aria-label="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" rel="noopener" class="external-link is-unresolved" href="https://tech.meituan.com/2018/10/11/fe-security-csrf.html" target="_self">前端安全系列（二）：如何防止CSRF攻击？ - 美团技术团队</a><br><br>START<br>
-填空题<br>
-文字: 跨域攻击的英文简称{{c1::CSRF}}<br>
-背面额外: <br><br>END<br>START<br>
-问答题<br>
-正面: CSRF的原理<br>
-背面: <a data-href="跨域（CSRF）#^16b02b" href="https://whiteclouds1971.github.io/tp393-计算机网络/跨域（csrf）.html#^16b02b" class="internal-link" target="_self" rel="noopener">跨域（CSRF） &gt; ^16b02b</a><br><br>END]]></description><link>https://whiteclouds1971.github.io/tp393-计算机网络/跨域（csrf）.html</link><guid isPermaLink="false">TP393 计算机网络/跨域（CSRF）.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Sun, 07 Apr 2024 12:10:35 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20230906111013.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20230906111013.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+Nacos 也是一个数据管理中心
+<br>Nacos 中服务存储和数据存储的最外层都是一个名为 namespace 的东西，用来做最外层隔离<br>
+<img alt="Pasted image 20240409112311.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409112311.png" target="_self"><br>Namespace： 上文说的集群是根据业务做分类隔离。但是在实际开发过程中还存在开发、测试、生产不同的应用环境。Namespace 就是用来做不同应用环境之间的隔离。所以不同 Namespace 之间数据不互通。
+<br>Group：可以把业务相关度比较高的服务放到一个组里。比如支付和订单服务；一般情况也不会配置 Group
+<br>不同命名空间下的服务是不通的！<br>在 Nacos 控制台可以创建 namespace，用来隔离不同环境
+<br><img alt="Pasted image 20240409113044.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113044.png" target="_self"><br>修改 order-service 的 application.yml，添加 namespace：
+<br>spring: cloud: nacos: discovery: namespace: 800c8373-69de-4f5d-ba98-57d2cd0d5915 # 命名空间的ID
+复制<br>重启 Orderservice 并在浏览器访问测试：
+<br><img alt="Pasted image 20240409113556.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113556.png" target="_self"><br>空间之间数据不互通。所以 order service 访问不了 user service：<br>
+<img alt="Pasted image 20240409113607.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113607.png" target="_self"><br>Note
+Nacos 环境隔离:<br>
+每个 namespace 都有唯一 id<br>
+服务设置 namespace 时要写 id 而不是名称<br>
+不同 namespace 下的服务互相不可见
+<br>服务注册到 Nacos 时，可以选择注册为临时或非临时实例，通过下面的配置来设置：<br>spring: cloud: nacos: discovery: ephemeral: false # 设置为非临时实例
+复制<br>临时实例宕机时，会从 nacos 的服务列表中剔除，而非临时实例则不会<br><img alt="Pasted image 20240409114515.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409114515.png" target="_self"><br>Nacos 与 eureka 的共同点 <br>都支持服务注册和服务定时拉取
+<br>都支持服务提供者心跳方式做健康检测 <br>Nacos 与 Eureka 的区别 <br>Nacos 支持服务端主动检测提供者状态：临时实例采用心跳模式，非临时实例采用主动检测模式
+<br>Nacos临时实例心跳不正常会被剔除，非临时实例则不会被剔除
+<br>Nacos 支持服务列表变更的消息推送模式，服务列表更新更及时。Eureka 不支持主动推送
+<br>Nacos 集群默认采用 AP 方式，当集群中存在非临时实例时，采用 CP 模式；Eureka 采用 AP 方式]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/it黑马微服务/实用篇/day01-springcloud01.html</link><guid isPermaLink="false">001 读书笔记/IT黑马微服务/实用篇/day01-SpringCloud01.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 03:52:40 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>

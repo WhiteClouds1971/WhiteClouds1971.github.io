@@ -1,150 +1,160 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 09 Apr 2024 03:53:05 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 09 Apr 2024 03:53:05 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[认识微服务]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:微服务" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#微服务</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:注册中心" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注册中心</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:负载均衡" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#负载均衡</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:微服务" class="tag is-unresolved" target="_self" rel="noopener" data-href="#微服务">#微服务</a> <a href="https://whiteclouds1971.github.io?query=tag:注册中心" class="tag is-unresolved" target="_self" rel="noopener" data-href="#注册中心">#注册中心</a> <a href="https://whiteclouds1971.github.io?query=tag:负载均衡" class="tag is-unresolved" target="_self" rel="noopener" data-href="#负载均衡">#负载均衡</a><br><img alt="Pasted image 20240328161731.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png" target="_self"><br><img alt="Pasted image 20240328153424.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328153424.png" target="_self"><br><img alt="Pasted image 20240328153727.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328153727.png" target="_self"><br><img alt="Pasted image 20240328154035.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328154035.png" target="_self"><br>
-微服务是一种经过良好架构设计的分布式架构方案。微服务本质上也是一种分布式方案
-<br><img alt="Pasted image 20240328154756.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328154756.png" target="_self"><br>单体架构特点？<br>简单方便，高度耦合，扩展性差，适合小型项目。例如：学生管理系统<br>
-分布式架构特点？
-<br>松耦合，扩展性好，但架构复杂，难度大。适合大型互联网项目，例如：京东、淘宝<br>
-微服务：一种良好的分布式架构方案
-<br>优点：拆分粒度更小、服务更独立、耦合度更低
-<br>缺点：架构非常复杂，运维、监控、部署难度提高
-<br><img alt="Pasted image 20240328162348.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328162348.png" target="_self"><br><img alt="Pasted image 20240328162829.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328162829.png" target="_self"><br><img alt="Pasted image 20240328163053.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328163053.png" target="_self"><br><img alt="Pasted image 20240328163910.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328163910.png" target="_self"><br>OrderService:<br>@Service
-public class OrderService { @Autowired private OrderMapper orderMapper; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); // 4.返回 return order; }
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[knowledge-database]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://whiteclouds1971.github.io/</link><image><url>https://whiteclouds1971.github.io/lib/media/favicon.png</url><title>knowledge-database</title><link>https://whiteclouds1971.github.io/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 11 Apr 2024 01:25:21 GMT</lastBuildDate><atom:link href="https://whiteclouds1971.github.io/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 11 Apr 2024 01:25:19 GMT</pubDate><copyright><![CDATA[白云]]></copyright><ttl>60</ttl><dc:creator>白云</dc:creator><item><title><![CDATA[2.2 使用命令行工具]]></title><description><![CDATA[<br><br><img alt="Pasted image 20240306164959.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306164959.png" target="_self"><br><br>javac和java是java/bin目录下的两个程序如图：<br>
+<img alt="Pasted image 20240306164546.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306164546.png" target="_self"><br>
+<br>javac程序是一个java编译器，作用是将文件Welcome.java编译成类文件Welcome.class。
+<br>java程序启动Java虚拟机，执行Welcome.class中的字节码
+<br><br>
+<br>编译器需要 一个文件名(welcome.java)，而运行程序时，只需要指定类名(welcome)，不要带扩展名.java 或.class。
+]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.2-使用命令行工具.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.2 使用命令行工具.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Thu, 11 Apr 2024 01:12:46 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306164959.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306164959.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[5. 位移运算符]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:位移" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#位移</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:位移" class="tag is-unresolved" target="_self" rel="noopener" data-href="#位移">#位移</a><br>
+Tips：位移都是在补码的基础上进行计算的
+<img alt="Pasted image 20240401101121.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401101121.png" target="_self">
+<br>移位运算符是最基本的运算符之一，几乎每种编程语言都包含这一运算符。移位操作中，被操作的数据被视为二进制数，移位就是将其向左或向右移动若干位的运算。<br>移位运算符在各种框架以及 JDK 自身的源码中使用还是挺广泛的，HashMap（JDK1.8） 中的 hash 方法的源码就用到了移位运算符：<br>static final int hash(Object key) { int h; // key.hashCode()：返回散列值也就是hashcode // ^：按位异或 // &gt;&gt;&gt;:无符号右移，忽略符号位，空位都以0补齐 return (key == null) ? 0 : (h = key.hashCode()) ^ (h &gt;&gt;&gt; 16); }
+复制<br>在 Java 代码里使用 &lt;&lt;、 &gt;&gt; 和&gt;&gt;&gt;转换成的指令码运行起来会更高效些。<br>
+掌握最基本的移位运算符知识还是很有必要的，这不光可以帮助我们在代码中使用，还可以帮助我们理解源码中涉及到移位运算符的代码。<br>
+<br>&lt;&lt; :左移运算符，向左移若干位，高位丢弃，低位补零。x &lt;&lt; 1,相当于 x 乘以 2(不溢出的情况下)。
+<br>&gt;&gt;:带符号右移，向右移若干位，高位补符号位，低位丢弃。正数高位补 0,负数高位补 1。x &gt;&gt; 1,相当于 x 除以 2。
+<br>&gt;&gt;&gt;:无符号右移，忽略符号位，空位都以 0 补齐。
+<br>由于 double，float 在二进制中的表现比较特殊，因此不能来进行移位操作。<br>移位操作符实际上支持的类型只有int和long，编译器在对short、byte、char类型进行移位前，都会将其转换为int类型再操作。 <br>当 int 类型左移/右移位数大于等于 32 位操作时，会先求余（%）后再进行左移/右移操作。也就是说左移/右移 32 位相当于不进行移位操作（32%32=0），左移/右移 42 位相当于左移/右移 10 位（42%32=10）。当 long 类型进行左移/右移操作时，由于 long 对应的二进制是 64 位，因此求余操作的基数也变成了 64。<br>也就是说：x&lt;&lt;42等同于x&lt;&lt;10，x&gt;&gt;42等同于x&gt;&gt;10，x &gt;&gt;&gt;42等同于x &gt;&gt;&gt; 10。<br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i)); // 这个是补码
+i &lt;&lt;= 10;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>输出：<br>初始数据：-1
+初始数据对应的二进制字符串：11111111111111111111111111111111
+左移 10 位后的数据 -1024
+左移 10 位后的数据对应的二进制字符 11111111111111111111110000000000
+复制<br>由于左移位数大于等于 32 位操作时，会先求余（%）后再进行左移操作，所以下面的代码左移 42 位相当于左移 10 位（42%32=10），输出结果和前面的代码一样。<br>int i = -1;
+System.out.println("初始数据：" + i);
+System.out.println("初始数据对应的二进制字符串：" + Integer.toBinaryString(i));
+i &lt;&lt;= 42;
+System.out.println("左移 10 位后的数据 " + i);
+System.out.println("左移 10 位后的数据对应的二进制字符 " + Integer.toBinaryString(i));
+复制<br>右移运算符使用类似，篇幅问题，这里就不做演示了。]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/5.-位移运算符.html</link><guid isPermaLink="false">002 每日面试题/java/基本语法/5. 位移运算符.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Thu, 11 Apr 2024 01:02:29 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401101121.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401101121.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[3.3.3 char类型]]></title><description><![CDATA[<br>char 类型的字面量值要用单引号括起来。例如: ' A’是编码值 65 的字符常量。它与 “A” 不同，“A” 是包含一个字符 A 的字符串。char 类型的值可以表示为十六进制值，其范围从 \u0000 到 \uFFF。例如，\u2122 表示商标符号 (TM)]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.3-char类型.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.3 char类型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 09:59:37 GMT</pubDate></item><item><title><![CDATA[3.3.2 浮点类型]]></title><description><![CDATA[<br>浮点类型用于表示有小数部分的数值。在 Java 中有两种浮点类型： <br><img alt="Pasted image 20240403164900.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164900.png" target="_self"><br>Float 的精度只有 6～7 位小数，所以实际上，只有很少的情况适合使用 float 类型，例如，需要单精度数的库，或者需要存储大量数据时。 <br>Float 类型的后缀是 F 或 f。没有后缀的浮点数如 3.14 默认为 double 类型。当然，也可以在浮点数值后面添加后缀 D 或 d (例如，3.14D)。 <br>所有的浮点数值计算都遵循 IEEE 754 规范。具体来说，下面是用于表示溢出和出错情况的三个特殊的浮点数值: <br>
+<br>正无穷大（ POSITIVE_INFINITY ）
+<br>负无穷大（NEGATIVE_INFINITY）
+<br>NaN（不是一个数字）
+<br>常量 Double. POSITIVE_INFINITY 和 Double. NEGATIVE_INFINITY (以及相应的 Float 类型常量) 分别表示这三个特殊值。特别需要说明的是：<br>// 不能如下检测一个特定值是否等于 Double.NaN： if (x == Double. NaN) // is never true
+// 所有“非数值”的值都认为是不相同的。不过，可以如下使用 Double.isNaN 方法来判断: if (Double. isNaN (x)) // check whether x is "not a number"
+复制<br> 浮点数值不适用于无法接受舍入误差的金融计算。例如，命令 System. out.println(2.0-0.1)将打印出 0.899999..... ，而不是人们期望的 0.9。<a data-tooltip-position="top" aria-label="5. 为什么浮点数运算的时候会有精度丢失的风险？" data-href="5. 为什么浮点数运算的时候会有精度丢失的风险？" href="https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/5.-为什么浮点数运算的时候会有精度丢失的风险？.html" class="internal-link" target="_self" rel="noopener">这种舍入误差的主要原因是浮点数值采用二进制系统表示</a>，而在二进制系统中无法精确地表示分数 1/10。这就好像十进制无法精确地表示分数 1/3 一样。如果在数值计算中不允许有任何舍入误差，就应该使用 BigDecinal 类，本章稍后将介绍这个类。]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.3.2-浮点类型.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.3.2 浮点类型.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 09:37:07 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164900.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164900.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[什么是块]]></title><description><![CDATA[<br><br>一个块可以是一个段落、一个引用、一个列表等等。一般来说，前后有空行包围的东西就是块。 <br><br><br><br>一个块可以是一个段落、一个引用、一个列表等等。一般来说，前后有空行包围的东西就是块。 ]]></description><link>https://whiteclouds1971.github.io/005-obsidian/块链接于块引用.html</link><guid isPermaLink="false">005 Obsidian/块链接于块引用.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 09:32:22 GMT</pubDate></item><item><title><![CDATA[自定义输入转换]]></title><description><![CDATA[<br>
+<a data-tooltip-position="top" aria-label="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/easy-typing-obsidian/" rel="noopener" class="external-link is-unresolved" href="https://pkmer.cn/Pkmer-Docs/10-obsidian/obsidian%E7%A4%BE%E5%8C%BA%E6%8F%92%E4%BB%B6/easy-typing-obsidian/" target="_self">Obsidian 插件：Easy Tpying 自动格式化你的中英文标点输入格式</a>
+<br><br><img alt="Pasted image 20240403164638.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164638.png" target="_self"><br><br>详细语法参见：<a data-tooltip-position="top" aria-label="https://github.com/Yaozhuwa/easy-typing-obsidian/blob/master/UserDefinedRegExp.md" rel="noopener" class="external-link is-unresolved" href="https://github.com/Yaozhuwa/easy-typing-obsidian/blob/master/UserDefinedRegExp.md" target="_self">easy-typing-obsidian/UserDefinedRegExp.md at master · Yaozhuwa/easy-typing-obsidian · GitHub</a><br>需求是：对“.”左右两边不进行空格处理<br>搜先 Easy Typing 有三种空格策略分别用三个符号来表示，不要求空格（-），软空格（=），严格空格（+）。其次 Easy Typing 在自定义正则表达式的文本编辑区域，每一行字符串都为一个正则规则，其格式如下：<br>&lt;正则表达式&gt;|&lt;左空格策略&gt;&lt;右空格策略&gt;
+复制<br>所以 对“.”左右两边不进行空格处理 的 Easy Typring正则表达式如下：<br>\.|--
+复制]]></description><link>https://whiteclouds1971.github.io/005-obsidian/插件/easy-tpying.html</link><guid isPermaLink="false">005 Obsidian/插件/Easy Tpying.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 09:23:09 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403164638.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[题目]]></title><description><![CDATA[<br><br>给定两个大小分别为&nbsp;m&nbsp;和&nbsp;n&nbsp;的正序（从小到大）数组&nbsp;nums1&nbsp;和&nbsp;nums2。请你找出并返回这两个正序数组的&nbsp;中位数&nbsp;。<br>算法的时间复杂度应该为&nbsp;O(log (m+n))&nbsp;。<br>示例 1：<br>输入： nums1 = [1,3], nums2 = [2]<br>
+输出： 2.00000<br>
+解释： 合并数组 = [1,2,3] ，中位数 2<br>示例 2：<br>输入： nums1 = [1,2], nums2 = [3,4]<br>
+输出： 2.50000<br>
+解释： 合并数组 = [1,2,3,4] ，中位数 (2 + 3) / 2 = 2.5<br>提示：<br>
+<br>nums1.length == m
+<br>nums2.length == n
+<br>0 &lt;= m &lt;= 1000
+<br>0 &lt;= n &lt;= 1000
+<br>1 &lt;= m + n &lt;= 2000
+<br>-106 &lt;= nums1[i], nums2[i] &lt;= 106
+<br>]]></description><link>https://whiteclouds1971.github.io/004-leetcode/4.-寻找两个正序数组的中文数.html</link><guid isPermaLink="false">004 LeetCode/4. 寻找两个正序数组的中文数.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 08:04:53 GMT</pubDate></item><item><title><![CDATA[1. Nacos 配置管理]]></title><description><![CDATA[<br><br><br>Nacos除了可以做注册中心，同样可以做配置管理来使用。<br>当微服务部署的实例越来越多，达到数十、数百时，逐个修改微服务配置就会让人抓狂，而且很容易出错。我们需要一种统一配置管理方案，可以集中管理所有实例的配置。<br><br>]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/it黑马微服务/实用篇/day01-springcloud02.html</link><guid isPermaLink="false">001 读书笔记/IT黑马微服务/实用篇/day01-SpringCloud02.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 03:31:41 GMT</pubDate></item><item><title><![CDATA[3.2 注释]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:注释" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#注释</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:注释" class="tag is-unresolved" target="_self" rel="noopener" data-href="#注释">#注释</a><br>本文可以参考：<a data-href="1. 注释有哪几种形式" href="https://whiteclouds1971.github.io/002-每日面试题/java/基本语法/1.-注释有哪几种形式.html" class="internal-link" target="_self" rel="noopener">1. 注释有哪几种形式</a><br>
+与大多数程序设计语言一样，Java 中的注释也不会出现在可执行程序中。因此，可以在源程序中根据需要添加任意多的注释，而不必担心可执行代码会膨胀。
+<br>单行注释<br>最常用的方式是使用//，其注释内容从//开始到本行结尾。<br>System.out.println("Wewill not use 'Hello,world!'"); // is this too cute?
+复制<br>多行注释<br>当需要更长的注释时，既可以在每行的注释前面标//，也可以使用/* 和 */ 注释界定符将一段比较长的注释括起来。<br>文档注释<br>第了种注释可以用来自动地生成文档。这种注释以/* 开始，以/ 结束。<br>/** */
+public class FirstSample { public static void main(String[] args) { System.out.println("We will not use 'Hello, World!'"); }
 }
-复制<br>UserService:<br>@Service
-public class UserService { @Autowired private UserMapper userMapper; public User queryById(Long id) { return userMapper.findById(id); }
+复制]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第3章-java的基本程序设计结构/3.2-注释.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第3章 Java的基本程序设计结构/3.2 注释.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:23:29 GMT</pubDate></item><item><title><![CDATA[Lesson 1 Excuse me！]]></title><description><![CDATA[<br><br>例如：excuse /Ik'skju:z/ -&gt; /Ik'sgju:z/<br><br><br>
+<br>this这个单词读的时候嘴不要张太大，最后那个/s/声带不震动。
+<br>is这个单词最后的/s/声带振动。
+<br><br>
+<br>hand+bag=handbag 女士手提包
+<br>school+bag=schoolbag 书包
+<br><br><br><img alt="Pasted image 20240225195546.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240225195546.png" target="_self"><br>
+后鼻音舌头下压，前鼻音舌头上台
+<br><br>
+<br>Thank you very much
+<br>Thanks
+<br>Many Thanks
+<br>Thanks a lot
+<br>Thanks very much
+<br><br>
+<br>You are welcome
+<br>Welcome
+<br>That's okay
+<br>Not at all
+<br>It's My/a plaseture
+<br>That's all right
+<br><br><br>
+主格一般做主语，放在句首；宾格做宾语，放在动词或介词之后
+<br><br>
+<br>be动词有am、is、are
+<br>am只能跟在第一人称单数I后面
+<br>is跟在第三人称单数he、she后面，is也可以放在动物、事物、地名后面
+<br>are搭配我们we、你们you、他们they；you不管单数复数都用are
+<br><br>
+<br>肯定句：This is my handbag.这是我的手提包
+<br>否定句：This is not my handbag.这不是我的手提包 <br>含有be动词的句子变否定句，就是在be动词后面加not <br>疑问句：Is this my handbag?这是我的手提包吗？ <br>含有be动词的句子变疑问句，就把be动词提到句子前面，并大写。 <br>肯定回答：Yes, it is.是的
+<br>否定回答：No, it isn't.不是
+]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/新概念英语1/lesson-1-excuse-me！.html</link><guid isPermaLink="false">001 读书笔记/新概念英语1/Lesson 1 Excuse me！.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:22:01 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240225195546.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240225195546.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Puppeteer在Linux系统中的安装]]></title><description><![CDATA[<br>项目有一个需求：将Web页面打印成PDF，为了保证功能的稳定可靠。决定单独起一个安装Puppeteer的Node项目，为导出PDF或者图片提供打印服务。<br>在Mac完成开发测试后，将Puppeteer的Node项目部署到Linux服务器上的时候，遇到了的坑，记录如下。<br><br>
+<br>Linux: Alibaba Cloud Linux release 3
+<br>Node: v16.18.1
+<br>Npm: 8.19.2
+<br>Pm2: 5.3.0
+<br><br>// 在创建一个浏览器对象的时候需要禁用沙盒模式
+browser = await puppeteer.launch({ headless: "new", args: ['--no-sandbox', '--disable-setuid-sandbox'], })
+复制<br>npm install
+# 执行puppeteer的初始化脚本
+node node_modules/puppeteer/install.js
+复制<br><br>此时执行打印相关代码Puppeteer会报缺少项目库的错误，一种方案是根据报错提示安装对应的依赖库。另一种方案是把chrome在系统里安装一下，解决所有依赖库。<br>sudo yum install chromium
+复制<br>至此便可以把PDF打印出来了，但是打开PDF一看，中文全部乱码🥰<br><br>为了解决中文乱码的问题，我们需要为Linux系统安装相关的中文字体。<br>
+<br>安装fontconfig库，
+<br>创建chinese文件夹并cd该目录。
+<br>将整合好的Fonts.zip字体文件夹上传到服务器该目录（Fonts.zip早不到的话可以直接将Win系统的C:\Windows\Fonts整个压缩）。
+<br>解压缩整理一下目录
+<br>执行mkfontscale和fc-cache -fv 使字体生效
+<br>yum -y install fontconfig
+mkdir -p /usr/share/fonts/chinese
+cd /usr/share/fonts/chinese
+rz Fonts.zip
+unzip Fonts.zip
+mv Fonts/* ./
+rm -r Fonts
+rm Fonts.zip
+mkfontscale # 如果提示 mkfontscale: command not found，需自行安装 yum install mkfontscale mkfontdir
+fc-cache -fv #如果提示 fc-cache: command not found，则需要安装 yum install fontconfig
+复制<br>最后我们就可以快快乐乐的打印PDF啦😛]]></description><link>https://whiteclouds1971.github.io/tp311.1-程序设计/puppeteer在linux系统中的安装.html</link><guid isPermaLink="false">TP311.1 程序设计/Puppeteer在Linux系统中的安装.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:14:44 GMT</pubDate></item><item><title><![CDATA[Lesson 5 Nice to meet you]]></title><description><![CDATA[<br><br>
+<br>Good Morning: 早上好，在英语中5:00-12:00都可以叫早上好
+<br>Good afternoon：下午好，noon是中午的意思。after是“在...之后”。在中午之后就是下午啦
+<br>Good evening：傍晚好
+<br>Good night：晚上好；eight-8
+<br><br>
+<br>Mister是对男士的尊称，敬称
+<br>Mrs：已婚女士尊称
+<br>miss：未婚女士
+<br>Ms：不知道婚姻状况
+<br><br>
+<br>哪国人和哪国的的单词都是一样的。既可以是名词，也可以是形容词
+<br>但是French不是法国，就像Chinese是中国人；中国的。China才是中国名称
+<br><br>遇见<br><br>也<br><br>11-eleven 12-twelve 13-thirteen 14-fourteen 15-fifteen 16-sixteen 17-seventeen<br>
+18-eighteen 19-nineteen 20-twenty<br><br>21 : twenty-one 22 : twenty-two 30 : thirty]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/新概念英语1/lesson-5-nice-to-meet-you.html</link><guid isPermaLink="false">001 读书笔记/新概念英语1/Lesson 5 Nice to meet you.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:11:54 GMT</pubDate></item><item><title><![CDATA[2.4 JShell]]></title><description><![CDATA[<br>我靠Java也有Shell工具啊。我以前测java片段，都是从main开始写的😭<br><img alt="Pasted image 20240306170451.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306170451.png" target="_self"><br>$表示这个结果可以用于将来的计算。例如5 * $1 - 3中的$1取的就是“9”]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/java核心技术卷1-11版/第2掌-java程序设计环境/2.4-jshell.html</link><guid isPermaLink="false">001 读书笔记/java核心技术卷1-11版/第2掌 Java程序设计环境/2.4 JShell.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:07:46 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306170451.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240306170451.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[8. Java与C++的区别]]></title><description><![CDATA[<br>我知道很多人没学过 C++，但是面试官就是没事喜欢拿咱们 Java 和 C++ 比呀！没办法！！！就算没学过 C++，也要记下来。<br>
+虽然，Java 和 C++ 都是面向对象的语言，都支持封装、继承和多态，但是，它们还是有挺多不相同的地方：<br>
+<br>Java 不提供指针来直接访问内存，程序内存更加安全Java 的类是单继承的，
+<br>C++ 支持多重继承；虽然 Java 的类不可以多继承，但是接口可以多继承。
+<br>Java 有自动内存管理垃圾回收机制(GC)，不需要程序员手动释放无用内存。
+<br>C ++同时支持方法重载和操作符重载，但是 Java 只支持方法重载（操作符重载增加了复杂性，这与 Java 最初的设计思想不符）
+<br>……
+]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本概念与常识/8.-java与c++的区别.html</link><guid isPermaLink="false">002 每日面试题/java/基本概念与常识/8. Java与C++的区别.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Wed, 10 Apr 2024 01:02:09 GMT</pubDate></item><item><title><![CDATA[EasyExcel 的 @ExcelIgnore]]></title><description><![CDATA[<a class="tag" href="https://whiteclouds1971.github.io/?query=tag:Excel" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Excel</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:导入" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#导入</a> <a class="tag" href="https://whiteclouds1971.github.io/?query=tag:记录" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#记录</a> <br> <a href="https://whiteclouds1971.github.io?query=tag:Excel" class="tag is-unresolved" target="_self" rel="noopener" data-href="#Excel">#Excel</a> <a href="https://whiteclouds1971.github.io?query=tag:导入" class="tag is-unresolved" target="_self" rel="noopener" data-href="#导入">#导入</a> <a href="https://whiteclouds1971.github.io?query=tag:记录" class="tag is-unresolved" target="_self" rel="noopener" data-href="#记录">#记录</a><br>Bug
+在使用 EasyExcel 的模板类导入时，需要为模板类中不需要映射的字段增加@ExcelIgnore 注解。否则在导入的时候会识别报错
+<br>class ProgressReportExcel { @ExcelProperty("Purchasing Document") var poNumber: String? = null @ExcelIgnore var poNumberChanged = false
 }
-复制<br><img alt="Pasted image 20240328164940.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328164940.png" target="_self"><br>
-实现使用Java代码发送http请求
-<br>在order-service的OrderApplication中注册RestTemplate
-<br>@MapperScan("cn.itcast.order.mapper")
-@SpringBootApplication
-public class OrderApplication { public static void main(String[] args) { SpringApplication.run(OrderApplication.class, args); } @Bean public RestTemplate restTemplate() { return new RestTemplate(); }
+复制]]></description><link>https://whiteclouds1971.github.io/tp312-程序、算法语言/easyexcel-的-@excelignore.html</link><guid isPermaLink="false">TP312 程序、算法语言/EasyExcel 的 @ExcelIgnore.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 02:05:59 GMT</pubDate></item><item><title><![CDATA[3. 包装类型的缓存机制了解吗？]]></title><description><![CDATA[<br>Java 基本数据类型的包装类型的大部分都用到了缓存机制来提升性能。<br>Byte,Short,Integer,Long&nbsp;这 4 种包装类默认创建了数值&nbsp;[-128，127]&nbsp;的相应类型的缓存数据，Character&nbsp;创建了数值在&nbsp;[0,127]&nbsp;范围的缓存数据，Boolean&nbsp;直接返回&nbsp;True&nbsp;or&nbsp;False。<br>Integer 缓存源码：<br>public static Integer valueOf(int i) { if (i &gt;= IntegerCache.low &amp;&amp; i &lt;= IntegerCache.high) return IntegerCache.cache[i + (-IntegerCache.low)]; return new Integer(i);
+} private static class IntegerCache { static final int low = -128; static final int high; static { // high value may be configured by property int h = 127; }
 }
-复制<br>修改order-service中的OrderService的queryOrderById方法：
-<br>@Service
-public class OrderService { @Autowired private OrderMapper orderMapper; @Autowired private RestTemplate restTemplate; public Order queryOrderById(Long orderId) { // 1.查询订单 Order order = orderMapper.findById(orderId); String url = "http://localhost:8081/user/" + order.getUserId(); User user = restTemplate.getForObject(url, User.class); order.setUser(user); // 4.返回 return order; }
+复制<br>Character&nbsp;缓存源码:<br>public static Character valueOf(char c) { if (c &lt;= 127) { // must cache return CharacterCache.cache[(int)c]; } return new Character(c);
+} private static class CharacterCache { private CharacterCache(){} static final Character cache[] = new Character[127 + 1]; static { for (int i = 0; i &lt; cache.length; i++) cache[i] = new Character((char)i); } }
+复制<br>Boolean&nbsp;缓存源码：<br>public static Boolean valueOf(boolean b) { return (b ? TRUE : FALSE);
 }
-复制<br>验证<br>
-<img alt="Pasted image 20240328170745.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328170745.png" target="_self">
-<br>总结：<br>基于RestTemplate发起的http请求实现远程调用
-<br>http请求做远程调用是与语言无关的调用，只要知道对方的ip、端口、接口路径、请求参数即可。
-<br>
-服务提供者：一次业务中，被其它微服务调用的服务。（提供接口给其它微服务）<br>
-服务消费者：一次业务中，调用其它微服务的服务。（调用其它微服务提供的接口）
-<br>服务A调用服务B，服务B调用服务C，那么服务B是什么角色？<br>服务提供者：暴露接口给其它微服务调用
-<br>服务消费者：调用其它微服务提供的接口
-<br>提供者与消费者角色其实是相对的
-<br>一个服务可以同时是服务提供者和服务消费者
-<br><img alt="Pasted image 20240401112122.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401112122.png" target="_self"><br><img alt="Pasted image 20240401112418.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401112418.png" target="_self"><br>消费者该如何获取服务提供者具体信息？ <br>服务提供者启动时向eureka注册自己的信息
-<br>eureka保存这些信息
-<br>消费者根据服务名称向eureka拉取提供者信息 <br>如果有多个服务提供者，消费者该如何选择？ <br>服务消费者利用负载均衡算法，从服务列表中挑选一个 <br>消费者如何感知服务提供者健康状态？ <br>服务提供者会每隔30秒向EurekaServer发送心跳请求，报告健康状态
-<br>eureka会更新记录服务列表信息，心跳不正常会被剔除
-<br>消费者就可以拉取到最新的信息 <br>
-<br>在Eureka架构中，微服务角色有两类：
-<br>EurekaServer：服务端，注册中心 <br>记录服务信息
-<br>心跳监控 <br>EurekaClient：客户端 <br>Provider：服务提供者，例如案例中的 user-service <br>注册自己的信息到EurekaServer
-<br>每隔30秒向EurekaServer发送心跳 <br>consumer：服务消费者，例如案例中的 order-service <br>根据服务名称从EurekaServer拉取服务列表
-<br>基于服务列表做负载均衡，选中一个微服务后发起远程调用 <br>
-<br>创建项目，引入spring-cloud-starter-netflix-eureka-server的依赖
-<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-server&lt;/artifactId&gt; &lt;/dependency&gt;
-复制<br>
-上文中的spring-cloud-starter-netflix-eureka-server的starter表示Eureka服务端的所有服务spring boot都已经帮我们配置好了。我们只需要引入依赖直接使用就好了。
-<br>
-编写启动类，添加@EnableEurekaServer注解 <br>
-添加application.yml文件，编写下面的配置： <br>server: port: 10086
-spring: application: name: eurekaserver eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
-复制<br>
-<br>在user-service项目引入spring-cloud-starter-netflix-eureka-client的依赖
-<br>&lt;dependency&gt; &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-netflix-eureka-client&lt;/artifactId&gt; &lt;/dependency&gt;
-复制<br>在application.yml文件，编写下面的配置：
-<br>eureka: client: service-url: defaultZone: http://127.0.0.1:10086/eureka/
-复制<br>启动多个服务实例 <br>
--Dserver.port=8082<br>
-<img alt="Pasted image 20240401152524.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401152524.png" target="_self">
-<br><img alt="Pasted image 20240401152912.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401152912.png" target="_self"><br>
-<br>修改OrderService的代码，修改访问的url路径，用服务名代替ip、端口：
-<br>String url = "http://userservice/user/" + order.getUserId();
-复制<br>在order-service项目的启动类OrderApplication中的RestTemplate添加负载均衡注解：
-<br>@Bean @LoadBalanced public RestTemplate restTemplate() { return new RestTemplate(); }
-复制<br>在浏览器中访问http://localhost:8088/order/103<br>
-<img alt="Pasted image 20240401155402.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240401155402.png" target="_self">
-<br><img alt="Pasted image 20240403101629.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403101629.png" target="_self"><br>
-Ribbon的负载均衡规则是一个叫做IRule的接口来定义的，每一个子接口都是一种规则：
-<br><img alt="Pasted image 20240403101937.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403101937.png" target="_self"><br><img alt="Pasted image 20240403102010.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240403102010.png" target="_self"><br>通过定义IRule实现可以修改负载均衡规则，有两种方式：<br>代码方式：在order-service中的OrderApplication类中，定义一个新的IRule：
-<br>@Bean
-public IRule randomRule(){ return new RandomRule();
-}
-复制<br>配置文件方式：在order-service的application.yml文件中，添加新的配置也可以修改规则：
-<br>userservice: ribbon: NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #负载均衡规则 复制<br>
-第一种方案是全局负载均衡方案配置，配置完之后所有的请求都会使用这个方案进行请求<br>
-第二种方案是先配置了服务名称，在配置了负载均衡方案。这种只会在请求这个服务的时候才会使用本方案。其他的请求不使用本方案。
-<br>Ribbon默认是采用懒加载，即第一次访问时才会去创建LoadBalanceClient，请求时间会很长。<br>
-而饥饿加载则会在项目启动时创建，降低第一次访问的耗时，通过下面配置开启饥饿加载：<br>ribbon: eager-load: enabled: true # 开启饥饿加载 clients: userservice # 对userservice这个服务饥饿加载；对一个服务进行饥饿加载 # 对多个服务进行饥饿加载的方法 # - userservice1 # - userservice2
-复制<br>
-<br>Ribbon负载均衡规则 <br>规则接口是IRule
-<br>默认实现是ZoneAvoidanceRule，根据zone选择服务列表，然后轮询 <br>负载均衡自定义方式 <br>代码方式：配置灵活，但修改时需要重新打包发布
-<br>配置方式：直观，方便，无需重新打包发布，但是无法做全局配置 <br>饥饿加载 <br>开启饥饿加载
-<br>指定饥饿加载的微服务名称 <br>Nacos 是阿里巴巴的产品，现在是 SpringCloud 中的一个组件。相比 Eureka 功能更加丰富，在国内受欢迎程度较高。<br>Nacos 是使用 Java 开发的注册中心，所以首先需要在配置 Java 的运行环境。<br>下载并解压 Nacos 安装包：<a data-tooltip-position="top" aria-label="https://github.com/alibaba/nacos" rel="noopener" class="external-link is-unresolved" href="https://github.com/alibaba/nacos" target="_self">下载地址</a>
-<br><img alt="Pasted image 20240407110432.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407110432.png" target="_self"><br>
-Nacos 目录结构<br>Bin：启动 Nacos 的可执行目录
-<br>Conf：Nacos 的配置文件
-<br>Target：Nacos 的 jar 包
-<br>通过命令行执行 bin 目录下的脚本启动 Nacos
-<br>sh startup.sh -m standalone
-复制<br>-m：启动的模式
-<br>Standalone：单机启动
-<br>验证
-<br><img alt="Pasted image 20240407111340.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407111340.png" target="_self"><br>
-访问http://localhost:8848/nacos/index.html查看Nacos主页：<br>
-<img alt="Pasted image 20240407111428.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407111428.png" target="_self"><br>
-<br>在 cloud-demo 父工程中添加 spring-cloud-alilbaba 的管理依赖：
-<br>&lt;!-- springCloud --&gt; &lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-alibaba-dependencies&lt;/artifactId&gt; &lt;version&gt;${spring-cloud-alibaba.version}&lt;/version&gt; &lt;type&gt;pom&lt;/type&gt; &lt;scope&gt;import&lt;/scope&gt; &lt;/dependency&gt;
-复制<br>添加 Nacos 客户端依赖
-<br>&lt;dependency&gt; &lt;groupId&gt;com.alibaba.cloud&lt;/groupId&gt; &lt;artifactId&gt;spring-cloud-starter-alibaba-nacos-discovery&lt;/artifactId&gt; &lt;/dependency&gt;
-复制<br>修改 user-service&amp;order-service 中的 application. Yml 文件，注释 eureka 地址，添加 nacos 地址：
-<br>spring: cloud: nacos: server-addr: localhost:8848
-复制<br>启动 client 服务并验证
-<br><img alt="Pasted image 20240407114815.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407114815.png" target="_self"><br>Nacos 的服务级别为服务-集群-实例；通过这种分级模型可以大大增加应用的容灾能力。<br>
-<img alt="Pasted image 20240407115734.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407115734.png" target="_self"><br><img alt="Pasted image 20240407120004.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407120004.png" target="_self"><br>
-<br>修改 application. yml，添加如下内容
-<br>spring: cloud: nacos: discovery: cluster-name: HZ # 集群名称；例如：HZ，杭州
-复制<br>验证
-<br><img alt="Pasted image 20240407120800.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407120800.png" target="_self"><br>
-相同集群的实例服务，在调用时优先调用本集群下的服务实例
-<br>修改 order-service 中的 application.yml，设置集群为 HZ：
-<br>spring: cloud: nacos: discovery: cluster-name: HZ
-复制<br>然后在 order-service 中设置负载均衡的 IRule 为 NacosRule，这个规则优先会寻找与自己同集群的服务：
-<br>userservice: ribbon: NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule #负载均衡规则
-复制<br>Note
-NacosRule 负载均衡策略 <br>优先选择同集群服务实例列表
-<br>本地集群找不到提供者，才去其它集群寻找，并且会报警告
-<br>确定了可用实例列表后，再采用随机负载均衡挑选实例 <br>实际部署中会出现这样的场景：<br>服务器设备性能有差异，部分实例所在机器性能较好，另一些较差，我们希望性能好的机器承担更多的用户请求<br>
-Nacos 提供了权重配置来控制访问频率，权重越大则访问频率越高
-<br>在 Nacos 控制台可以设置实例的权重值；
-<br>将权重设置为 0.1，测试可以发现 8083 被访问到的频率大大降低：
-<br><img alt="Pasted image 20240409110634.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409110634.png" target="_self"><br>实例的权重控制： <br>Nacos 控制台可以设置实例的权重值，0~1 之间
-<br>同集群内的多个实例，权重越高被访问的频率越高
-<br>权重设置为 0 则完全不会被访问 <br>权重为 0 的应用场景： <br>在服务上线升级的过程中，如果不能完全中断服务的情况下，不能重启所有服务，可以使用一下方案进行升级：<br>先将一个服务的权重调整为 0 后停止该服务
-<br>然后升级重启该服务，先为该服务设置一个叫小的权重如 0.1。
-<br>对升级的服务进行小范围测试。如果没有问题的话在调整一个较大的权重。
-<br>重复流程升级所有服务。
-<br>
-Nacos 也是一个数据管理中心
-<br>Nacos 中服务存储和数据存储的最外层都是一个名为 namespace 的东西，用来做最外层隔离<br>
-<img alt="Pasted image 20240409112311.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409112311.png" target="_self"><br>Namespace： 上文说的集群是根据业务做分类隔离。但是在实际开发过程中还存在开发、测试、生产不同的应用环境。Namespace 就是用来做不同应用环境之间的隔离。所以不同 Namespace 之间数据不互通。
-<br>Group：可以把业务相关度比较高的服务放到一个组里。比如支付和订单服务；一般情况也不会配置 Group
-<br>不同命名空间下的服务是不通的！<br>在 Nacos 控制台可以创建 namespace，用来隔离不同环境
-<br><img alt="Pasted image 20240409113044.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113044.png" target="_self"><br>修改 order-service 的 application.yml，添加 namespace：
-<br>spring: cloud: nacos: discovery: namespace: 800c8373-69de-4f5d-ba98-57d2cd0d5915 # 命名空间的ID
-复制<br>重启 Orderservice 并在浏览器访问测试：
-<br><img alt="Pasted image 20240409113556.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113556.png" target="_self"><br>空间之间数据不互通。所以 order service 访问不了 user service：<br>
-<img alt="Pasted image 20240409113607.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409113607.png" target="_self"><br>Note
-Nacos 环境隔离:<br>
-每个 namespace 都有唯一 id<br>
-服务设置 namespace 时要写 id 而不是名称<br>
-不同 namespace 下的服务互相不可见
-<br>服务注册到 Nacos 时，可以选择注册为临时或非临时实例，通过下面的配置来设置：<br>spring: cloud: nacos: discovery: ephemeral: false # 设置为非临时实例
-复制<br>临时实例宕机时，会从 nacos 的服务列表中剔除，而非临时实例则不会<br><img alt="Pasted image 20240409114515.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240409114515.png" target="_self"><br>Nacos 与 eureka 的共同点 <br>都支持服务注册和服务定时拉取
-<br>都支持服务提供者心跳方式做健康检测 <br>Nacos 与 Eureka 的区别 <br>Nacos 支持服务端主动检测提供者状态：临时实例采用心跳模式，非临时实例采用主动检测模式
-<br>Nacos临时实例心跳不正常会被剔除，非临时实例则不会被剔除
-<br>Nacos 支持服务列表变更的消息推送模式，服务列表更新更及时。Eureka 不支持主动推送
-<br>Nacos 集群默认采用 AP 方式，当集群中存在非临时实例时，采用 CP 模式；Eureka 采用 AP 方式]]></description><link>https://whiteclouds1971.github.io/001-读书笔记/it黑马微服务/实用篇/day01-springcloud01.html</link><guid isPermaLink="false">001 读书笔记/IT黑马微服务/实用篇/day01-SpringCloud01.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Tue, 09 Apr 2024 03:52:40 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240328161731.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+复制<br>如果超出对应范围仍然会去创建新的对象，缓存的范围区间的大小只是在性能和资源之间的权衡。<br>两种浮点数类型的包装类&nbsp;Float, Double&nbsp;并没有实现缓存机制。<br>Integer i1 = 33;
+Integer i2 = 33;
+System.out.println(i1 == i2);// 输出 true Float i11 = 333f;
+Float i22 = 333f;
+System.out.println(i11 == i22);// 输出 false Double i3 = 1.2;
+Double i4 = 1.2;
+System.out.println(i3 == i4);// 输出 false
+复制<br>下面我们来看一个问题：下面的代码的输出结果是&nbsp;true&nbsp;还是&nbsp;false&nbsp;呢？ <br>Integer i1 = 40;
+Integer i2 = new Integer(40);
+System.out.println(i1==i2);
+复制<br>Integer i1=40&nbsp;这一行代码会发生装箱，也就是说这行代码等价于&nbsp;Integer i1=Integer.valueOf(40)&nbsp;。因此，i1直接使用的是缓存中的对象。而Integer i2 = new Integer(40)&nbsp;会直接创建新的对象。<br>因此，答案是&nbsp;false&nbsp;。你答对了吗？<br>记住：所有整型包装类对象之间值的比较，全部使用 equals 方法比较。<br><img alt="Pasted image 20240407095857.png" src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407095857.png" target="_self">]]></description><link>https://whiteclouds1971.github.io/002-每日面试题/java/基本数据类型/3.-包装类型的缓存机制了解吗？.html</link><guid isPermaLink="false">002 每日面试题/java/基本数据类型/3. 包装类型的缓存机制了解吗？.md</guid><dc:creator><![CDATA[白云]]></dc:creator><pubDate>Mon, 08 Apr 2024 12:13:44 GMT</pubDate><enclosure url="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407095857.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://whiteclouds1971.github.io/$/$sys999-attachment/pasted-image-20240407095857.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
